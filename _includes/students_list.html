@@ -1,0 +1,101 @@
+<h1>Thesis Students</h1>
+
+<label style="font-size:1.1em;font-weight:bold;">Filter by year:</label>
+<select id="yearFilter">
+  <option value="all">All years</option>
+</select>
+
+<label style="font-size:1.1em;font-weight:bold; margin-left:1rem;">Filter by category:</label>
+<select id="categoryFilter">
+  <option value="all">All categories</option>
+</select>
+
+<div id="thesis-list" style="margin-top:1rem;"></div>
+
+<hr>
+
+<h2>Thesis Count Per Year</h2>
+<div id="yearChart" style="height:400px;"></div>
+
+<script>
+const theses = {{ site.data.students | jsonify }};
+const thesisList = document.getElementById("thesis-list");
+const yearFilter = document.getElementById("yearFilter");
+const categoryFilter = document.getElementById("categoryFilter");
+
+// Populate year filter
+const years = [...new Set(theses.map(t => t.year))].sort().reverse();
+years.forEach(y => {
+  const opt = document.createElement("option");
+  opt.value = y;
+  opt.innerText = y;
+  yearFilter.appendChild(opt);
+});
+
+// Populate category filter
+const categories = [...new Set(theses.map(t => t.category))].sort();
+categories.forEach(c => {
+  const opt = document.createElement("option");
+  opt.value = c;
+  opt.innerText = c.charAt(0).toUpperCase() + c.slice(1);
+  categoryFilter.appendChild(opt);
+});
+
+// Render list
+function renderList() {
+  const selectedYear = yearFilter.value;
+  const selectedCategory = categoryFilter.value;
+
+  let filtered = theses;
+  if (selectedYear !== "all") {
+    filtered = filtered.filter(t => t.year === selectedYear);
+  }
+  if (selectedCategory !== "all") {
+    filtered = filtered.filter(t => t.category === selectedCategory);
+  }
+
+  let html = "<ul>";
+  filtered.forEach(t => {
+    html += `<li><strong>${t.year}</strong> — <a href="${t.url}" target="_blank">${t.title}</a><br><em>${t.author}</em> (${t.category})</li>`;
+  });
+  html += "</ul>";
+  thesisList.innerHTML = html;
+
+  renderChart(filtered);
+}
+
+// Render chart: separate bars for Master/Bachelor
+function renderChart(filtered) {
+  const counts = {};
+  filtered.forEach(t => {
+    if (!counts[t.year]) counts[t.year] = { master: 0, bachelor: 0 };
+    if (t.category === "master") counts[t.year].master += 1;
+    if (t.category === "bachelor") counts[t.year].bachelor += 1;
+  });
+
+  const yearsSorted = Object.keys(counts).sort();
+  const masterValues = yearsSorted.map(y => counts[y].master || 0);
+  const bachelorValues = yearsSorted.map(y => counts[y].bachelor || 0);
+
+  const data = [
+    { x: yearsSorted, y: masterValues, type: 'bar', name: 'Master', marker: { color: '#1f77b4' } },
+    { x: yearsSorted, y: bachelorValues, type: 'bar', name: 'Bachelor', marker: { color: '#ff7f0e' } }
+  ];
+
+  const layout = {
+    title: 'Number of Theses per Year',
+    xaxis: { title: 'Year' },
+    yaxis: { title: 'Count' },
+    barmode: 'group'
+  };
+
+  Plotly.newPlot('yearChart', data, layout);
+}
+
+// Event listeners
+yearFilter.addEventListener("change", renderList);
+categoryFilter.addEventListener("change", renderList);
+
+// Initial render
+renderList();
+</script>
