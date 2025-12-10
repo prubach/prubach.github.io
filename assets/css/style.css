@@ -197,6 +197,82 @@ header .contact-icons ul li a:hover {
   color: #ffd700; /* gold hover color */
 }
 
+
+/* --- Projects Section --- */
+
+#projects {
+  padding: 40px 20px;
+}
+
+#projects h2 {
+  /*text-align: center;*/
+  margin-bottom: 32px;
+}
+
+/* Responsive grid using auto-fit and minmax */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+  padding: 0 10px;
+}
+
+/* Card styling */
+.project-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 14px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 1.15em;
+  margin-bottom: 8px;
+}
+
+.project-desc {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.35em;
+}
+
+/* Hover effect */
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Remove underline + inherit color */
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* --- Mobile Tweaks --- */
+@media (max-width: 480px) {
+  .project-card {
+    padding: 18px 14px;
+  }
+
+  .project-card img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
 /*!* Contact icons in header *!*/
 /*header .contact-icons {*/
 /*  margin-top: 0.1rem; !* small space above icons *!*/
@@ -219,6 +295,7 @@ header .contact-icons ul li a:hover {
 /*}*/
 
 /* Research Projects section */
+/*
 
 #projects {
   padding: 40px 20px;
@@ -274,3 +351,4 @@ header .contact-icons ul li a:hover {
   text-decoration: none;
   color: inherit;
 }
+*/
