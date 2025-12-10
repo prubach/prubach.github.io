@@ -1,16 +1,21 @@
-<h1>Thesis Students</h1>
+<h1>My Students' Diploma Thesis</h1>
 
-<label style="font-size:1.1em;font-weight:bold;">Filter by year:</label>
-<select id="yearFilter">
-  <option value="all">All years</option>
-</select>
+<div style="margin-bottom:1rem;">
+  <label style="font-size:1.1em;font-weight:bold;">Filter by year:</label>
+  <select id="yearFilter">
+    <option value="all">All years</option>
+  </select>
 
-<label style="font-size:1.1em;font-weight:bold; margin-left:1rem;">Filter by category:</label>
-<select id="categoryFilter">
-  <option value="all">All categories</option>
-</select>
+  <label style="font-size:1.1em;font-weight:bold; margin-left:1rem;">Filter by category:</label>
+  <select id="categoryFilter">
+    <option value="all">All categories</option>
+  </select>
 
-<div id="thesis-list" style="margin-top:1rem;"></div>
+  <label style="font-size:1.1em;font-weight:bold; margin-left:1rem;">Search:</label>
+  <input type="text" id="searchBox" placeholder="Type student name or title" style="padding:0.2rem 0.5rem;">
+</div>
+
+<div id="thesis-list"></div>
 
 <hr>
 
@@ -18,10 +23,15 @@
 <div id="yearChart" style="height:400px;"></div>
 
 <script>
-const theses = {{ site.data.students | jsonify }};
+const all_theses = {{ site.data.students | jsonify }};
+let theses = all_theses
+    .filter(t => t.year && t.year !== "null")       // hide null or missing year
+    .sort((a, b) => Number(b.year) - Number(a.year)); // newest → oldest
+
 const thesisList = document.getElementById("thesis-list");
 const yearFilter = document.getElementById("yearFilter");
 const categoryFilter = document.getElementById("categoryFilter");
+const searchBox = document.getElementById("searchBox");
 
 // Populate year filter
 const years = [...new Set(theses.map(t => t.year))].sort().reverse();
@@ -41,22 +51,31 @@ categories.forEach(c => {
   categoryFilter.appendChild(opt);
 });
 
-// Render list
+// Render thesis list
 function renderList() {
   const selectedYear = yearFilter.value;
   const selectedCategory = categoryFilter.value;
+  const searchText = searchBox.value.toLowerCase().trim();
 
   let filtered = theses;
+
   if (selectedYear !== "all") {
     filtered = filtered.filter(t => t.year === selectedYear);
   }
   if (selectedCategory !== "all") {
     filtered = filtered.filter(t => t.category === selectedCategory);
   }
+  if (searchText) {
+    filtered = filtered.filter(t =>
+      t.author.toLowerCase().includes(searchText) ||
+      t.title.toLowerCase().includes(searchText)
+    );
+  }
 
+  // Render list
   let html = "<ul>";
   filtered.forEach(t => {
-    html += `<li><strong>${t.year}</strong> — <a href="${t.url}" target="_blank">${t.title}</a><br><em>${t.author}</em> (${t.category})</li>`;
+    html += `<li>${t.year} — <em>${t.author}</em> (${t.category}) — <a href="${t.url}" target="_blank"><i>${t.title}</i></a></li>`;
   });
   html += "</ul>";
   thesisList.innerHTML = html;
@@ -95,6 +114,7 @@ function renderChart(filtered) {
 // Event listeners
 yearFilter.addEventListener("change", renderList);
 categoryFilter.addEventListener("change", renderList);
+searchBox.addEventListener("input", renderList);
 
 // Initial render
 renderList();
