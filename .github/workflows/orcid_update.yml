@@ -30,3 +30,14 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update publications from ORCID
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          #file_pattern: 'assets/data/pawelrubach.bib'
+
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+
+      - name: "Run if no changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
