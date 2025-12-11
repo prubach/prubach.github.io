@@ -7,13 +7,17 @@
 
 <script>
   const publications = {{ site.data.publications | jsonify }};
+  const abstracts = {{ site.data.publications_figures | jsonify }};
   const pubList = document.getElementById("pub-list");
 
   let html = '<ul class="pub-container">';
 
   publications.forEach(p => {
-    const formattedAuthors = p.authors.join(', ')
-    //replace(/,/g, ', ');
+    const formattedAuthors = p.authors.join(', ');
+
+    // Try to find a matching graphical abstract
+    const ga = abstracts.find(a => a.id === p.id);
+
     html += `
       <li class="pub-item">
         <span class="pub-title">${p.title}</span><br>
@@ -21,6 +25,14 @@
         ${p.journal ? `<span class="pub-journal">${p.journal}</span>` : ""}
         ${p.year ? `<span class="pub-year">${p.year}</span>` : ""}
         ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank">DOI: ${p.doi}</a>` : ""}
+
+        ${ga ? `
+          <div class="pub-abstract-figure">
+            <a href="${ga.url}" target="_blank">
+              <img src="/assets/images/graph/${ga.file}" alt="Graphical abstract for ${p.title}">
+            </a>
+          </div>
+        ` : ""}
       </li>
     `;
   });
@@ -87,4 +99,21 @@
   .pub-doi:hover {
     text-decoration: underline;
   }
+
+  .pub-abstract-figure {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .pub-abstract-figure img {
+    max-width: 400px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+  }
+
+  .pub-abstract-figure img:hover {
+    transform: scale(1.03);
+  }
 </style>
+

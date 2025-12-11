@@ -1,6 +1,6 @@
 ---
 layout: conferences
-title: Conference Talks
+title: Pawel Rubach – Conference Talks
 permalink: /conferences/
 ---
 

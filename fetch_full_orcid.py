@@ -75,7 +75,7 @@ def run():
         journal = detail.get("journal-title", {}).get("value", "") if detail.get("journal-title", {}) else crossref.get("event", {}).get("name", "") if crossref.get("event", {}) else ''
         if not journal:
             if crossref.get('subtype','')=='preprint':
-                journal = f'Preprint: {crossref.get('institution','')}'
+                journal = f'Preprint: {crossref.get('institution','').get('name','')}'
 
         entry = {
             "id": f"orcid_{put}",

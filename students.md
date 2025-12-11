@@ -1,6 +1,6 @@
 ---
 layout: students
-title: Supervisor
+title: Pawel Rubach – Supervisor
 permalink: /students/
 ---
 

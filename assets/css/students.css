@@ -1,0 +1,45 @@
+/* --- Table-like layout --- */
+.thesis-row {
+    display: grid;
+    grid-template-columns: 90px 220px 150px 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.thesis-table-header {
+    font-weight: bold;
+    background: #f5f5f5;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+/* Column formatting */
+.col-year {
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-author, .col-category {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-title a {
+    text-decoration: none;
+}
+
+.col-title a:hover {
+    text-decoration: underline;
+}
+
+/* Small screen responsive collapse */
+@media(max-width: 700px) {
+    .thesis-row, .thesis-table-header {
+        grid-template-columns: 60px 1fr;
+    }
+    .col-category { display: none; }
+    .col-title { grid-column: span 2; }
+}
