@@ -4,51 +4,60 @@
   {% assign taught = site.data.courses | where: "category", "taught" %}
   {% assign coordinated = site.data.courses | where: "category", "coordinated" %}
 
-  <!-- Currently taught -->
-  <h3 class="course-section-title">Courses Currently Taught</h3>
+  <!-- Courses Currently Taught -->
+  <h3>Courses Currently Taught at the SGH Warsaw School of Economics</h3>
   <div class="course-grid">
     {% for course in taught %}
-      <div class="course-card">
-        <a href="https://usosweb.sgh.waw.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod={{ course.id }}-D"
-           target="_blank">
+      <a class="course-card"
+         href="https://usosweb.sgh.waw.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod={{ course.id }}-D"
+         target="_blank">
 
-          {% if course.icon %}
-            <div class="course-icon">{{ course.icon }}</div>
+        <div class="course-icon">{{ course.icon }}</div>
+
+        <div class="course-title">{{ course.name }}</div>
+
+        <div class="course-id">{{ course.id }}</div>
+
+        <div class="course-meta">
+          <span class="level">{{ course.level }}</span>
+          {% if course.language == "PL" %}
+            <span class="flag">🇵🇱</span>
+          {% elsif course.language == "EN" %}
+            <span class="flag">🇬🇧</span>
           {% endif %}
+        </div>
 
-          <div class="course-name">{{ course.name }}</div>
-
-          {% if course.short %}
-            <div class="course-desc">{{ course.short }}</div>
-          {% endif %}
-
-          <div class="course-id">Course ID: {{ course.id }}</div>
-        </a>
-      </div>
+      </a>
     {% endfor %}
   </div>
 
-  <!-- Coordinated -->
-  <h3 class="course-section-title">Courses Coordinated</h3>
+  <!-- Courses Coordinated -->
+  <h3>Courses Coordinated at the SGH Warsaw School of Economics</h3>
   <div class="course-grid">
     {% for course in coordinated %}
-      <div class="course-card">
-        <a href="https://usosweb.sgh.waw.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod={{ course.id }}-D"
-           target="_blank">
+      <a class="course-card"
+         href="https://usosweb.sgh.waw.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod={{ course.id }}-D"
+         target="_blank">
 
-          {% if course.icon %}
-            <div class="course-icon">{{ course.icon }}</div>
+        <div class="course-icon">{{ course.icon }}</div>
+
+        <div class="course-title">{{ course.name }}</div>
+
+        <div class="course-id">{{ course.id }}</div>
+
+        <div class="course-meta">
+          <span class="level">{{ course.level }}</span>
+          {% if course.language == "PL" %}
+            <span class="flag">🇵🇱</span>
+          {% elsif course.language == "EN" %}
+            <span class="flag">🇬🇧</span>
           {% endif %}
+        </div>
 
-          <div class="course-name">{{ course.name }}</div>
-
-          {% if course.short %}
-            <div class="course-desc">{{ course.short }}</div>
-          {% endif %}
-
-          <div class="course-id">Course ID: {{ course.id }}</div>
-        </a>
-      </div>
+      </a>
     {% endfor %}
   </div>
+
+  <h3><a href="{{ '/students/' | relative_url }}">Supervised Master and Bachelor thesis</a></h3>
+
 </section>

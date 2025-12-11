@@ -27,15 +27,6 @@
     "category": "coordinated"
   },
   {
-    "id": "229071",
-    "name": "Programming for Quantative Methods",
-    "short": "Hands-on course of Python and R.",
-    "icon": "⚛️",
-    "level": "graduate",
-    "language": "EN",
-    "category": "coordinated"
-  },
-  {
     "id": "229070",
     "name": "Podstawy programowania w metodach ilościowych ",
     "short": "Hands-on course of Python and R.",
@@ -79,6 +70,14 @@
     "level": "undergraduate",
     "language": "EN",
     "category": "coordinated"
+  },
+  {
+    "id": "290001-0506",
+    "name": "Master's Seminar I",
+    "short": "Techniques and tools for large-scale data processing.",
+    "icon": "🎓",
+    "level": "graduate",
+    "language": "PL",
+    "category": "taught"
   }
-
 ]

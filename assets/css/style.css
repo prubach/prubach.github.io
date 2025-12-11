@@ -74,9 +74,17 @@ footer {
     text-align:center;
     padding:30px;
     background:#111;
-    color:#fff;
+    color:#bbbbbb;
     margin-top:40px;
 }
+
+footer .contact-icons i {
+  display: inline-block !important;
+  font-style: normal; /* prevent italic fallback */
+  color: #bbbbbb; /* subtle default color */
+  /*color: #555; */       /* icon color */
+}
+
 
 .links a {
     color:#00b4ff;
@@ -283,11 +291,11 @@ header .contact-icons ul li a:hover {
 /* --- Teaching Courses Section --- */
 
 #teaching {
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 #teaching h2 {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 28px;
 }
 
@@ -352,3 +360,69 @@ header .contact-icons ul li a:hover {
 }
 
 
+.course-grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.course-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.course-icon {
+  font-size: 32px;
+}
+
+.course-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+  min-height: 40px;
+}
+
+.course-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+.level {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.flag {
+  font-size: 18px;
+}
+
+#teaching a {
+  color: #5791C9FF;           /* softer, muted grey */
+  text-decoration: none;  /* no underline */
+  font-weight: 400;       /* not emphasized */
+}
+
+#thesis a {
+  color: #5791C9FF;           /* softer, muted grey */
+  text-decoration: none;  /* no underline */
+  font-weight: 400;       /* not emphasized */
+}
