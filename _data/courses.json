@@ -1,0 +1,84 @@
+[
+  {
+    "id": "223091",
+    "name": "Big Data",
+    "short": "Techniques and tools for large-scale data processing.",
+    "icon": "📊",
+    "level": "graduate",
+    "language": "EN",
+    "category": "taught"
+  },
+  {
+    "id": "220541",
+    "name": "Python Programming",
+    "short": "Hands-on introductory course of Python for data analysis and automation.",
+    "icon": "🦖",
+    "level": "graduate",
+    "language": "EN",
+    "category": "taught"
+  },
+  {
+    "id": "23A2K0",
+    "name": "Zaawansowane programowanie w języku Python",
+    "short": "Hands-on advanced course of Python.",
+    "icon": "🦖",
+    "level": "graduate",
+    "language": "PL",
+    "category": "coordinated"
+  },
+  {
+    "id": "229071",
+    "name": "Programming for Quantative Methods",
+    "short": "Hands-on course of Python and R.",
+    "icon": "⚛️",
+    "level": "graduate",
+    "language": "EN",
+    "category": "coordinated"
+  },
+  {
+    "id": "229070",
+    "name": "Podstawy programowania w metodach ilościowych ",
+    "short": "Hands-on course of Python and R.",
+    "icon": "⚛️",
+    "level": "graduate",
+    "language": "PL",
+    "category": "coordinated"
+  },
+  {
+    "id": "131000",
+    "name": "Systemy operacyjne",
+    "short": "Foundations of operating systems.",
+    "icon": "💻",
+    "level": "undergraduate",
+    "language": "PL",
+    "category": "taught"
+  },
+  {
+    "id": "131001",
+    "name": "Operating Systems",
+    "short": "Foundations of operating systems.",
+    "icon": "💻",
+    "level": "undergraduate",
+    "language": "EN",
+    "category": "coordinated"
+  },
+  {
+    "id": "130711",
+    "name": "Computer Programming",
+    "short": "Introductory course on programming.",
+    "icon": "☕️",
+    "level": "undergraduate",
+    "language": "EN",
+    "category": "coordinated"
+  },
+  {
+    "id": "130710",
+    "name": "Programowanie komputerów",
+    "short": "Introductory course on programming.",
+    "icon": "☕️",
+    "level": "undergraduate",
+    "language": "EN",
+    "category": "coordinated"
+  }
+
+]

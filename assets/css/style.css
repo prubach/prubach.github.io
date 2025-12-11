@@ -272,83 +272,83 @@ header .contact-icons ul li a:hover {
   }
 }
 
+/* Teaching / Courses section */
 
-/*!* Contact icons in header *!*/
-/*header .contact-icons {*/
-/*  margin-top: 0.1rem; !* small space above icons *!*/
-/*}*/
+/* Icon styling */
+.course-icon {
+  font-size: 1.8em;
+  margin-bottom: 8px;
+}
 
-/*header .contact-icons ul {*/
-/*  justify-content: center;*/
-/*  gap: 1rem;*/
-/*}*/
+/* --- Teaching Courses Section --- */
 
-/*header .contact-icons ul li a {*/
-/*  font-size: 1.6rem;*/
-/*  color: white; !* make icons white *!*/
-/*  transition: transform 0.2s, color 0.2s;*/
-/*}*/
-
-/*header .contact-icons ul li a:hover {*/
-/*  transform: scale(1.2);*/
-/*  color: #ffd700; !* optional hover color, e.g., gold *!*/
-/*}*/
-
-/* Research Projects section */
-/*
-
-#projects {
+#teaching {
   padding: 40px 20px;
 }
 
-#projects h2 {
+#teaching h2 {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
+/* Smaller grid tiles */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
 }
 
-.project-card {
-  flex: 1 1 200px;
-  max-width: 230px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 16px;
-  text-align: center;
+.course-card {
   background: #fff;
-  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 16px 14px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project-card img {
-  width: 56px;
-  height: 56px;
-  margin-bottom: 12px;
-  object-fit: contain;
+.course-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-.project-name {
+.course-name {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.05em;
   margin-bottom: 6px;
 }
 
-.project-desc {
-  font-size: 0.9em;
-  color: #555;
+.course-desc {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 6px;
+  line-height: 1.3em;
 }
 
-.project-card:hover {
+.course-id {
+  font-size: 0.75em;
+  color: #999;
+}
+
+/* Hover effect */
+.course-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
-.project-card a {
-  text-decoration: none;
-  color: inherit;
+@media (max-width: 480px) {
+  .course-card {
+    padding: 14px 10px;
+  }
 }
-*/
+
+.course-section-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #333;
+}
+
+
