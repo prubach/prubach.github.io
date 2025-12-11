@@ -26,7 +26,7 @@ def fetch_crossref_metadata(doi):
 
 def parse_authors(work, crossref=None):
     if crossref and "author" in crossref:
-        return [f"{a.get('given','')} {a.get('family','')}".strip() for a in crossref["author"]]
+        return [f"{a.get('given','')} {a.get('family','')}".strip() for a in crossref["author"] if a.get('family','') != '']
 
     contributors = work.get("contributors", {}).get("contributor", [])
     names = []
@@ -72,14 +72,19 @@ def run():
 #                doi = i["external-id-value"].lower()
 
         crossref = fetch_crossref_metadata(doi) if doi else None
+        journal = detail.get("journal-title", {}).get("value", "") if detail.get("journal-title", {}) else crossref.get("event", {}).get("name", "") if crossref.get("event", {}) else ''
+        if not journal:
+            if crossref.get('subtype','')=='preprint':
+                journal = f'Preprint: {crossref.get('institution','')}'
 
         entry = {
             "id": f"orcid_{put}",
             "title": title,
-            "journal": detail.get("journal-title",{}).get("value","") if detail.get("journal-title",{}) else '',
+            "journal": journal,
             "year": detail["publication-date"].get("year",{}).get("value",""),
             "doi": doi,
             "authors": parse_authors(detail, crossref),
+            "publisher": crossref.get("publisher", "") if crossref else '',
             "citation": detail.get("citation",{}).get("citation","") if detail.get("citation",{}) else '',
         }
 
@@ -89,9 +94,9 @@ def run():
          # Save outputs
     with open("_data/publications.json","w") as f: json.dump(output,f,indent=2)
     with open("_data/publications.yaml","w") as f: yaml.dump(output,f,sort_keys=False)
-    with open("_data/publications.bib","w") as f: f.write("\n".join(to_bibtex(x) for x in output))
+    with open("assets/data/pawelrubach.bib","w") as f: f.write("\n".join(to_bibtex(x) for x in output))
 
-    print("Saved: publications.json, publications.yaml, publications.bib")
+    #print("Saved: publications.json, publications.yaml, publications.bib")
 
 if __name__ == "__main__":
     run()

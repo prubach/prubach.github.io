@@ -3,7 +3,7 @@ name: Update ORCID Publications
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "10 13 * * 4"
 
 jobs:
   update-publications:
@@ -15,16 +15,18 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install pyyaml requests
 
       - name: Run ORCID updater
-        run: python fetch_orcid.py
+        run: python fetch_full_orcid.py
 
       - name: Commit and push results
         run: |
-          git add _data/orcid_publications.yml
+          git add _data/publications.yaml
+          git add _data/publications.json
+          git add assets/data/pawelrubach.bib
           git commit -m "Auto-update ORCID publications"
           git push

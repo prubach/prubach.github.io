@@ -14,17 +14,19 @@
       "Dariusz Brzezinski",
       "Mariusz Jaskolski"
     ],
+    "publisher": "MDPI AG",
     "citation": ""
   },
   {
     "id": "orcid_188188465",
     "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics \u2013 Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-    "journal": "",
+    "journal": "PEARC '25: Practice and Experience in Advanced Research Computing",
     "year": "2025",
     "doi": "10.1145/3708035.3736007",
     "authors": [
       "Pawel Rubach"
     ],
+    "publisher": "ACM",
     "citation": ""
   },
   {
@@ -41,6 +43,7 @@
       "Marta Korpacz",
       "Joanna\u00a0I Sulkowska"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -60,6 +63,7 @@
       "Olga Anosova",
       "Vitaliy Kurlin"
     ],
+    "publisher": "International Union of Crystallography (IUCr)",
     "citation": ""
   },
   {
@@ -76,6 +80,7 @@
       "Alexander Wlodawer",
       "Wladek Minor"
     ],
+    "publisher": "Informa UK Limited",
     "citation": ""
   },
   {
@@ -94,6 +99,7 @@
       "Miroslaw Gilski",
       "Mariusz Jaskolski"
     ],
+    "publisher": "International Union of Crystallography (IUCr)",
     "citation": ""
   },
   {
@@ -109,6 +115,7 @@
       "Agata\u00a0P Perlinska",
       "Joanna\u00a0I Sulkowska"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -131,6 +138,7 @@
       "Petr Simecek",
       "Joanna I. Sulkowska"
     ],
+    "publisher": "Wiley",
     "citation": ""
   },
   {
@@ -143,12 +151,13 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "G\u0142\u00f3wny Urz\u0105d Statystyczny",
     "citation": ""
   },
   {
     "id": "orcid_141943059",
     "title": "Knot or Not? Sequence-Based Identification of Knotted Proteins With Machine Learning",
-    "journal": "",
+    "journal": "Preprint: [{'name': 'bioRxiv'}]",
     "year": "2023",
     "doi": "10.1101/2023.09.06.556468",
     "authors": [
@@ -164,12 +173,13 @@
       "Petr \u0160ime\u010dek",
       "Joanna I. Sulkowska"
     ],
+    "publisher": "Cold Spring Harbor Laboratory",
     "citation": ""
   },
   {
     "id": "orcid_137096785",
     "title": "Proteins containing 6-crossing knot types and their folding pathways",
-    "journal": "",
+    "journal": "Preprint: [{'name': 'bioRxiv'}]",
     "year": "2023",
     "doi": "10.1101/2023.06.16.545156",
     "authors": [
@@ -182,6 +192,7 @@
       "Eric J Rawdon",
       "Joanna I. Sulkowska"
     ],
+    "publisher": "Cold Spring Harbor Laboratory",
     "citation": ""
   },
   {
@@ -199,6 +210,7 @@
       "Pawel Rubach",
       "Joanna I. Sulkowska"
     ],
+    "publisher": "Wiley",
     "citation": ""
   },
   {
@@ -217,12 +229,13 @@
       "Eric\u00a0J Rawdon",
       "Joanna\u00a0I Sulkowska"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
     "id": "orcid_105580334",
     "title": "New 63 knot and other knots in human proteome from AlphaFold predictions",
-    "journal": "",
+    "journal": "Preprint: [{'name': 'bioRxiv'}]",
     "year": "2022",
     "doi": "10.1101/2021.12.30.474018",
     "authors": [
@@ -232,6 +245,7 @@
       "Pawel Rubach",
       "Joanna I. Sulkowska"
     ],
+    "publisher": "Cold Spring Harbor Laboratory",
     "citation": ""
   },
   {
@@ -313,6 +327,7 @@
       "Christine Orengo",
       "Sameer Velankar"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -325,6 +340,7 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "Springer International Publishing",
     "citation": ""
   },
   {
@@ -340,6 +356,7 @@
       "Bartosz Ambrozy Gren",
       "Joanna Ida Sulkowska"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -352,6 +369,7 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "Warsaw University of Life Sciences - SGGW Press",
     "citation": ""
   },
   {
@@ -367,6 +385,7 @@
       "Joanna I Sulkowska",
       "Piotr Su\u0142kowski"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -386,6 +405,7 @@
       "Andrzej Stasiak",
       "Joanna I Sulkowska"
     ],
+    "publisher": "Oxford University Press (OUP)",
     "citation": ""
   },
   {
@@ -398,6 +418,7 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "Warsaw University of Life Sciences - SGGW Press",
     "citation": ""
   },
   {
@@ -410,6 +431,7 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "Springer International Publishing",
     "citation": ""
   },
   {
@@ -422,6 +444,7 @@
       "Ryszard Szupiluk",
       "Pawe\u0142 Rubach"
     ],
+    "publisher": "Warsaw University of Life Sciences - SGGW Press",
     "citation": ""
   },
   {
@@ -433,6 +456,7 @@
     "authors": [
       "Pawel Rubach"
     ],
+    "publisher": "ACTAPRESS",
     "citation": ""
   },
   {
@@ -445,6 +469,7 @@
       "Pawel Rubach",
       "Michael Sobolewski"
     ],
+    "publisher": "IEEE",
     "citation": ""
   },
   {
@@ -457,6 +482,7 @@
       "Pawel Rubach",
       "Michael Sobolewski"
     ],
+    "publisher": "Springer Berlin Heidelberg",
     "citation": ""
   },
   {
@@ -471,6 +497,7 @@
       "Marwane El Kharbili",
       "Pawel Rubach"
     ],
+    "publisher": "IGI Global",
     "citation": ""
   },
   {
@@ -485,6 +512,7 @@
       "Kharbili, M.E.",
       "Rubach, P."
     ],
+    "publisher": "",
     "citation": ""
   },
   {
@@ -498,6 +526,7 @@
       "Rubach, P.",
       "Szczekocka, E."
     ],
+    "publisher": "",
     "citation": ""
   },
   {
@@ -510,6 +539,7 @@
       "Borkowska, A.",
       "Rubach, P."
     ],
+    "publisher": "",
     "citation": ""
   }
 ]

@@ -2,6 +2,7 @@
   <h2 class="section-title">Publications</h2>
 
   <div id="pub-list"></div>
+  <h4>Download a list of my publications in the <a href="{{ '/assets/data/pawelrubach.bib' | relative_url }}">BIB format here</a></h4>
 </section>
 
 <script>
@@ -11,10 +12,12 @@
   let html = '<ul class="pub-container">';
 
   publications.forEach(p => {
+    const formattedAuthors = p.authors.join(', ')
+    //replace(/,/g, ', ');
     html += `
       <li class="pub-item">
         <span class="pub-title">${p.title}</span><br>
-        <span class="pub-authors">${p.authors}</span><br>
+        <span class="pub-authors">${formattedAuthors}</span><br>
         ${p.journal ? `<span class="pub-journal">${p.journal}</span>` : ""}
         ${p.year ? `<span class="pub-year">${p.year}</span>` : ""}
         ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank">DOI: ${p.doi}</a>` : ""}

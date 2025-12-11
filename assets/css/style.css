@@ -1,3 +1,9 @@
+a {
+  color: #5791C9FF;           /* softer, muted grey */
+  text-decoration: none;  /* no underline */
+  font-weight: 400;       /* not emphasized */
+}
+
 body {
     margin:0;
     font-family:Arial, sans-serif;
