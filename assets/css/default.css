@@ -412,13 +412,18 @@ header .contact-icons ul li a:hover {
   font-size: 0.9rem;
 }
 
-.course-card.taught .category-label {
+.course-card.teaching .category-label {
   color: #2a7f62; /* greenish for regular taught courses */
   font-weight: 600;
 }
 
-.course-card.coordinated .category-label {
+.course-card.coordination .category-label {
   color: #d36; /* reddish for coordinated courses */
+  font-weight: 600;
+}
+
+.course-card.teaching + coordination.category-label {
+  color: #2a7f62; /* greenish for regular taught courses */
   font-weight: 600;
 }
 
@@ -498,3 +503,48 @@ header .contact-icons ul li a:hover {
   width: 1.2em;
   height: 1.2em;
 }
+
+
+/* courses */
+
+.course-card {
+  position: relative;
+  padding-top: 40px; /* to avoid overlap with logo */
+}
+
+/* Institution Logo in Corner */
+.course-card .institution-logo {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 64px;
+  height: auto;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.course-card:hover .institution-logo {
+  opacity: 1;
+  transform: scale(1.06);
+}
+
+/* Category color labels */
+.course-card .category-label {
+  font-size: 0.75em;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-left: 6px;
+  /*color: white;*/
+}
+
+/*
+!* Coordinated = blue *!
+.course-card.coordinated .category-label {
+  background: #3f7cc4;
+}
+
+!* Taught = green *!
+.course-card.taught .category-label {
+  background: #4ba365;
+}
+*/

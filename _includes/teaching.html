@@ -4,6 +4,33 @@
   {% assign present = site.data.courses | where: "status", "present" %}
   {% assign past = site.data.courses | where: "status", "past" %}
 
+
+    {% comment %}
+    Prepare sorted lists by extracting the numeric latest year
+    {% endcomment %}
+
+    {% assign present = site.data.courses | where: "status", "present" %}
+    {% assign past = site.data.courses | where: "status", "past" %}
+
+    {%- assign presentSorted = "" | split: "," -%}
+    {%- assign pastSorted = "" | split: "," -%}
+
+    {% for c in present %}
+      {% assign yr = c.years | replace: "–", "-" | split: "-" | last | plus: 0 %}
+      {% assign c = c | merge: Hash:"sorted_year=" | merge: sorted_year: yr %}
+      {% assign presentSorted = presentSorted | push: c %}
+    {% endfor %}
+
+    {% for c in past %}
+      {% assign yr = c.years | replace: "–", "-" | split: "-" | last | plus: 0 %}
+      {% assign c = c | merge: Hash:"sorted_year=" | merge: sorted_year: yr %}
+      {% assign pastSorted = pastSorted | push: c %}
+    {% endfor %}
+
+    {% assign presentSorted = presentSorted | sort: "sorted_year" | reverse %}
+    {% assign pastSorted = pastSorted | sort: "sorted_year" | reverse %}
+
+
   <!-- Present Courses -->
   <h3>Current Courses</h3>
   <div class="course-grid">
@@ -16,17 +43,23 @@
          {% endif %}
          target="_blank">
 
+         {% if course.institution == "SGH" %}
+            <img class="institution-logo" src="{{ '/assets/images/logos/sgh.png' | relative_url }}" alt="SGH logo">
+         {% elsif course.institution == "MiMUW" %}
+            <img class="institution-logo" src="{{ '/assets/images/logos/mimuw.png' | relative_url }}" alt="University of Warsaw logo">
+         {% endif %}
+
          <div class="course-icon">{{ course.icon }}</div>
          <div class="course-title">{{ course.name }}</div>
 
          <div class="course-meta">
+           <!--<span class="institution">{{ course.institution }}</span>-->
            <span class="level">{{ course.level | capitalize }}</span>
-           <span class="institution">{{ course.institution }}</span>
-           <span class="years">({{ course.years }})</span>
+           <span class="years">{{ course.years }}</span>
            <span class="language">
              {% if course.language == "PL" %}🇵🇱{% elsif course.language == "EN" %}🇬🇧{% endif %}
            </span>
-           {% if course.original %}<span class="original">★</span>{% endif %}
+           {% if course.original %}<span class="original">★ Authored</span>{% endif %}
            <span class="category-label">{{ course.category | capitalize }}</span>
          </div>
       </a>
@@ -36,7 +69,7 @@
   <!-- Past Courses -->
   <h3>Past Courses</h3>
   <div class="course-grid">
-    {% for course in past %}
+    {% for course in pastSorted %}
       <a class="course-card {{ course.category }}"
          {% if course.institution == "SGH" %}
            href="https://usosweb.sgh.waw.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod={{ course.id }}-D"
@@ -44,14 +77,18 @@
            href="https://informatorects.uw.edu.pl/pl/courses/view?prz_kod={{ course.id }}"
          {% endif %}
          target="_blank">
-
+         {% if course.institution == "SGH" %}
+            <img class="institution-logo" src="{{ '/assets/images/logos/sgh.png' | relative_url }}" alt="SGH logo">
+         {% elsif course.institution == "MiMUW" %}
+            <img class="institution-logo" src="{{ '/assets/images/logos/mimuw.png' | relative_url }}" alt="University of Warsaw logo">
+         {% endif %}
          <div class="course-icon">{{ course.icon }}</div>
          <div class="course-title">{{ course.name }}</div>
 
          <div class="course-meta">
            <span class="level">{{ course.level | capitalize }}</span>
-           <span class="institution">{{ course.institution }}</span>
-           <span class="years">({{ course.years }})</span>
+           <!--<span class="institution">{{ course.institution }}</span>-->
+           <span class="years">{{ course.years }}</span>
            <span class="language">
              {% if course.language == "PL" %}🇵🇱{% elsif course.language == "EN" %}🇬🇧{% endif %}
            </span>
