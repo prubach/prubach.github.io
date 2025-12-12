@@ -30,6 +30,7 @@
     {% assign presentSorted = presentSorted | sort: "sorted_year" | reverse %}
     {% assign pastSorted = pastSorted | sort: "sorted_year" | reverse %}
 
+  <h3><a href="{{ '/students/' | relative_url }}">Supervised Master and Bachelor thesis</a></h3>
 
   <!-- Present Courses -->
   <h3>Current Courses</h3>
@@ -59,8 +60,15 @@
            <span class="language">
              {% if course.language == "PL" %}🇵🇱{% elsif course.language == "EN" %}🇬🇧{% endif %}
            </span>
-           {% if course.original %}<span class="original">★ Authored</span>{% endif %}
-           <span class="category-label">{{ course.category | capitalize }}</span>
+           {% if course.original %}<span class="original">*</span>{% endif %}
+           <span class="tag tag-{{ course.category }}">
+              {% if course.category == "teaching_coordination" %}
+                Teaching + Coordination
+              {% else %}
+                {{ course.category | capitalize }}
+              {% endif %}
+           </span>
+           <!--<span class="category-label">{{ course.category | capitalize }}</span>-->
          </div>
       </a>
     {% endfor %}
@@ -92,10 +100,33 @@
            <span class="language">
              {% if course.language == "PL" %}🇵🇱{% elsif course.language == "EN" %}🇬🇧{% endif %}
            </span>
-           {% if course.original %}<span class="original">★ Authored</span>{% endif %}
-           <span class="category-label">{{ course.category | capitalize }}</span>
+           {% if course.original %}<span class="original">*</span>{% endif %}
+           <span class="tag tag-{{ course.category }}">
+              {% if course.category == "teaching_coordination" %}
+                Teaching + Coordination
+              {% else %}
+                {{ course.category | capitalize }}
+              {% endif %}
+           </span>
+
          </div>
       </a>
     {% endfor %}
   </div>
+
+    <p class="course-legend">
+      <strong>Legend:</strong><br>
+      <strong>Level:</strong>
+      <span class="tag tag-taught">Undergraduate</span> - Bachelor,
+      <span class="tag tag-taught">Graduate</span> - Master,
+      <span class="tag tag-taught">Unified</span> - Until 2006 SGH offered only unified long-cycle studies which were later replaced with the current 2-cycle system.<br>
+
+      <strong>Role:</strong>
+      <span class="tag tag-taught">Teaching</span> – course taught directly,
+      <span class="tag tag-coord">Coordination</span> – course coordinated or managed<br>
+
+      <strong>Authorship:</strong>
+      <span>Authored course</span> indicates that the course and its content were originally created and proposed by me.
+    </p>
+
 </section>

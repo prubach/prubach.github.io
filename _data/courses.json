@@ -20,7 +20,7 @@
     "level": "graduate",
     "years": "2019-",
     "language": "EN",
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "original": true,
     "status": "present",
     "institution": "SGH"
@@ -73,7 +73,7 @@
     "language": "EN",
     "years": "2014-2019",
     "original": false,
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "status": "present",
     "institution": "SGH"
   },
@@ -85,7 +85,7 @@
     "level": "undergrad.",
     "language": "EN",
     "years": "2013-",
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "original": false,
     "status": "present",
     "institution": "SGH"
@@ -161,7 +161,7 @@
     "years": "2004-2006",
     "status": "past",
     "original": true,
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "institution": "SGH"
   },
   {
@@ -173,7 +173,7 @@
     "years": "2004-2006",
     "status": "past",
     "original": true,
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "institution": "SGH"
   },
   {
@@ -197,7 +197,7 @@
     "years": "2012-2017",
     "status": "past",
     "original": false,
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "institution": "SGH"
   },
   {
@@ -209,7 +209,7 @@
     "years": "2015-2017",
     "status": "past",
     "original": true,
-    "category": "teaching + coordination",
+    "category": "teaching_coordination",
     "institution": "SGH"
   },
   {

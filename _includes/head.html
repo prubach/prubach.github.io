@@ -9,6 +9,8 @@
   <meta name="robots" content="index,follow" />
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/default.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url }}">
   {% if page.layout != "default" %}
   {% assign style_url = '/assets/css/' | append: page.layout | append: '.css' %}
   <link rel="stylesheet" href="{{ style_url | relative_url }}">
