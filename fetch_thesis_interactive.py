@@ -15,6 +15,8 @@ PROFILE_NAME = "Default"
 MASTER_URL    = "https://apd.sgh.waw.pl/catalogue/search/simple/?query=rubach&type=master&limit=200"
 BACHELOR_URL  = "https://apd.sgh.waw.pl/catalogue/search/simple/?query=rubach&type=licentiate&limit=200"
 
+BACHELOR_EN_OVERRIDE = ["Yoshiharu Sato", "Sviatlana Buben", "Miłosz Janas"]
+
 OUTPUT_JSON = "_data/students.json"
 
 
@@ -113,12 +115,11 @@ def extract_author_year_language___fe(author_td):
                     val_upper = value.upper()
                     if "EN" in value:
                         lang = "EN"
-                    # if val_upper in ["PL", "EN", "ES", "DE", "FR", "RU", "IT", "PT"]:
-                    #     lang = val_upper
 
     except NoSuchElementException:
         pass
-
+    if author_name in BACHELOR_EN_OVERRIDE:
+        lang = "EN"
     return author_name, year, lang
 
 
