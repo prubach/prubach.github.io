@@ -43,3 +43,22 @@
     .col-category { display: none; }
     .col-title { grid-column: span 2; }
 }
+
+
+.conf-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.conf-youtube {
+  color: #cc0000;
+  font-size: 0.95em;
+  margin-left: 4px;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.conf-youtube:hover {
+  color: #ff0000;
+  transform: scale(1.15);
+}

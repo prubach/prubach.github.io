@@ -6,6 +6,7 @@
     "location": "Online / Liverpool, UK",
     "link": "https://kurlin.org/macsmin.php",
     "title": "Identification of Non-trivial Topologies in Biopolymers",
+    "youtube": "https://www.youtube.com/watch?v=BTJsFVNH1dA",
     "type": "Invited talk, conference without session divisions",
     "related_habilitation": true
   },
@@ -57,6 +58,7 @@
     "link": "https://postdoc.virginia.edu/2025-Postdoc-Symposium",
     "title": "Big Data in Protein Science: Millions of Protein Structures with Knots and Lassos and how to find them?",
     "type": "Plenary lecture",
+    "youtube": "https://www.youtube.com/watch?v=35NgGu4ex2I",
     "related_habilitation": true
   },
   {
@@ -246,6 +248,56 @@
     "location": "Bochnia, Poland",
     "link": "",
     "title": "Using ANSYS and SORCER Modeling Framework for Design of Flapping Wing Bionic Object",
+    "type": "Lecture",
+    "related_habilitation": false
+  },
+  {
+    "year": 2014,
+    "date": "02.04.2014",
+    "conference": "Tutorial on Multidisciplinary Design",
+    "location": "Warsaw, Poland",
+    "link": "https://troll.cent.uw.edu.pl/prubach/tutorial2014/",
+    "title": "Open Source SORCER, Programming and Modeling tools for SORCER",
+    "youtube": "https://troll.cent.uw.edu.pl/prubach/tutorial2014/tutorial3.html",
+    "type": "Lecture",
+    "related_habilitation": false
+  },
+  {
+    "year": 2012,
+    "date": "27-29.11.2012",
+    "conference": "OW2 Con: The Open Source Alternative",
+    "location": "Paris, Issy-les-Moulineaux, France",
+    "link": "https://www.ow2con.org/view/2012/",
+    "title": "The Sirocco multi-cloud management framework",
+    "type": "Lecture",
+    "youtube": "https://www.youtube.com/watch?v=kJE1GrUpWw8",
+    "related_habilitation": false
+  },
+  {
+    "year": 2011,
+    "date": "15-17.02.2011",
+    "conference": "IASTED International Conference on Parallel and Distributed Computing and Networks",
+    "location": "Innsbruck, Austria",
+    "title": "SLA-Based Asynchronous Coordination in Metacomputing Environments",
+    "type": "Lecture",
+    "related_habilitation": false
+  },
+  {
+    "year": 2009,
+    "date": "1-6.11.2009",
+    "conference": "On the Move to Meaningful Internet Systems: OTM 2009 Workshops",
+    "location": "Vilamoura, Portugal",
+    "title": "Dynamic SLA negotiation in autonomic federated environments",
+    "type": "Lecture",
+    "related_habilitation": false
+  },
+  {
+    "year": 2009,
+    "date": "22-25.09.2009",
+    "conference": "The 38th International Conference on Parallel Processing - SRMPDS-2009 Workshop",
+    "location": "Vienna, Austria",
+    "link": "https://www.icpp-conf.org/2009/",
+    "title": "Autonomic SLA Management in Federated Computing Environments",
     "type": "Lecture",
     "related_habilitation": false
   }

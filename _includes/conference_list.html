@@ -39,10 +39,22 @@
     let html = "<ul class='conference-container'>";
     filtered.forEach(c => {
       const titleHTML = c.link ? `<a href='${c.link}' target='_blank'>${c.title}</a>` : c.title;
+
+       const youtubeHTML = c.youtube
+        ? `
+          <a href="${c.youtube}"
+             target="_blank"
+             class="conf-youtube"
+             aria-label="Watch conference presentation on YouTube"
+             title="Watch on YouTube">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </a>
+        `
+        : "";
       html += `
         <li class='conference-item'>
           <span class='conf-year'>${c.year}</span>
-          <span class='conf-title'>${titleHTML}</span>
+          <span class='conf-title'>${titleHTML} ${youtubeHTML}</span>
           <span class='conf-name'>${c.conference}</span>
           <span class='conf-location'>${c.location}</span>
           <span class='conf-type'>${c.type}</span>
