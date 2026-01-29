@@ -3,13 +3,11 @@ from datetime import date
 
 import requests
 from scholarly import scholarly, ProxyGenerator
+from _credentials import SCOPUS_API_KEY, WOS_STARTER_API_KEY, WOS_API_KEY
 
 PUBS_JSON = "_data/publications.json"
 OUTPUT_JSON = "_data/citations_comparison.json"
 
-SCOPUS_API_KEY = "918dd1ddb20ce9a68103e49189fd10b5"
-
-WOS_API_KEY = "YOUR_API_KEY"
 WOS_ENDPOINT = "https://api.clarivate.com/api/woslite"
 
 
@@ -23,7 +21,7 @@ def normalize_paper(title, year=None, doi=None):
 
 def get_wos_citing_papers(doi):
     headers = {
-        "X-ApiKey": WOS_API_KEY
+        "X-ApiKey": WOS_STARTER_API_KEY
     }
 
     params = {
@@ -89,19 +87,23 @@ def get_scopus_citing_papers(doi):
     return citing
 
 
-def get_gs_citing_papers(title):
-    search = scholarly.search_pubs(title)
-    pub = next(search, None)
+def get_gs_citing_papers(pub_det):
+    pub = next(scholarly.search_pubs(pub_det['title']))
+    #search = scholarly.search_pubs(title)
+    #pub = next(search, None)
     if not pub:
         return []
 
     citing = []
-    for cite in scholarly.citedby(pub):
-        citing.append(normalize_paper(
-            title=cite.get("bib", {}).get("title", ""),
-            year=cite.get("bib", {}).get("year"),
-            doi=None
-        ))
+    try:
+        for cite in scholarly.citedby(pub):
+            citing.append(normalize_paper(
+                title=cite.get("bib", {}).get("title", ""),
+                year=cite.get("bib", {}).get("year"),
+                doi = None
+            ))
+    except KeyError:
+        print(f'Problem obtaining cited by for: {pub_det['title']}')
     return citing
 
 
@@ -149,9 +151,9 @@ def enrich_publications(publications):
 
 
 def process():
-    pg = ProxyGenerator()
-    pg.FreeProxies()
-    scholarly.use_proxy(pg)
+    #pg = ProxyGenerator()
+    #pg.FreeProxies()
+    #scholarly.use_proxy(pg)
     with open(PUBS_JSON, "r", encoding="utf-8") as f:
         publications = json.load(f)
 

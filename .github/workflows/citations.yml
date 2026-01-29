@@ -1,19 +1,17 @@
-name: Update ORCID Publications
+name: Update citation counts
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # manual run
   schedule:
-    - cron: "10 13 * * 4"
+    - cron: "45 15 * * 4"    # every Monday at 03:00 UTC
 
 jobs:
-  update-publications:
+  citations:
     runs-on: ubuntu-latest
-    permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
-      contents: write
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,13 +21,17 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml requests
 
-      - name: Run ORCID updater
-        run: python fetch_full_orcid.py
+      - name: Run citation script
+        env:
+          WOS_STARTER_API_KEY: ${{ secrets.WOS_STARTER_API_KEY }}
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+        run: |
+          python fetch_citation_counts.py
 
       - name: Commit and push results
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: Update publications from ORCID
+          commit_message: Update citation counts
           commit_user_name: GitHub Actions
           commit_user_email: actions@github.com
           #file_pattern: 'assets/data/pawelrubach.bib'

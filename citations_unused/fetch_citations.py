@@ -2,9 +2,11 @@ import json
 from datetime import date
 import requests
 
+from _credentials import WOS_API_KEY, SCOPUS_API_KEY
+from fetch_web_of_science import WebOfScience
+
 PUBS_JSON = "_data/publications.json"
 OUTPUT_JSON = "_data/citations.json"
-CRED_JSON = "_credentials.json"
 
 creds = {}
 
@@ -12,7 +14,7 @@ WOS_ENDPOINT = "https://api.clarivate.com/api/woslite"
 
 def get_wos_citations(doi):
     headers = {
-        "X-ApiKey": creds['WOS_API_KEY'],
+        "X-ApiKey": WOS_API_KEY,
         "Accept": "application/json"
     }
 
@@ -37,7 +39,7 @@ def get_wos_citations(doi):
 
 def get_scopus_citations(doi):
     headers = {
-        "X-ELS-APIKey": creds['SCOPUS_API_KEY'],
+        "X-ELS-APIKey": SCOPUS_API_KEY,
         "Accept": "application/json"
     }
 
@@ -89,11 +91,13 @@ def enrich_publications(publications):
 
         citations[doi] = {
             "semantic_scholar": get_semantic_scholar_citations(doi),
+            "scopus": get_scopus_citations(doi),
             # "wos": get_wos_citations(doi),  # enable if available
             "last_updated": str(date.today())
         }
 
     return citations
+
 
 
 def process():
@@ -102,14 +106,12 @@ def process():
 
     if publications:
         citations = enrich_publications(publications)
+        wos = WebOfScience()
+        wos.run(citations)
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
             json.dump(citations, f, indent=2)
 
 
-def get_credentials():
-    with open(CRED_JSON, "r", encoding="utf-8") as f:
-        creds = json.load(f)
 
 if __name__=="__main__":
-    get_credentials()
     process()
