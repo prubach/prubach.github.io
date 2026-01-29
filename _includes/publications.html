@@ -31,9 +31,8 @@
 //  const citations = loadPublicationsCitations();
 
   const publications = {{ site.data.publications | jsonify }};
-  //console.log({{ site.data.publications }});
   const citations_all = {{ site.data.publications_citations | jsonify }};
-  console.log(citations_all);
+
   var citations = null;
   if (citations_all == null) {
     citations = [];
@@ -81,23 +80,23 @@
           : null;
 
       case "semanticscholar":
-        return p.doi
-          ? `https://www.semanticscholar.org/search?q=${encodeURIComponent(p.doi)}`
+        return p.title
+          ? `https://www.semanticscholar.org/search?q=${encodeURIComponent(p.title)}`
           : null;
 
       case "openalex":
         return p.alex_id
-          ? `https://openalex.org/${p.alex_id}`
+          ? `https://openalex.org/works/${p.alex_id}`
           : null;
 
       case "crossref":
         return p.doi
-          ? `https://search.crossref.org/?q=${encodeURIComponent(p.doi)}`
+          ? `https://search.crossref.org/search/works?q=${encodeURIComponent(p.doi)}`
           : null;
 
       case "webofscience":
-        return p.doi
-          ? `https://www.webofscience.com/wos/woscc/full-record/${encodeURIComponent(p.doi)}`
+        return p.wos_id
+          ? `https://www.webofscience.com/wos/woscc/full-record/${encodeURIComponent(p.wos_id)}`
           : null;
 
       default:
@@ -113,7 +112,7 @@
       { key: "crossref", label: "Crossref", logo: "/assets/images/citations/crossref.svg" },
       { key: "scopus", label: "Scopus", logo: "/assets/images/citations/scopus.png" },
       { key: "webofscience", label: "Web of Science", logo: "/assets/images/citations/wos.svg" },
-      { key: "semanticscholar", label: "Semantic Scholar", logo: "/assets/images/citations/semanticscholar.svg" }
+      { key: "semanticscholar", label: "Semantic Scholar", logo: "/assets/images/citations/semanticscholar.png" }
     ];
 
     const total = sources.reduce(
@@ -189,7 +188,7 @@
               ${cites[src].map(cp => `
                 <li>
                   ${cp.doi
-                    ? `<a href="https://doi.org/${cp.doi}" target="_blank">${cp.title}</a>`
+                    ? `<a href="${cp.doi}" target="_blank">${cp.title}</a>`
                     : cp.title}
                   (${cp.year || "n.d."})
                 </li>`).join("")}
@@ -210,7 +209,7 @@
           ${p.year ? `<span class="pub-year">${p.year}</span>` : ""}
           ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank" aria-label="Publication with DOI: ${p.doi}">DOI: ${p.doi}</a>` : ""}
           <br>
-          ${renderCitationBadges(p, c)}
+          ${renderCitationBadges(pc, c)}
           <span class="pub-cat-label">Categories: ${pubCats.join(", ")}</span>
           ${citationDetails}
           ${ga ? `
