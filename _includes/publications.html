@@ -71,6 +71,77 @@
     });
   }
 
+  // Citations
+
+  function citationLink(source, p) {
+    switch (source) {
+      case "scopus":
+        return p.doi
+          ? `https://www.scopus.com/results/results.uri?doi=${encodeURIComponent(p.doi)}`
+          : null;
+
+      case "semanticscholar":
+        return p.doi
+          ? `https://www.semanticscholar.org/search?q=${encodeURIComponent(p.doi)}`
+          : null;
+
+      case "openalex":
+        return p.alex_id
+          ? `https://openalex.org/${p.alex_id}`
+          : null;
+
+      case "crossref":
+        return p.doi
+          ? `https://search.crossref.org/?q=${encodeURIComponent(p.doi)}`
+          : null;
+
+      case "webofscience":
+        return p.doi
+          ? `https://www.webofscience.com/wos/woscc/full-record/${encodeURIComponent(p.doi)}`
+          : null;
+
+      default:
+        return null;
+    }
+  }
+
+  function renderCitationBadges(p, citationCounts) {
+    if (!citationCounts) return "";
+
+    const sources = [
+      { key: "openalex", label: "OpenAlex", logo: "/assets/images/citations/openalex.png" },
+      { key: "crossref", label: "Crossref", logo: "/assets/images/citations/crossref.svg" },
+      { key: "scopus", label: "Scopus", logo: "/assets/images/citations/scopus.png" },
+      { key: "webofscience", label: "Web of Science", logo: "/assets/images/citations/wos.svg" },
+      { key: "semanticscholar", label: "Semantic Scholar", logo: "/assets/images/citations/semanticscholar.svg" }
+    ];
+
+    const total = sources.reduce(
+      (sum, s) => sum + (citationCounts[s.key] || 0),
+      0
+    );
+    if (total === 0) return "";
+
+    let html = `<div class="pub-citations">`;
+
+    sources.forEach(s => {
+    const count = citationCounts[s.key] ?? 0;
+    const link = citationLink(s.key, p);
+
+    html += `
+      <a class="citation-badge citation-${s.key} ${count === 0 ? "citation-zero" : ""}"
+         ${link ? `href="${link}" target="_blank"` : ""}
+         aria-label="${s.label} citations: ${count}"
+         title="${s.label}">
+        <img src="${s.logo}" alt="" class="citation-logo" loading="lazy">
+        <span class="citation-count">${count}</span>
+      </a>
+    `;
+    });
+    html += `</div>`;
+    return html;
+  }
+
   /* ---------- RENDER PUBLICATION LIST ---------- */
   function renderPublications(category = "All") {
     let html = '<ul class="pub-container">';
@@ -94,17 +165,17 @@
       const c = pc.citation_counts || {};
       const cites = pc.citations || {};
 
-      let citationBadges = "";
-      //console.log(c["openalex"]);
-      ["openalex", "scopus", "semanticscholar", "crossref", "webofscience"].forEach(src => {
-        if (c[src] > 0) {
-          citationBadges += `<span class="badge badge-${src}" aria-label="${c[src]} citations in ${src}">${src}: ${c[src]}</span> `;
-        }
-      });
-      if (citationBadges!=="") {
-        citationBadges = "Citations: " + citationBadges;
-      }
-      console.log(citationBadges);
+      // let citationBadges = "";
+      // //console.log(c["openalex"]);
+      // ["openalex", "scopus", "semanticscholar", "crossref", "webofscience"].forEach(src => {
+      //   if (c[src] > 0) {
+      //     citationBadges += `<span class="badge badge-${src}" aria-label="${c[src]} citations in ${src}">${src}: ${c[src]}</span> `;
+      //   }
+      // });
+      // if (citationBadges!=="") {
+      //   citationBadges = "Citations: " + citationBadges;
+      // }
+      // console.log(citationBadges);
       // Expandable lists for citing papers
       let citationDetails = "";
       ["openalex"].forEach(src => {
@@ -129,6 +200,8 @@
       });
       // / Citations
 
+      // <div class="pub-citations">${citationBadges}</div>
+
       html += `
         <li class="pub-item">
           <span class="pub-title">${p.title}</span><br>
@@ -137,8 +210,8 @@
           ${p.year ? `<span class="pub-year">${p.year}</span>` : ""}
           ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank" aria-label="Publication with DOI: ${p.doi}">DOI: ${p.doi}</a>` : ""}
           <br>
+          ${renderCitationBadges(p, c)}
           <span class="pub-cat-label">Categories: ${pubCats.join(", ")}</span>
-          <div class="pub-citations">${citationBadges}</div>
           ${citationDetails}
           ${ga ? `
             <div class="pub-abstract-figure">
