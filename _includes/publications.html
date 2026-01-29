@@ -8,7 +8,39 @@
 </section>
 
 <script>
+
+//  async function loadPublicationsCitations() {
+//    //const fileUrl = "data/publications_citations.json"; // Adjust path if needed
+//    const fileUrl = {{ site.data.publications_citations  }}; // Adjust path if needed
+//
+//    try {
+//      const response = await fetch(fileUrl);
+//      if (!response.ok) {
+//        console.warn(`Citations file not found (${response.status}). Proceeding without citation counts.`);
+//        return {}; // return empty object if file missing
+//      }
+//
+//      const data = await response.json();
+//      return data;
+//    } catch (error) {
+//      console.error("Error loading citations file:", error);
+//      return {}; // fallback to empty object
+//    }
+//  }
+
+//  const citations = loadPublicationsCitations();
+
   const publications = {{ site.data.publications | jsonify }};
+  //console.log({{ site.data.publications }});
+  const citations_all = {{ site.data.publications_citations | jsonify }};
+  console.log(citations_all);
+  var citations = null;
+  if (citations_all == null) {
+    citations = [];
+  } else {
+    citations = citations_all.publications;
+  }
+
   const abstracts = {{ site.data.publications_figures | jsonify }};
   const categoryData = {{ site.data.publications_categories | jsonify }};
 
@@ -54,17 +86,60 @@
       const formattedAuthors = p.authors.join(', ');
       const ga = abstracts.find(a => a.id === p.id);
 
+      // Citations
+      var pc = citations.find(({ id }) => id === p.id)
+      if (pc == null) {
+        pc = { citation_counts: {}, citations: {} };
+      }
+      const c = pc.citation_counts || {};
+      const cites = pc.citations || {};
+
+      let citationBadges = "";
+      //console.log(c["openalex"]);
+      ["openalex", "scopus", "semanticscholar", "crossref", "webofscience"].forEach(src => {
+        if (c[src] > 0) {
+          citationBadges += `<span class="badge badge-${src}" aria-label="${c[src]} citations in ${src}">${src}: ${c[src]}</span> `;
+        }
+      });
+      if (citationBadges!=="") {
+        citationBadges = "Citations: " + citationBadges;
+      }
+      console.log(citationBadges);
+      // Expandable lists for citing papers
+      let citationDetails = "";
+      ["openalex"].forEach(src => {
+        if (cites[src] && cites[src].length > 0) {
+          citationDetails += `
+          <details class="citing-${src}">
+            <summary aria-label="List of papers citing this publication in ${src}">
+              Citing papers (${src} – ${cites[src].length})
+            </summary>
+            <ul>
+              ${cites[src].map(cp => `
+                <li>
+                  ${cp.doi
+                    ? `<a href="https://doi.org/${cp.doi}" target="_blank">${cp.title}</a>`
+                    : cp.title}
+                  (${cp.year || "n.d."})
+                </li>`).join("")}
+            </ul>
+          </details>
+          `;
+        }
+      });
+      // / Citations
+
       html += `
         <li class="pub-item">
           <span class="pub-title">${p.title}</span><br>
           <span class="pub-authors">${formattedAuthors}</span><br>
           ${p.journal ? `<span class="pub-journal">${p.journal}</span>` : ""}
           ${p.year ? `<span class="pub-year">${p.year}</span>` : ""}
-          ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank" aria-label="Publicaiton with DOI: ${p.doi}">DOI: ${p.doi}</a>` : ""}
+          ${p.doi ? `<a class="pub-doi" href="https://doi.org/${p.doi}" target="_blank" aria-label="Publication with DOI: ${p.doi}">DOI: ${p.doi}</a>` : ""}
           <br>
-          <span class="pub-cat-label">
-            Categories: ${pubCats.join(", ")}
-          </span>
+          <span class="pub-cat-label">Categories: ${pubCats.join(", ")}</span>
+          <div class="pub-citations">${citationBadges}</div>
+          ${citationDetails}
           ${ga ? `
             <div class="pub-abstract-figure">
               <a href="${ga.url}" target="_blank">

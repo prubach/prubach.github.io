@@ -135,7 +135,7 @@ class WebOfScience(Publications):
             for p in pubs:
                 if doi == p.get('doi'):
                     p['wos_id'] = item.uid
-                    p["citations"]['wos'] = CitationSource(count=item.citations,citing_works=[])
+                    p["citations"]['webofscience'] = CitationSource(count=item.citations,citing_works=[])
 
         for status, uids in statuses.items():
             logger.info("Update statuses: %s for %s items", status, len(uids))

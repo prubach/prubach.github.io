@@ -342,11 +342,11 @@ def export_jekyll_json(publications, output_path):
     payload = {
         "generated_at": date.today().isoformat(),
         "sources": [
-            "Scopus",
-            "SemanticScholar",
-            "OpenAlex",
-            "Crossref",
-            "WebOfScience"
+            "scopus",
+            "semanticscholar",
+            "openalex",
+            "crossref",
+            "webofscience"
         ],
         "publications": [
             publication_to_jekyll_dict(p) for p in publications
