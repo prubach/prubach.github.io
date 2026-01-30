@@ -212,7 +212,7 @@
         .sort((a, b) => getCitationScore(b.id) - getCitationScore(a.id));
     }
 
-    pubsToRender.forEach(p => {
+    pubsToRender.forEach((p, index) => {
       const pubCats = assignments[p.id] || ["Uncategorized"];
 
       // Filtering: publication passes if ANY category matches
@@ -260,6 +260,10 @@
 
       html += `
         <li class="pub-item">
+          ${category === "Highly cited"
+          ? `<span class="pub-rank">#${index + 1}</span>`
+          : ""
+          }
           <span class="pub-title">${p.title}</span><br>
           <span class="pub-authors">${formattedAuthors}</span><br>
           ${p.journal ? `<span class="pub-journal">${p.journal}</span>` : ""}
@@ -484,6 +488,20 @@
 
   .pub-updated time {
     font-weight: 500;
+  }
+  .pub-rank {
+    font-weight: 600;
+    color: #92400e;
+    margin-right: 0.4rem;
+  }
+  .pub-tab[data-category="Highly cited"] {
+    color: #92400e;
+    font-weight: 600;
+  }
+
+  .pub-tab[data-category="Highly cited"].active {
+    background: #fff7ed;
+    border-bottom: 2px solid #f59e0b;
   }
 </style>
 
