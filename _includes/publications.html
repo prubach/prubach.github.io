@@ -37,15 +37,22 @@
   const pubTabs = document.getElementById("pub-tabs");
 
   const categories = ["All", ...categoryData.categories];
+  //const categories = [...categories_all];
+  const highlyCitedSet = computeHighlyCited(publications);
+
+  if (highlyCitedSet.size > 0) {
+    categories.splice(1, 0, "Highly cited");
+    // puts it right after "All"
+  }
   const assignments = categoryData.assignments;
 
   /* ---------- BUILD TABS ---------- */
   function renderTabs() {
     pubTabs.innerHTML = categories
       .map((cat, i) =>
-        `<div class="pub-tab ${i === 0 ? 'active' : ''}" data-category="${cat}">
-          ${cat}
-        </div>`
+      `<div class="pub-tab ${i === 0 ? 'active' : ''}" data-category="${cat}">
+        ${cat === "Highly cited" ? "⭐ Highly cited" : cat}
+      </div>`
       )
       .join("");
 
@@ -77,7 +84,7 @@
     );
   }
 
-  function computeHighlyCited(publications, percentile = 0.9) {
+  function computeHighlyCited(publications, percentile = 0.3) {
     const scores = publications.map(p => ({
       id: p.id,
       score: getCitationScore(p.id)
@@ -94,8 +101,6 @@
       scores.filter(s => s.score >= cutoffScore).map(s => s.id)
     );
   }
-
-  const highlyCitedSet = computeHighlyCited(publications);
 
   // / highly cited
 
@@ -199,11 +204,19 @@
   function renderPublications(category = "All") {
     let html = '<ul class="pub-container">';
 
-    publications.forEach(p => {
+    let pubsToRender = publications;
+
+    if (category === "Highly cited") {
+      pubsToRender = publications
+        .filter(p => highlyCitedSet.has(p.id))
+        .sort((a, b) => getCitationScore(b.id) - getCitationScore(a.id));
+    }
+
+    pubsToRender.forEach(p => {
       const pubCats = assignments[p.id] || ["Uncategorized"];
 
       // Filtering: publication passes if ANY category matches
-      if (category !== "All" && !pubCats.includes(category)) {
+      if ((category !== "All" && category !=="Highly cited") && !pubCats.includes(category)) {
         return;
       }
 
@@ -218,17 +231,6 @@
       const c = pc.citation_counts || {};
       const cites = pc.citations || {};
 
-      // let citationBadges = "";
-      // //console.log(c["openalex"]);
-      // ["openalex", "scopus", "semanticscholar", "crossref", "webofscience"].forEach(src => {
-      //   if (c[src] > 0) {
-      //     citationBadges += `<span class="badge badge-${src}" aria-label="${c[src]} citations in ${src}">${src}: ${c[src]}</span> `;
-      //   }
-      // });
-      // if (citationBadges!=="") {
-      //   citationBadges = "Citations: " + citationBadges;
-      // }
-      // console.log(citationBadges);
       // Expandable lists for citing papers
       let citationDetails = "";
       ["openalex"].forEach(src => {
