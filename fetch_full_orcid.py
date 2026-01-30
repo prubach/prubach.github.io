@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from datetime import date
+
 import requests
 import json
 import yaml
@@ -92,7 +94,15 @@ def run():
         sleep(0.2)  # res
          
          # Save outputs
-    with open("_data/publications.json","w") as f: json.dump(output,f,indent=2)
+    payload = {
+        "generated_at": date.today().isoformat(),
+        "sources": [
+            "orcid"
+        ],
+        "publications": output
+    }
+
+    with open("_data/publications.json","w") as f: json.dump(payload,f,indent=2)
     with open("_data/publications.yaml","w") as f: yaml.dump(output,f,sort_keys=False)
     with open("assets/data/pawelrubach.bib","w") as f: f.write("\n".join(to_bibtex(x) for x in output))
 

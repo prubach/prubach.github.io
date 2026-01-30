@@ -8,36 +8,26 @@
 </section>
 
 <script>
-
-//  async function loadPublicationsCitations() {
-//    //const fileUrl = "data/publications_citations.json"; // Adjust path if needed
-//    const fileUrl = {{ site.data.publications_citations  }}; // Adjust path if needed
-//
-//    try {
-//      const response = await fetch(fileUrl);
-//      if (!response.ok) {
-//        console.warn(`Citations file not found (${response.status}). Proceeding without citation counts.`);
-//        return {}; // return empty object if file missing
-//      }
-//
-//      const data = await response.json();
-//      return data;
-//    } catch (error) {
-//      console.error("Error loading citations file:", error);
-//      return {}; // fallback to empty object
-//    }
-//  }
-
-//  const citations = loadPublicationsCitations();
-
-  const publications = {{ site.data.publications | jsonify }};
+  const publications_all = {{ site.data.publications | jsonify }};
   const citations_all = {{ site.data.publications_citations | jsonify }};
 
+  var publications = null;
+  if (publications_all == null) {
+    publications = [];
+    publicationsGeneratedAt = null;
+  } else {
+    publications =  publications_all.publications;
+    publicationsGeneratedAt = publications_all.generated_at;
+  }
+
   var citations = null;
+  var citationsGeneratedAt = null;
   if (citations_all == null) {
     citations = [];
+    citationsGeneratedAt = null;
   } else {
     citations = citations_all.publications;
+    citationsGeneratedAt = citations_all.generated_at;
   }
 
   const abstracts = {{ site.data.publications_figures | jsonify }};
@@ -71,6 +61,43 @@
   }
 
   // Citations
+
+  // Highly cited
+  function getCitationScore(pubId) {
+    const pc = citations?.find(p => p.id === pubId);
+    if (!pc || !pc.citation_counts) return 0;
+
+    const c = pc.citation_counts;
+    return Math.max(
+      c.scopus || 0,
+      c.semanticscholar || 0,
+      c.openalex || 0,
+      c.crossref || 0,
+      c.webofscience || 0
+    );
+  }
+
+  function computeHighlyCited(publications, percentile = 0.9) {
+    const scores = publications.map(p => ({
+      id: p.id,
+      score: getCitationScore(p.id)
+    })).filter(x => x.score > 0);
+
+    if (scores.length === 0) return new Set();
+
+    scores.sort((a, b) => b.score - a.score);
+
+    const cutoffIndex = Math.floor(scores.length * percentile);
+    const cutoffScore = scores[cutoffIndex]?.score ?? Infinity;
+
+    return new Set(
+      scores.filter(s => s.score >= cutoffScore).map(s => s.id)
+    );
+  }
+
+  const highlyCitedSet = computeHighlyCited(publications);
+
+  // / highly cited
 
   function citationLink(source, p) {
     switch (source) {
@@ -141,6 +168,33 @@
     return html;
   }
 
+  function renderCitationsUpdated() {
+    if (!publicationsGeneratedAt) return "";
+    if (!citationsGeneratedAt) return "";
+
+    const citdate = new Date(citationsGeneratedAt);
+    const citformatted = citdate.toLocaleDateString(undefined, {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+    const pubdate = new Date(publicationsGeneratedAt);
+    const pubformatted = pubdate.toLocaleDateString(undefined, {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+
+    return `
+      <div class="pub-updated">
+        Publication list updated: <time datetime="${publicationsGeneratedAt}">${pubformatted}.
+        Citation data last updated: <time datetime="${citationsGeneratedAt}">${citformatted}
+        </time>
+      </div>
+    `;
+  }
+
+
   /* ---------- RENDER PUBLICATION LIST ---------- */
   function renderPublications(category = "All") {
     let html = '<ul class="pub-container">';
@@ -190,7 +244,8 @@
                   ${cp.doi
                     ? `<a href="${cp.doi}" target="_blank">${cp.title}</a>`
                     : cp.title}
-                  (${cp.year || "n.d."})
+                  (${cp.year || "n.d."}) ${cp.doi
+                    ? `${cp.doi}` : ""}
                 </li>`).join("")}
             </ul>
           </details>
@@ -224,6 +279,7 @@
     });
 
     html += "</ul>";
+    html += renderCitationsUpdated();
     pubList.innerHTML = html;
   }
 
@@ -371,5 +427,61 @@
     background: #f8f9fb;
   }
 
+  .pub-citations {
+    display: flex;
+    gap: 10px;
+    margin: 6px 0 4px;
+    flex-wrap: wrap;
+  }
+
+  .citation-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #e5e7eb;
+    color: #1f2937;
+    background: #f8fafc;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .citation-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .citation-logo {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Gray out zero counts */
+  .citation-zero {
+    opacity: 0.35;
+    pointer-events: none;
+    filter: grayscale(1);
+  }
+
+  /* Subtle source accents */
+  .citation-scopus { background: #fff3e6; }
+  .citation-semanticscholar { background: #eef6ff; }
+  .citation-openalex { background: #ecfeff; }
+  .citation-crossref { background: #f0fdf4; }
+  .citation-webofscience { background: #f5f3ff; }
+
+  .pub-updated {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+    text-align: right;
+  }
+
+  .pub-updated time {
+    font-weight: 500;
+  }
 </style>
 
