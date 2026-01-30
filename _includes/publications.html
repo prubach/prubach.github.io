@@ -108,7 +108,7 @@
     switch (source) {
       case "scopus":
         return p.doi
-          ? `https://www.scopus.com/results/results.uri?doi=${encodeURIComponent(p.doi)}`
+          ? `https://www.scopus.com/results/results.uri?s=DOI(${encodeURIComponent(p.doi)})`
           : null;
 
       case "semanticscholar":
