@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29",
+  "generated_at": "2026-02-05",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -61,7 +61,7 @@
         "scopus": 0,
         "semanticscholar": 0,
         "openalex": 0,
-        "crossref": 0
+        "crossref": 1
       },
       "citations": {
         "scopus": [],
@@ -160,7 +160,7 @@
         "scopus": 2,
         "semanticscholar": 5,
         "openalex": 5,
-        "crossref": 5,
+        "crossref": 6,
         "webofscience": 2
       },
       "citations": {
@@ -282,7 +282,7 @@
         "scopus": 3,
         "semanticscholar": 3,
         "openalex": 4,
-        "crossref": 5,
+        "crossref": 6,
         "webofscience": 3
       },
       "citations": {
@@ -1258,16 +1258,16 @@
             "alex_id": "W4309765941"
           },
           {
-            "title": "The impact of AlphaFold Protein Structure Database on the fields of life sciences",
-            "doi": "https://doi.org/10.1002/pmic.202200128",
-            "year": 2022,
-            "alex_id": "W4309153596"
-          },
-          {
             "title": "BioLiP2: an updated structure database for biologically relevant ligand–protein interactions",
             "doi": "https://doi.org/10.1093/nar/gkad630",
             "year": 2023,
             "alex_id": "W4385407166"
+          },
+          {
+            "title": "The impact of AlphaFold Protein Structure Database on the fields of life sciences",
+            "doi": "https://doi.org/10.1002/pmic.202200128",
+            "year": 2022,
+            "alex_id": "W4309153596"
           },
           {
             "title": "Critical assessment of protein intrinsic disorder prediction (<scp>CAID</scp>) ‐ Results of round 2",
@@ -1306,16 +1306,16 @@
             "alex_id": "W4403852237"
           },
           {
-            "title": "3DLigandSite: structure-based prediction of protein–ligand binding sites",
-            "doi": "https://doi.org/10.1093/nar/gkac250",
-            "year": 2022,
-            "alex_id": "W4223432929"
-          },
-          {
             "title": "ModelArchive: A Deposition Database for Computational Macromolecular Structural Models",
             "doi": "https://doi.org/10.1016/j.jmb.2025.168996",
             "year": 2025,
             "alex_id": "W4407367564"
+          },
+          {
+            "title": "3DLigandSite: structure-based prediction of protein–ligand binding sites",
+            "doi": "https://doi.org/10.1093/nar/gkac250",
+            "year": 2022,
+            "alex_id": "W4223432929"
           },
           {
             "title": "BIOPEP-UWM Virtual—A Novel Database of Food-Derived Peptides with In Silico-Predicted Biological Activity",
@@ -1384,6 +1384,18 @@
             "alex_id": "W4365137095"
           },
           {
+            "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
+            "doi": "https://doi.org/10.1038/s42256-024-00887-7",
+            "year": 2024,
+            "alex_id": "W4402666674"
+          },
+          {
+            "title": "Determinants of receptor tyrosine phosphatase homophilic adhesion: Structural comparison of PTPRK and PTPRM extracellular domains",
+            "doi": "https://doi.org/10.1016/j.jbc.2022.102750",
+            "year": 2022,
+            "alex_id": "W4309938757"
+          },
+          {
             "title": "Graph databases in systems biology: a systematic review",
             "doi": "https://doi.org/10.1093/bib/bbae561",
             "year": 2024,
@@ -1444,12 +1456,6 @@
             "alex_id": "W4403922164"
           },
           {
-            "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
-            "doi": "https://doi.org/10.1038/s42256-024-00887-7",
-            "year": 2024,
-            "alex_id": "W4402666674"
-          },
-          {
             "title": "<scp>PDBe</scp> tools for an in‐depth analysis of small molecules in the Protein Data Bank",
             "doi": "https://doi.org/10.1002/pro.70084",
             "year": 2025,
@@ -1508,12 +1514,6 @@
             "doi": "https://doi.org/10.1016/j.isci.2024.109814",
             "year": 2024,
             "alex_id": "W4395450327"
-          },
-          {
-            "title": "Determinants of receptor tyrosine phosphatase homophilic adhesion: Structural comparison of PTPRK and PTPRM extracellular domains",
-            "doi": "https://doi.org/10.1016/j.jbc.2022.102750",
-            "year": 2022,
-            "alex_id": "W4309938757"
           },
           {
             "title": "OverProt: secondary structure consensus for protein families",
@@ -1618,16 +1618,16 @@
             "alex_id": "W4294628667"
           },
           {
-            "title": "3D-Beacons: Decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
-            "doi": "https://doi.org/10.1101/2022.08.01.501973",
-            "year": 2022,
-            "alex_id": "W4289637442"
-          },
-          {
             "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation",
             "doi": "https://doi.org/10.1093/nar/gkaf1175",
             "year": 2025,
             "alex_id": "W4416300358"
+          },
+          {
+            "title": "3D-Beacons: Decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
+            "doi": "https://doi.org/10.1101/2022.08.01.501973",
+            "year": 2022,
+            "alex_id": "W4289637442"
           },
           {
             "title": "Determinants of receptor tyrosine phosphatase homophilic adhesion: structural comparison of PTPRK and PTPRM extracellular domains",
@@ -1819,6 +1819,12 @@
             "alex_id": "W4396962683"
           },
           {
+            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
+            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
+            "year": 2021,
+            "alex_id": "W3127139700"
+          },
+          {
             "title": "How soluble misfolded proteins bypass chaperones at the molecular level",
             "doi": "https://doi.org/10.1038/s41467-023-38962-z",
             "year": 2023,
@@ -1831,6 +1837,12 @@
             "alex_id": "W4408423748"
           },
           {
+            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
+            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
+            "year": 2022,
+            "alex_id": "W4210827538"
+          },
+          {
             "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
             "year": 2024,
@@ -1841,12 +1853,6 @@
             "doi": "https://doi.org/10.2140/jsag.2024.14.31",
             "year": 2024,
             "alex_id": "W4393195253"
-          },
-          {
-            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
-            "year": 2021,
-            "alex_id": "W3127139700"
           },
           {
             "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
@@ -1961,12 +1967,6 @@
             "doi": "https://doi.org/10.1093/nar/gkaf189",
             "year": 2025,
             "alex_id": "W4408725100"
-          },
-          {
-            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
-            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
-            "year": 2022,
-            "alex_id": "W4210827538"
           },
           {
             "title": "Trapping probabilities of multiple rings in end-linked gels",
@@ -2370,11 +2370,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 88,
+        "scopus": 89,
         "semanticscholar": 97,
         "openalex": 118,
         "crossref": 98,
-        "webofscience": 86
+        "webofscience": 87
       },
       "citations": {
         "scopus": [],
@@ -2729,6 +2729,12 @@
             "alex_id": "W3214514431"
           },
           {
+            "title": "Braidoids",
+            "doi": "https://doi.org/10.1007/s11856-021-2155-8",
+            "year": 2021,
+            "alex_id": "W4235033673"
+          },
+          {
             "title": "Mechanically Interlocked Biomacromolecules",
             "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
             "year": 2023,
@@ -2745,12 +2751,6 @@
             "doi": "https://doi.org/10.3390/ijms23031514",
             "year": 2022,
             "alex_id": "W4213110016"
-          },
-          {
-            "title": "Braidoids",
-            "doi": "https://doi.org/10.1007/s11856-021-2155-8",
-            "year": 2021,
-            "alex_id": "W4235033673"
           },
           {
             "title": "Knot data analysis using multiscale Gauss link integral",
