@@ -149,7 +149,7 @@ class WebOfScience(Publications):
         data = fetch_data()
         self.try_match_publications(data)
         print(self.publications)
-        self.save_publications()
+        #self.save_publications()
         if citations:
             self.update_citations_json(data, citations)
         if pubs:
