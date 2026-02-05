@@ -251,7 +251,7 @@ class SemanticScholarCitations(Citations):
 
 
 def enrich_publication(pub: Publication) -> Publication:
-    doi = pub['doi']
+    doi = pub['doi'] if type(pub)==dict else pub
     if doi:
         oac = OpenAlexCitations(doi)
         oa_count, alex_id = oac.get_openalex_citation_count()
@@ -361,7 +361,8 @@ def export_jekyll_json(publications, output_path):
 
 def process():
     with open(PUBS_JSON, "r", encoding="utf-8") as f:
-        publications = json.load(f)
+        pub_file = json.load(f)
+        publications = pub_file['publications'] if type(pub_file)==dict else pub_file
         #publications = [x for x in publications if x['title'].startswith('Semantic') or x['title'].startswith('Alpha')]
         #publications = [x for x in publications if x['title'].startswith('Semantic') or x['title'].startswith('AlphaKn')]
         publications = [enrich_publication(p) for p in publications]
