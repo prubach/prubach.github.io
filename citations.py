@@ -36,7 +36,8 @@ class Publications:
 
     def load_publications(self):
         with open(PUBS_JSON, "r", encoding="utf-8") as f:
-            self.publications = json.load(f)
+            pub_files = json.load(f)
+            self.publications = pub_files['publications']
 
     @staticmethod
     def similar(a, b):

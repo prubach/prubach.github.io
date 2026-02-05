@@ -145,6 +145,7 @@ class WebOfScience(Publications):
             json.dump(self.publications, f, indent=2)
 
     def run(self, citations=None, pubs=None, *args, **options):
+        self.publications = pubs
         data = fetch_data()
         self.try_match_publications(data)
         self.save_publications()
