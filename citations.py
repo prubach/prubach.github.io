@@ -1,10 +1,12 @@
 import json
 from dataclasses import dataclass, field
+from dataclasses_json import dataclass_json
 from difflib import SequenceMatcher
 from typing import List, Dict, Optional
 
 PUBS_JSON = "_data/publications.json"
 
+@dataclass_json
 @dataclass
 class CitingWork:
     title: Optional[str]
@@ -14,13 +16,14 @@ class CitingWork:
     publisher: Optional[str]
     source: str
 
-
+@dataclass_json
 @dataclass
 class CitationSource:
     count: int = 0
     citing_works: List[CitingWork] = field(default_factory=list)
 
 
+@dataclass_json
 @dataclass
 class Publication:
     title: str
