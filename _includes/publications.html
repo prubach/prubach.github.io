@@ -3,7 +3,8 @@
 
   <div id="pub-tabs"></div>
   <div id="pub-list"></div>
-  <span class="pub-keywords">Structural biology · Bioinformatics · Distributed computing</span>
+  <div id="citations-summary" class="citations-summary"></div>
+  <!--<span class="pub-keywords">Structural biology · Bioinformatics · Distributed computing</span>-->
   <h3>Download a list of my publications in the <a href="{{ '/assets/data/pawelrubach.bib' | relative_url }}">BIB format here</a></h3>
 </section>
 
@@ -29,6 +30,10 @@
     citations = citations_all.publications;
     citationsGeneratedAt = citations_all.generated_at;
   }
+  const citationsById = {};
+  citations.forEach(p => {
+    citationsById[p.id] = p;
+  });
 
   const abstracts = {{ site.data.publications_figures | jsonify }};
   const categoryData = {{ site.data.publications_categories | jsonify }};
@@ -44,6 +49,18 @@
     categories.splice(1, 0, "Highly cited");
     // puts it right after "All"
   }
+
+  const citation_sources = [
+    { key: "openalex", label: "OpenAlex", logo: "/assets/images/citations/openalex.png" },
+    { key: "crossref", label: "Crossref", logo: "/assets/images/citations/crossref.svg" },
+    { key: "scopus", label: "Scopus", logo: "/assets/images/citations/scopus.png" },
+    { key: "webofscience", label: "Web of Science", logo: "/assets/images/citations/wos.svg" },
+    { key: "semanticscholar", label: "Semantic Scholar", logo: "/assets/images/citations/semanticscholar.png" }
+  ];
+  const citationSourceByKey = Object.fromEntries(
+    citation_sources.map(src => [src.key, src])
+  );
+
   const assignments = categoryData.assignments;
 
   /* ---------- BUILD TABS ---------- */
@@ -68,6 +85,79 @@
   }
 
   // Citations
+
+  // Total citations
+
+  function computeCitationTotals(publicationsList) {
+    const totals = {};
+
+    publicationsList.forEach(p => {
+      const c = citationsById?.[p.id]?.citation_counts;
+      if (!c) return;
+
+      Object.entries(c).forEach(([source, count]) => {
+        if (!count || count === 0) return;
+        totals[source] = (totals[source] || 0) + count;
+      });
+    });
+
+    return totals;
+  }
+
+  function buildCitationSearchLink(source) {
+    switch (source) {
+      case "openalex":
+        return "https://openalex.org/";
+      case "crossref":
+        return "https://search.crossref.org/";
+      case "scopus":
+        return "https://www.scopus.com/";
+      case "webofscience":
+        return "https://www.webofscience.com/";
+      case "semanticscholar":
+        return "https://www.semanticscholar.org/";
+      default:
+        return "#";
+    }
+  }
+
+  function renderCitationTotals(publicationsList) {
+    const container = document.getElementById("citations-summary");
+    if (!container) return;
+
+    const totals = computeCitationTotals(publicationsList);
+
+    if (!totals || Object.keys(totals).length === 0) {
+      container.innerHTML = "";
+      return;
+    }
+
+    container.innerHTML = `
+      <div class="citations-summary-title">
+        Total citations (by source)
+      </div>
+      <div class="citations-summary-badges">
+        ${Object.entries(totals)
+          .map(([source, count]) => {
+            const src = citationSourceByKey[source];
+            if (!src || count === 0) return "";
+
+            return `
+              <a class="citation-badge citation-${source}"
+                 href="${buildCitationSearchLink(source)}"
+                 target="_blank"
+                 aria-label="Total ${src.label} citations: ${count}">
+                <img src="${src.logo}"
+                     alt="${src.label} logo">
+                <span class="citation-count">${count}</span>
+              </a>
+            `;
+          })
+          .join("")}
+      </div>
+    `;
+  }
+
 
   // Highly cited
   function getCitationScore(pubId) {
@@ -139,15 +229,7 @@
   function renderCitationBadges(p, citationCounts) {
     if (!citationCounts) return "";
 
-    const sources = [
-      { key: "openalex", label: "OpenAlex", logo: "/assets/images/citations/openalex.png" },
-      { key: "crossref", label: "Crossref", logo: "/assets/images/citations/crossref.svg" },
-      { key: "scopus", label: "Scopus", logo: "/assets/images/citations/scopus.png" },
-      { key: "webofscience", label: "Web of Science", logo: "/assets/images/citations/wos.svg" },
-      { key: "semanticscholar", label: "Semantic Scholar", logo: "/assets/images/citations/semanticscholar.png" }
-    ];
-
-    const total = sources.reduce(
+    const total = citation_sources.reduce(
       (sum, s) => sum + (citationCounts[s.key] || 0),
       0
     );
@@ -155,7 +237,7 @@
 
     let html = `<div class="pub-citations">`;
 
-    sources.forEach(s => {
+    citation_sources.forEach(s => {
     const count = citationCounts[s.key] ?? 0;
     const link = citationLink(s.key, p);
 
@@ -203,7 +285,7 @@
   /* ---------- RENDER PUBLICATION LIST ---------- */
   function renderPublications(category = "All") {
     let html = '<ul class="pub-container">';
-
+    const renderedPubs = [];
     let pubsToRender = publications;
 
     if (category === "Highly cited") {
@@ -231,6 +313,8 @@
       const c = pc.citation_counts || {};
       const cites = pc.citations || {};
 
+      // Totals
+      renderedPubs.push(pc);
       // Expandable lists for citing papers
       let citationDetails = "";
       ["openalex"].forEach(src => {
@@ -283,10 +367,12 @@
         </li>
       `;
     });
+    //document.getElementById("pub-list").innerHTML = html;
 
     html += "</ul>";
     html += renderCitationsUpdated();
     pubList.innerHTML = html;
+    renderCitationTotals(renderedPubs);
   }
 
   // Initialize
@@ -503,5 +589,44 @@
     background: #fff7ed;
     border-bottom: 2px solid #f59e0b;
   }
+
+  /* Total citations */
+  .citations-summary {
+    margin-top: 1.5rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .citations-summary-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.4rem;
+  }
+
+  .citations-summary-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .citations-summary-badges .citation-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.55rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.85rem;
+  }
+
+  .citations-summary-badges .citation-badge img {
+    height: 16px;
+    width: auto;
+  }
+
 </style>
 
