@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05",
+  "generated_at": "2026-03-12",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -14,7 +14,7 @@
       "doi": "10.1107/S2059798325011477",
       "year": "2026",
       "alex_id": "W7119502689",
-      "wos_id": null,
+      "wos_id": "WOS:001694695100001",
       "journal": "Acta Crystallographica Section D Structural Biology",
       "authors": [
         "Alexander Wlodawer",
@@ -30,13 +30,15 @@
         "scopus": 0,
         "semanticscholar": 0,
         "openalex": 0,
-        "crossref": 0
+        "crossref": 0,
+        "webofscience": 0
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
         "openalex": [],
-        "crossref": []
+        "crossref": [],
+        "webofscience": []
       }
     },
     {
@@ -157,11 +159,11 @@
       ],
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
-        "scopus": 3,
+        "scopus": 4,
         "semanticscholar": 5,
         "openalex": 6,
         "crossref": 8,
-        "webofscience": 4
+        "webofscience": 5
       },
       "citations": {
         "scopus": [],
@@ -668,7 +670,7 @@
       "publisher": "Wiley",
       "citation_counts": {
         "scopus": 25,
-        "semanticscholar": 22,
+        "semanticscholar": 23,
         "openalex": 32,
         "crossref": 30,
         "webofscience": 20
@@ -1263,9 +1265,9 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 69,
-        "semanticscholar": 64,
-        "openalex": 86,
-        "crossref": 79
+        "semanticscholar": 65,
+        "openalex": 87,
+        "crossref": 80
       },
       "citations": {
         "scopus": [],
@@ -1302,22 +1304,16 @@
             "alex_id": "W4386152095"
           },
           {
-            "title": "Role of genomics in combating COVID-19 pandemic",
-            "doi": "https://doi.org/10.1016/j.gene.2022.146387",
-            "year": 2022,
-            "alex_id": "W4214894446"
-          },
-          {
             "title": "<scp>RosettaDDGPrediction</scp> for high‐throughput mutational scans: From stability to binding",
             "doi": "https://doi.org/10.1002/pro.4527",
             "year": 2022,
             "alex_id": "W4310645193"
           },
           {
-            "title": "The 2022<i>Nucleic Acids Research</i>database issue and the online molecular biology database collection",
-            "doi": "https://doi.org/10.1093/nar/gkab1195",
-            "year": 2021,
-            "alex_id": "W4206145266"
+            "title": "Role of genomics in combating COVID-19 pandemic",
+            "doi": "https://doi.org/10.1016/j.gene.2022.146387",
+            "year": 2022,
+            "alex_id": "W4214894446"
           },
           {
             "title": "PED in 2024: improving the community deposition of structural ensembles for intrinsically disordered proteins",
@@ -1330,6 +1326,12 @@
             "doi": "https://doi.org/10.1093/nar/gkae969",
             "year": 2024,
             "alex_id": "W4403852237"
+          },
+          {
+            "title": "The 2022<i>Nucleic Acids Research</i>database issue and the online molecular biology database collection",
+            "doi": "https://doi.org/10.1093/nar/gkab1195",
+            "year": 2021,
+            "alex_id": "W4206145266"
           },
           {
             "title": "ModelArchive: A Deposition Database for Computational Macromolecular Structural Models",
@@ -1350,16 +1352,16 @@
             "alex_id": "W4285732024"
           },
           {
-            "title": "Enzyme function and evolution through the lens of bioinformatics",
-            "doi": "https://doi.org/10.1042/bcj20220405",
-            "year": 2023,
-            "alex_id": "W4388903750"
-          },
-          {
             "title": "Local energetic frustration conservation in protein families and superfamilies",
             "doi": "https://doi.org/10.1038/s41467-023-43801-2",
             "year": 2023,
             "alex_id": "W4389832090"
+          },
+          {
+            "title": "Enzyme function and evolution through the lens of bioinformatics",
+            "doi": "https://doi.org/10.1042/bcj20220405",
+            "year": 2023,
+            "alex_id": "W4388903750"
           },
           {
             "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
@@ -1378,12 +1380,6 @@
             "doi": "https://doi.org/10.1186/s13321-024-00923-z",
             "year": 2024,
             "alex_id": "W4404226808"
-          },
-          {
-            "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
-            "doi": "https://doi.org/10.1093/gigascience/giac118",
-            "year": 2022,
-            "alex_id": "W4311287562"
           },
           {
             "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
@@ -1422,16 +1418,16 @@
             "alex_id": "W4416300358"
           },
           {
-            "title": "Halogen bonds between ligands and proteins: Can we use them in validation?",
-            "doi": "https://doi.org/10.1002/pro.70321",
-            "year": 2025,
-            "alex_id": "W4415076663"
-          },
-          {
             "title": "Resources for computational prediction of intrinsic disorder in proteins",
             "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
             "year": 2022,
             "alex_id": "W4221055411"
+          },
+          {
+            "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
+            "doi": "https://doi.org/10.1093/gigascience/giac118",
+            "year": 2022,
+            "alex_id": "W4311287562"
           },
           {
             "title": "Multi-Bioactivity of Protein Digests and Peptides from Oat (Avena sativa L.) Kernels in the Prevention of the Cardiometabolic Syndrome",
@@ -1516,6 +1512,12 @@
             "doi": "https://doi.org/10.1038/s41598-025-88445-y",
             "year": 2025,
             "alex_id": "W4407153268"
+          },
+          {
+            "title": "Halogen bonds between ligands and proteins: Can we use them in validation?",
+            "doi": "https://doi.org/10.1002/pro.70321",
+            "year": 2025,
+            "alex_id": "W4415076663"
           },
           {
             "title": "Performance exploration of multi-gene panels of alopecia areata susceptibility and drug-binding targets",
@@ -1786,6 +1788,12 @@
             "doi": "https://doi.org/10.1007/s00018-026-06087-3",
             "year": 2026,
             "alex_id": "W7128911768"
+          },
+          {
+            "title": "Chart builder: an interactive tool for user driven data visualization in the electron microscopy data bank",
+            "doi": "https://doi.org/10.3389/fbinf.2026.1763403",
+            "year": 2026,
+            "alex_id": "W7134047437"
           }
         ],
         "crossref": []
@@ -1838,7 +1846,7 @@
         "semanticscholar": 72,
         "openalex": 69,
         "crossref": 54,
-        "webofscience": 41
+        "webofscience": 42
       },
       "citations": {
         "scopus": [],
@@ -1863,22 +1871,16 @@
             "alex_id": "W4396962683"
           },
           {
-            "title": "How soluble misfolded proteins bypass chaperones at the molecular level",
-            "doi": "https://doi.org/10.1038/s41467-023-38962-z",
-            "year": 2023,
-            "alex_id": "W4381510375"
+            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
+            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
+            "year": 2021,
+            "alex_id": "W3127139700"
           },
           {
             "title": "Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy",
             "doi": "https://doi.org/10.1038/s41467-025-60559-x",
             "year": 2025,
             "alex_id": "W4411887343"
-          },
-          {
-            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
-            "year": 2021,
-            "alex_id": "W3127139700"
           },
           {
             "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
@@ -1921,6 +1923,12 @@
             "doi": "https://doi.org/10.1021/acs.macromol.3c00278",
             "year": 2023,
             "alex_id": "W4366303786"
+          },
+          {
+            "title": "How soluble misfolded proteins bypass chaperones at the molecular level",
+            "doi": "https://doi.org/10.1038/s41467-023-38962-z",
+            "year": 2023,
+            "alex_id": "W4381510375"
           },
           {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
@@ -1981,6 +1989,12 @@
             "doi": "https://doi.org/10.2140/jsag.2024.14.31",
             "year": 2024,
             "alex_id": "W4393195253"
+          },
+          {
+            "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
+            "doi": "https://doi.org/10.1038/s41467-025-66236-3",
+            "year": 2025,
+            "alex_id": "W4417269918"
           },
           {
             "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
@@ -2247,12 +2261,6 @@
             "alex_id": "W4415489540"
           },
           {
-            "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
-            "doi": "https://doi.org/10.1038/s41467-025-66236-3",
-            "year": 2025,
-            "alex_id": "W4417269918"
-          },
-          {
             "title": "RNA topology: From simple loops to complex circuits — A review",
             "doi": "https://doi.org/10.1016/j.ijbiomac.2026.150947",
             "year": 2026,
@@ -2421,10 +2429,10 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 91,
-        "semanticscholar": 98,
-        "openalex": 121,
-        "crossref": 101,
-        "webofscience": 87
+        "semanticscholar": 99,
+        "openalex": 123,
+        "crossref": 103,
+        "webofscience": 88
       },
       "citations": {
         "scopus": [],
@@ -2483,12 +2491,6 @@
             "doi": "https://doi.org/10.1016/j.chempr.2023.03.030",
             "year": 2023,
             "alex_id": "W4366824646"
-          },
-          {
-            "title": "A tile model of circuit topology for self-entangled biopolymers",
-            "doi": "https://doi.org/10.1038/s41598-023-35771-8",
-            "year": 2023,
-            "alex_id": "W4379055587"
           },
           {
             "title": "Learning to unknot",
@@ -2633,6 +2635,12 @@
             "doi": "https://doi.org/10.1063/5.0040051",
             "year": 2021,
             "alex_id": "W3110376701"
+          },
+          {
+            "title": "A tile model of circuit topology for self-entangled biopolymers",
+            "doi": "https://doi.org/10.1038/s41598-023-35771-8",
+            "year": 2023,
+            "alex_id": "W4379055587"
           },
           {
             "title": "Mathematical topology and geometry-based classification of tauopathies",
@@ -2911,6 +2919,12 @@
             "alex_id": "W3037822883"
           },
           {
+            "title": "Knotoids and protein structure",
+            "doi": "https://doi.org/10.1090/conm/746/15008",
+            "year": 2020,
+            "alex_id": "W3009169281"
+          },
+          {
             "title": "Proteins containing 6-crossing knot types and their folding pathways",
             "doi": "https://doi.org/10.1101/2023.06.16.545156",
             "year": 2023,
@@ -2939,6 +2953,12 @@
             "doi": "https://doi.org/10.1101/758029",
             "year": 2019,
             "alex_id": "W2972115634"
+          },
+          {
+            "title": "Topological linking and entanglement in proteins",
+            "doi": "https://doi.org/10.1090/conm/746/15009",
+            "year": 2020,
+            "alex_id": "W3009731299"
           },
           {
             "title": "Nucleolar Essential Protein 1 (Nep1): Elucidation of Enzymatic Catalysis Mechanism by Combined Molecular Dynamics Simulation and Quantum Chemical Calculations",
@@ -3304,7 +3324,7 @@
         "scopus": 11,
         "semanticscholar": 15,
         "openalex": 16,
-        "crossref": 7,
+        "crossref": 8,
         "webofscience": 5
       },
       "citations": {
@@ -3597,16 +3617,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Social Software and Semantics for Business Process Management - Alternative or Synergy?",
-            "doi": "https://doi.org/10.20470/jsi.v2i3.95",
-            "year": 2011,
-            "alex_id": "W2151367150"
-          },
-          {
             "title": "The Role of Semantic Annotations in Business Process Modelling",
             "doi": "https://doi.org/10.1109/edoc.2014.33",
             "year": 2014,
             "alex_id": "W1993516667"
+          },
+          {
+            "title": "Social Software and Semantics for Business Process Management - Alternative or Synergy?",
+            "doi": "https://doi.org/10.20470/jsi.v2i3.95",
+            "year": 2011,
+            "alex_id": "W2151367150"
           },
           {
             "title": "An Approach for Managing Clinical Trial Applications Using Semantic Information Models",
