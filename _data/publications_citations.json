@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26",
+  "generated_at": "2026-04-02",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -62,13 +62,20 @@
       "citation_counts": {
         "scopus": 0,
         "semanticscholar": 0,
-        "openalex": 0,
+        "openalex": 1,
         "crossref": 1
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [],
+        "openalex": [
+          {
+            "title": "How to mitigate the <i>caveat emptor</i> burden of human and machine users of the Protein Data Bank",
+            "doi": "https://doi.org/10.1107/s2059798325011477",
+            "year": 2026,
+            "alex_id": "W7119502689"
+          }
+        ],
         "crossref": []
       }
     },
@@ -161,7 +168,7 @@
       "citation_counts": {
         "scopus": 5,
         "semanticscholar": 5,
-        "openalex": 6,
+        "openalex": 7,
         "crossref": 8,
         "webofscience": 5
       },
@@ -176,16 +183,16 @@
             "alex_id": "W4412785809"
           },
           {
-            "title": "Complete and Continuous Invariants of 1-Periodic Sequences in Polynomial Time",
-            "doi": "https://doi.org/10.1137/25m1733574",
-            "year": 2025,
-            "alex_id": "W4414930758"
-          },
-          {
             "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
             "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
             "year": 2025,
             "alex_id": "W4414123323"
+          },
+          {
+            "title": "Complete and Continuous Invariants of 1-Periodic Sequences in Polynomial Time",
+            "doi": "https://doi.org/10.1137/25m1733574",
+            "year": 2025,
+            "alex_id": "W4414930758"
           },
           {
             "title": "Why different PDB IDs for the same dysregulated protein can lead to inconsistent in-silico predictions and preclinical results",
@@ -198,6 +205,12 @@
             "doi": "https://doi.org/10.1063/4.0000952",
             "year": 2025,
             "alex_id": "W4415590396"
+          },
+          {
+            "title": "How to mitigate the <i>caveat emptor</i> burden of human and machine users of the Protein Data Bank",
+            "doi": "https://doi.org/10.1107/s2059798325011477",
+            "year": 2026,
+            "alex_id": "W7119502689"
           },
           {
             "title": "Seeing Through Ice",
@@ -229,10 +242,10 @@
       "publisher": "Informa UK Limited",
       "citation_counts": {
         "scopus": 4,
-        "semanticscholar": 8,
-        "openalex": 4,
+        "semanticscholar": 10,
+        "openalex": 6,
         "crossref": 6,
-        "webofscience": 3
+        "webofscience": 5
       },
       "citations": {
         "scopus": [],
@@ -261,6 +274,18 @@
             "doi": "https://doi.org/10.1016/j.tim.2025.12.002",
             "year": 2026,
             "alex_id": "W7118650436"
+          },
+          {
+            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
+            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
+            "year": 2026,
+            "alex_id": "W7140303124"
+          },
+          {
+            "title": "Heat shock protein Gp96 (Grp94) in malaria: functional insights at the host-parasite interface and therapeutic perspectives",
+            "doi": "https://doi.org/10.3389/fcell.2026.1760166",
+            "year": 2026,
+            "alex_id": "W7140860520"
           }
         ],
         "crossref": [],
@@ -289,8 +314,8 @@
       "citation_counts": {
         "scopus": 5,
         "semanticscholar": 3,
-        "openalex": 5,
-        "crossref": 7,
+        "openalex": 7,
+        "crossref": 8,
         "webofscience": 5
       },
       "citations": {
@@ -304,16 +329,16 @@
             "alex_id": "W4408248370"
           },
           {
-            "title": "Cat_Wiz: a stereochemistry-guided toolkit for locating, diagnosing, and annotating Mg2+ ions in RNA structures",
-            "doi": "https://doi.org/10.1093/nar/gkag120",
-            "year": 2026,
-            "alex_id": "W7131120057"
-          },
-          {
             "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
             "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
             "year": 2025,
             "alex_id": "W4414123323"
+          },
+          {
+            "title": "Cat_Wiz: a stereochemistry-guided toolkit for locating, diagnosing, and annotating Mg2+ ions in RNA structures",
+            "doi": "https://doi.org/10.1093/nar/gkag120",
+            "year": 2026,
+            "alex_id": "W7131120057"
           },
           {
             "title": "Cat_Wiz: A stereochemistry-guided toolkit for locating, diagnosing and annotating Mg <sup>2+</sup> ions in RNA structures",
@@ -326,6 +351,18 @@
             "doi": "https://doi.org/10.1063/4.0000952",
             "year": 2025,
             "alex_id": "W4415590396"
+          },
+          {
+            "title": "How to mitigate the <i>caveat emptor</i> burden of human and machine users of the Protein Data Bank",
+            "doi": "https://doi.org/10.1107/s2059798325011477",
+            "year": 2026,
+            "alex_id": "W7119502689"
+          },
+          {
+            "title": "Artificial intelligence in enzyme catalysis: Emerging trends and applications in biocatalyst engineering",
+            "doi": "https://doi.org/10.1002/cjce.70383",
+            "year": 2026,
+            "alex_id": "W7143510529"
           }
         ],
         "crossref": [],
@@ -1264,7 +1301,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 69,
+        "scopus": 71,
         "semanticscholar": 66,
         "openalex": 88,
         "crossref": 81
@@ -1370,16 +1407,16 @@
             "alex_id": "W4386979884"
           },
           {
-            "title": "<scp>PDBe</scp> and <scp>PDBe‐KB</scp>: Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
-            "doi": "https://doi.org/10.1002/pro.4439",
-            "year": 2022,
-            "alex_id": "W4297494206"
-          },
-          {
             "title": "Comparative evaluation of methods for the prediction of protein–ligand binding sites",
             "doi": "https://doi.org/10.1186/s13321-024-00923-z",
             "year": 2024,
             "alex_id": "W4404226808"
+          },
+          {
+            "title": "<scp>PDBe</scp> and <scp>PDBe‐KB</scp>: Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
+            "doi": "https://doi.org/10.1002/pro.4439",
+            "year": 2022,
+            "alex_id": "W4297494206"
           },
           {
             "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
@@ -1392,6 +1429,12 @@
             "doi": "https://doi.org/10.1002/prot.26614",
             "year": 2023,
             "alex_id": "W4387729537"
+          },
+          {
+            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
+            "doi": "https://doi.org/10.1093/nar/gkae965",
+            "year": 2024,
+            "alex_id": "W4403922164"
           },
           {
             "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
@@ -1452,12 +1495,6 @@
             "doi": "https://doi.org/10.1016/j.sbi.2023.102600",
             "year": 2023,
             "alex_id": "W4367399594"
-          },
-          {
-            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
-            "doi": "https://doi.org/10.1093/nar/gkae965",
-            "year": 2024,
-            "alex_id": "W4403922164"
           },
           {
             "title": "Unified access to up-to-date residue-level annotations from UniProtKB and other biological databases for PDB data",
@@ -1967,6 +2004,12 @@
             "alex_id": "W4399394178"
           },
           {
+            "title": "Knot data analysis using multiscale Gauss link integral",
+            "doi": "https://doi.org/10.1073/pnas.2408431121",
+            "year": 2024,
+            "alex_id": "W4403333459"
+          },
+          {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
@@ -1977,12 +2020,6 @@
             "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
             "year": 2024,
             "alex_id": "W4391363535"
-          },
-          {
-            "title": "Knot data analysis using multiscale Gauss link integral",
-            "doi": "https://doi.org/10.1073/pnas.2408431121",
-            "year": 2024,
-            "alex_id": "W4403333459"
           },
           {
             "title": "Discovery of a trefoil knot in the RydC RNA: Challenging previous notions of RNA topology",
@@ -2607,6 +2644,12 @@
             "alex_id": "W4399812168"
           },
           {
+            "title": "Knot data analysis using multiscale Gauss link integral",
+            "doi": "https://doi.org/10.1073/pnas.2408431121",
+            "year": 2024,
+            "alex_id": "W4403333459"
+          },
+          {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
@@ -2617,12 +2660,6 @@
             "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
             "year": 2024,
             "alex_id": "W4391363535"
-          },
-          {
-            "title": "Knot data analysis using multiscale Gauss link integral",
-            "doi": "https://doi.org/10.1073/pnas.2408431121",
-            "year": 2024,
-            "alex_id": "W4403333459"
           },
           {
             "title": "Everything AlphaFold tells us about protein knots",
