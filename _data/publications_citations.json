@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23",
+  "generated_at": "2026-04-30",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -166,11 +166,11 @@
       ],
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
-        "scopus": 5,
+        "scopus": 6,
         "semanticscholar": 5,
         "openalex": 7,
         "crossref": 9,
-        "webofscience": 5
+        "webofscience": 6
       },
       "citations": {
         "scopus": [],
@@ -245,7 +245,7 @@
         "semanticscholar": 11,
         "openalex": 7,
         "crossref": 7,
-        "webofscience": 6
+        "webofscience": 7
       },
       "citations": {
         "scopus": [],
@@ -393,7 +393,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 9,
-        "semanticscholar": 13,
+        "semanticscholar": 14,
         "openalex": 12,
         "crossref": 12,
         "webofscience": 9
@@ -504,7 +504,7 @@
       "publisher": "Wiley",
       "citation_counts": {
         "scopus": 6,
-        "semanticscholar": 7,
+        "semanticscholar": 8,
         "openalex": 10,
         "crossref": 8,
         "webofscience": 5
@@ -731,7 +731,7 @@
       "publisher": "Wiley",
       "citation_counts": {
         "scopus": 25,
-        "semanticscholar": 23,
+        "semanticscholar": 24,
         "openalex": 34,
         "crossref": 32,
         "webofscience": 21
@@ -807,12 +807,6 @@
             "alex_id": "W4400723686"
           },
           {
-            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
-            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
-            "year": 2024,
-            "alex_id": "W4392307869"
-          },
-          {
             "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
             "doi": "https://doi.org/10.1103/z7jb-fvjl",
             "year": 2025,
@@ -823,6 +817,12 @@
             "doi": "https://doi.org/10.1002/pro.4998",
             "year": 2024,
             "alex_id": "W4399776685"
+          },
+          {
+            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
+            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
+            "year": 2024,
+            "alex_id": "W4392307869"
           },
           {
             "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
@@ -973,7 +973,7 @@
         "semanticscholar": 8,
         "openalex": 38,
         "crossref": 37,
-        "webofscience": 28
+        "webofscience": 29
       },
       "citations": {
         "scopus": [],
@@ -996,6 +996,12 @@
             "doi": "https://doi.org/10.1002/pro.4380",
             "year": 2022,
             "alex_id": "W4285086987"
+          },
+          {
+            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
+            "year": 2024,
+            "alex_id": "W4391363535"
           },
           {
             "title": "<scp>AlphaFold</scp> predicts novel human proteins with knots",
@@ -1028,12 +1034,6 @@
             "alex_id": "W4399523575"
           },
           {
-            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
-            "year": 2024,
-            "alex_id": "W4391363535"
-          },
-          {
             "title": "Comprehensive in-silico analysis of deleterious SNPs in APOC2 and APOA5 and their differential expression in cancer and cardiovascular diseases conditions",
             "doi": "https://doi.org/10.1016/j.ygeno.2023.110567",
             "year": 2023,
@@ -1056,12 +1056,6 @@
             "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
             "year": 2025,
             "alex_id": "W4406535649"
-          },
-          {
-            "title": "Salt-bridge mediated conformational dynamics in the figure-of-eight knotted ketol acid reductoisomerase (KARI)",
-            "doi": "https://doi.org/10.1039/d4cp02677b",
-            "year": 2024,
-            "alex_id": "W4402465123"
           },
           {
             "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
@@ -1092,6 +1086,12 @@
             "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
             "year": 2024,
             "alex_id": "W4394854922"
+          },
+          {
+            "title": "Salt-bridge mediated conformational dynamics in the figure-of-eight knotted ketol acid reductoisomerase (KARI)",
+            "doi": "https://doi.org/10.1039/d4cp02677b",
+            "year": 2024,
+            "alex_id": "W4402465123"
           },
           {
             "title": "Autophagy3D: a comprehensive autophagy structure database",
@@ -1563,12 +1563,6 @@
             "alex_id": "W4403425553"
           },
           {
-            "title": "Metalloproteome of human-infective RNA viruses: a study towards understanding the role of metal ions in virology",
-            "doi": "https://doi.org/10.1093/femspd/ftad020",
-            "year": 2023,
-            "alex_id": "W4386346668"
-          },
-          {
             "title": "Predicting structure-targeted food bioactive compounds for middle-aged and elderly Asians with myocardial infarction: insights from genetic variations and bioinformatics-integrated deep learning analysis",
             "doi": "https://doi.org/10.1039/d4fo00591k",
             "year": 2024,
@@ -1611,6 +1605,12 @@
             "alex_id": "W4383186274"
           },
           {
+            "title": "Metalloproteome of human-infective RNA viruses: a study towards understanding the role of metal ions in virology",
+            "doi": "https://doi.org/10.1093/femspd/ftad020",
+            "year": 2023,
+            "alex_id": "W4386346668"
+          },
+          {
             "title": "Validation of electron-microscopy maps using solution small-angle X-ray scattering",
             "doi": "https://doi.org/10.1107/s2059798324005497",
             "year": 2024,
@@ -1633,6 +1633,12 @@
             "doi": "https://doi.org/10.1093/database/baac044",
             "year": 2022,
             "alex_id": "W4283706276"
+          },
+          {
+            "title": "PDBCharges: Quantum-Mechanical Partial Atomic Charges for PDB Structures",
+            "doi": "https://doi.org/10.1093/nar/gkaf401",
+            "year": 2025,
+            "alex_id": "W4410251246"
           },
           {
             "title": "Performance exploration of multi-gene panels of alopecia areata susceptibility and drug-binding targets",
@@ -1723,12 +1729,6 @@
             "doi": "https://doi.org/10.1371/journal.pbio.3002476",
             "year": 2024,
             "alex_id": "W4401070559"
-          },
-          {
-            "title": "PDBCharges: Quantum-Mechanical Partial Atomic Charges for PDB Structures",
-            "doi": "https://doi.org/10.1093/nar/gkaf401",
-            "year": 2025,
-            "alex_id": "W4410251246"
           },
           {
             "title": "PDBe: enhanced structural data exploration to facilitate discovery",
@@ -1935,11 +1935,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 57,
-        "semanticscholar": 74,
-        "openalex": 71,
-        "crossref": 57,
-        "webofscience": 42
+        "scopus": 58,
+        "semanticscholar": 78,
+        "openalex": 72,
+        "crossref": 58,
+        "webofscience": 43
       },
       "citations": {
         "scopus": [],
@@ -1970,10 +1970,22 @@
             "alex_id": "W4381510375"
           },
           {
+            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
+            "year": 2024,
+            "alex_id": "W4391363535"
+          },
+          {
             "title": "Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy",
             "doi": "https://doi.org/10.1038/s41467-025-60559-x",
             "year": 2025,
             "alex_id": "W4411887343"
+          },
+          {
+            "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
+            "doi": "https://doi.org/10.1038/s41467-025-66236-3",
+            "year": 2025,
+            "alex_id": "W4417269918"
           },
           {
             "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
@@ -2024,6 +2036,12 @@
             "alex_id": "W4366303786"
           },
           {
+            "title": "Protein misfolding involving entanglements provides a structural explanation for the origin of stretched-exponential refolding kinetics",
+            "doi": "https://doi.org/10.1126/sciadv.ads7379",
+            "year": 2025,
+            "alex_id": "W4408423748"
+          },
+          {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
@@ -2036,28 +2054,10 @@
             "alex_id": "W4399394178"
           },
           {
-            "title": "Protein misfolding involving entanglements provides a structural explanation for the origin of stretched-exponential refolding kinetics",
-            "doi": "https://doi.org/10.1126/sciadv.ads7379",
-            "year": 2025,
-            "alex_id": "W4408423748"
-          },
-          {
-            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
-            "year": 2024,
-            "alex_id": "W4391363535"
-          },
-          {
             "title": "Knot data analysis using multiscale Gauss link integral",
             "doi": "https://doi.org/10.1073/pnas.2408431121",
             "year": 2024,
             "alex_id": "W4403333459"
-          },
-          {
-            "title": "Trapping probabilities of multiple rings in end-linked gels",
-            "doi": "https://doi.org/10.1016/j.polymer.2022.124683",
-            "year": 2022,
-            "alex_id": "W4213416824"
           },
           {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
@@ -2072,12 +2072,6 @@
             "alex_id": "W4399849543"
           },
           {
-            "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
-            "doi": "https://doi.org/10.1038/s41467-025-66236-3",
-            "year": 2025,
-            "alex_id": "W4417269918"
-          },
-          {
             "title": "GridPyM: A Python module to handle grid diagrams",
             "doi": "https://doi.org/10.2140/jsag.2024.14.31",
             "year": 2024,
@@ -2088,6 +2082,12 @@
             "doi": "https://doi.org/10.1038/s41597-022-01138-3",
             "year": 2022,
             "alex_id": "W4210827538"
+          },
+          {
+            "title": "Trapping probabilities of multiple rings in end-linked gels",
+            "doi": "https://doi.org/10.1016/j.polymer.2022.124683",
+            "year": 2022,
+            "alex_id": "W4213416824"
           },
           {
             "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
@@ -2132,10 +2132,22 @@
             "alex_id": "W4394854922"
           },
           {
+            "title": "How Cooperatively Folding Are Homopolymer Molecular Knots?",
+            "doi": "https://doi.org/10.1021/acs.macromol.2c00881",
+            "year": 2022,
+            "alex_id": "W4296906510"
+          },
+          {
             "title": "<i>In silico</i> nanoscope to study the interplay of genome organization and transcription regulation",
             "doi": "https://doi.org/10.1093/nar/gkaf189",
             "year": 2025,
             "alex_id": "W4408725100"
+          },
+          {
+            "title": "Penetration of linear chains into semiflexible knotted rings in linear-ring blends",
+            "doi": "https://doi.org/10.1016/j.polymer.2022.125248",
+            "year": 2022,
+            "alex_id": "W4292395904"
           },
           {
             "title": "Link node: A method to characterize the chain topology of intrinsically disordered proteins",
@@ -2172,18 +2184,6 @@
             "doi": "https://doi.org/10.1016/j.commatsci.2021.111104",
             "year": 2021,
             "alex_id": "W4200257115"
-          },
-          {
-            "title": "How Cooperatively Folding Are Homopolymer Molecular Knots?",
-            "doi": "https://doi.org/10.1021/acs.macromol.2c00881",
-            "year": 2022,
-            "alex_id": "W4296906510"
-          },
-          {
-            "title": "Penetration of linear chains into semiflexible knotted rings in linear-ring blends",
-            "doi": "https://doi.org/10.1016/j.polymer.2022.125248",
-            "year": 2022,
-            "alex_id": "W4292395904"
           },
           {
             "title": "Dynamic and facilitated binding of topoisomerase accelerates topological relaxation",
@@ -2366,6 +2366,12 @@
             "alex_id": "W7154603408"
           },
           {
+            "title": "Natively entangled proteins are linked to human disease and pathogenic mutations likely due to a greater misfolding propensity",
+            "doi": "https://doi.org/10.64898/2026.04.15.718104",
+            "year": 2026,
+            "alex_id": "W7154959669"
+          },
+          {
             "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 <sub>1</sub> topology",
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
@@ -2534,7 +2540,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 93,
-        "semanticscholar": 102,
+        "semanticscholar": 105,
         "openalex": 127,
         "crossref": 109,
         "webofscience": 90
@@ -2580,22 +2586,28 @@
             "alex_id": "W4396962683"
           },
           {
-            "title": "Single-Molecule Force Spectroscopy of Protein Folding",
-            "doi": "https://doi.org/10.1016/j.jmb.2021.167207",
-            "year": 2021,
-            "alex_id": "W3194730418"
-          },
-          {
             "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
             "doi": "https://doi.org/10.1021/jacs.1c08094",
             "year": 2021,
             "alex_id": "W3201765761"
           },
           {
+            "title": "Single-Molecule Force Spectroscopy of Protein Folding",
+            "doi": "https://doi.org/10.1016/j.jmb.2021.167207",
+            "year": 2021,
+            "alex_id": "W3194730418"
+          },
+          {
             "title": "The mechanical bond in biological systems",
             "doi": "https://doi.org/10.1016/j.chempr.2023.03.030",
             "year": 2023,
             "alex_id": "W4366824646"
+          },
+          {
+            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
+            "year": 2024,
+            "alex_id": "W4391363535"
           },
           {
             "title": "Learning to unknot",
@@ -2688,22 +2700,10 @@
             "alex_id": "W4399523575"
           },
           {
-            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
-            "year": 2024,
-            "alex_id": "W4391363535"
-          },
-          {
             "title": "Knot data analysis using multiscale Gauss link integral",
             "doi": "https://doi.org/10.1073/pnas.2408431121",
             "year": 2024,
             "alex_id": "W4403333459"
-          },
-          {
-            "title": "Investigation of the structural dynamics of a knotted protein and its unknotted analog using molecular dynamics",
-            "doi": "https://doi.org/10.1007/s00894-022-05094-y",
-            "year": 2022,
-            "alex_id": "W4220849079"
           },
           {
             "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
@@ -2722,12 +2722,6 @@
             "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
             "year": 2024,
             "alex_id": "W4400723686"
-          },
-          {
-            "title": "Exploring the electronic structure of knotted proteins: the case of two ornithine transcarbamylase family",
-            "doi": "https://doi.org/10.1007/s00894-024-06009-9",
-            "year": 2024,
-            "alex_id": "W4400662077"
           },
           {
             "title": "The Complex Energy Landscape of miRFP709, a 4<sub>1</sub>-Knotted Protein, Results in Its Irreversible Denaturation",
@@ -2778,6 +2772,12 @@
             "alex_id": "W3173890370"
           },
           {
+            "title": "Investigation of the structural dynamics of a knotted protein and its unknotted analog using molecular dynamics",
+            "doi": "https://doi.org/10.1007/s00894-022-05094-y",
+            "year": 2022,
+            "alex_id": "W4220849079"
+          },
+          {
             "title": "Homology of homologous knotted proteins",
             "doi": "https://doi.org/10.1098/rsif.2022.0727",
             "year": 2023,
@@ -2826,10 +2826,22 @@
             "alex_id": "W4388210953"
           },
           {
+            "title": "How Cooperatively Folding Are Homopolymer Molecular Knots?",
+            "doi": "https://doi.org/10.1021/acs.macromol.2c00881",
+            "year": 2022,
+            "alex_id": "W4296906510"
+          },
+          {
             "title": "A Marcus-Type Inverted Region in the Translocation Kinetics of a Knotted Protein",
             "doi": "https://doi.org/10.1021/acs.jpclett.3c02183",
             "year": 2023,
             "alex_id": "W4389048402"
+          },
+          {
+            "title": "Exploring the electronic structure of knotted proteins: the case of two ornithine transcarbamylase family",
+            "doi": "https://doi.org/10.1007/s00894-024-06009-9",
+            "year": 2024,
+            "alex_id": "W4400662077"
           },
           {
             "title": "Folding of a tandemly knotted protein: Evidence that a polypeptide chain can get out of deep kinetic traps",
@@ -2920,12 +2932,6 @@
             "doi": "https://doi.org/10.1016/j.csbj.2023.08.001",
             "year": 2023,
             "alex_id": "W4385690461"
-          },
-          {
-            "title": "How Cooperatively Folding Are Homopolymer Molecular Knots?",
-            "doi": "https://doi.org/10.1021/acs.macromol.2c00881",
-            "year": 2022,
-            "alex_id": "W4296906510"
           },
           {
             "title": "Effects of sequence-dependent non-native interactions in equilibrium and kinetic folding properties of knotted proteins",
@@ -3457,7 +3463,7 @@
       "publisher": "IEEE",
       "citation_counts": {
         "scopus": 11,
-        "semanticscholar": 15,
+        "semanticscholar": 16,
         "openalex": 16,
         "crossref": 8,
         "webofscience": 5
