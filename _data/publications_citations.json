@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-07",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -392,7 +392,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 9,
+        "scopus": 10,
         "semanticscholar": 14,
         "openalex": 12,
         "crossref": 12,
@@ -503,7 +503,7 @@
       ],
       "publisher": "Wiley",
       "citation_counts": {
-        "scopus": 6,
+        "scopus": 7,
         "semanticscholar": 8,
         "openalex": 10,
         "crossref": 8,
@@ -730,7 +730,7 @@
       ],
       "publisher": "Wiley",
       "citation_counts": {
-        "scopus": 25,
+        "scopus": 26,
         "semanticscholar": 24,
         "openalex": 34,
         "crossref": 32,
@@ -969,7 +969,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 27,
+        "scopus": 28,
         "semanticscholar": 8,
         "openalex": 38,
         "crossref": 37,
@@ -1605,6 +1605,12 @@
             "alex_id": "W4383186274"
           },
           {
+            "title": "CD38 restrains the activity of extracellular cGAMP in a model of multiple myeloma",
+            "doi": "https://doi.org/10.1016/j.isci.2024.109814",
+            "year": 2024,
+            "alex_id": "W4395450327"
+          },
+          {
             "title": "Metalloproteome of human-infective RNA viruses: a study towards understanding the role of metal ions in virology",
             "doi": "https://doi.org/10.1093/femspd/ftad020",
             "year": 2023,
@@ -1669,12 +1675,6 @@
             "doi": "https://doi.org/10.1093/nar/gkac937",
             "year": 2022,
             "alex_id": "W4307362031"
-          },
-          {
-            "title": "CD38 restrains the activity of extracellular cGAMP in a model of multiple myeloma",
-            "doi": "https://doi.org/10.1016/j.isci.2024.109814",
-            "year": 2024,
-            "alex_id": "W4395450327"
           },
           {
             "title": "OverProt: secondary structure consensus for protein families",
@@ -1935,10 +1935,10 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 58,
+        "scopus": 59,
         "semanticscholar": 78,
-        "openalex": 72,
-        "crossref": 58,
+        "openalex": 73,
+        "crossref": 59,
         "webofscience": 43
       },
       "citations": {
@@ -1964,6 +1964,12 @@
             "alex_id": "W4396962683"
           },
           {
+            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
+            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
+            "year": 2021,
+            "alex_id": "W3127139700"
+          },
+          {
             "title": "How soluble misfolded proteins bypass chaperones at the molecular level",
             "doi": "https://doi.org/10.1038/s41467-023-38962-z",
             "year": 2023,
@@ -1986,12 +1992,6 @@
             "doi": "https://doi.org/10.1038/s41467-025-66236-3",
             "year": 2025,
             "alex_id": "W4417269918"
-          },
-          {
-            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
-            "year": 2021,
-            "alex_id": "W3127139700"
           },
           {
             "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
@@ -2054,6 +2054,12 @@
             "alex_id": "W4399394178"
           },
           {
+            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
+            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
+            "year": 2022,
+            "alex_id": "W4210827538"
+          },
+          {
             "title": "Knot data analysis using multiscale Gauss link integral",
             "doi": "https://doi.org/10.1073/pnas.2408431121",
             "year": 2024,
@@ -2078,12 +2084,6 @@
             "alex_id": "W4393195253"
           },
           {
-            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
-            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
-            "year": 2022,
-            "alex_id": "W4210827538"
-          },
-          {
             "title": "Trapping probabilities of multiple rings in end-linked gels",
             "doi": "https://doi.org/10.1016/j.polymer.2022.124683",
             "year": 2022,
@@ -2102,16 +2102,16 @@
             "alex_id": "W3211933918"
           },
           {
-            "title": "Can Polymer Helicity Affect Topological Chirality of Polymer Knots?",
-            "doi": "https://doi.org/10.1021/acsmacrolett.2c00600",
-            "year": 2023,
-            "alex_id": "W4318261670"
-          },
-          {
             "title": "Geometric Predictors of Knotted and Linked Arcs",
             "doi": "https://doi.org/10.1021/acspolymersau.2c00021",
             "year": 2022,
             "alex_id": "W4284966717"
+          },
+          {
+            "title": "Can Polymer Helicity Affect Topological Chirality of Polymer Knots?",
+            "doi": "https://doi.org/10.1021/acsmacrolett.2c00600",
+            "year": 2023,
+            "alex_id": "W4318261670"
           },
           {
             "title": "Discovery of a trefoil knot in the RydC RNA: Challenging previous notions of RNA topology",
@@ -2376,6 +2376,12 @@
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
             "alex_id": "W7155185629"
+          },
+          {
+            "title": "Coarse-grained molecular dynamics simulation study for topological constraint effect on lamellar spacing in ABA tri-block copolymers",
+            "doi": "https://doi.org/10.1016/j.polymer.2026.130143",
+            "year": 2026,
+            "alex_id": "W7160313287"
           }
         ],
         "crossref": [],
@@ -2539,7 +2545,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 93,
+        "scopus": 94,
         "semanticscholar": 105,
         "openalex": 127,
         "crossref": 109,
@@ -2706,16 +2712,16 @@
             "alex_id": "W4403333459"
           },
           {
-            "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
-            "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
-            "year": 2024,
-            "alex_id": "W4399812168"
-          },
-          {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
             "alex_id": "W4315880917"
+          },
+          {
+            "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
+            "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
+            "year": 2024,
+            "alex_id": "W4399812168"
           },
           {
             "title": "Everything AlphaFold tells us about protein knots",
@@ -2734,6 +2740,12 @@
             "doi": "https://doi.org/10.1038/s41598-023-35771-8",
             "year": 2023,
             "alex_id": "W4379055587"
+          },
+          {
+            "title": "Geometry based prediction of tau protein sites and motifs associated with misfolding and aggregation",
+            "doi": "https://doi.org/10.1038/s41598-025-93304-x",
+            "year": 2025,
+            "alex_id": "W4408816229"
           },
           {
             "title": "Rail knotoids",
@@ -2866,12 +2878,6 @@
             "doi": "https://doi.org/10.1038/s41598-024-58221-5",
             "year": 2024,
             "alex_id": "W4393333752"
-          },
-          {
-            "title": "Geometry based prediction of tau protein sites and motifs associated with misfolding and aggregation",
-            "doi": "https://doi.org/10.1038/s41598-025-93304-x",
-            "year": 2025,
-            "alex_id": "W4408816229"
           },
           {
             "title": "Effect of a Knot on the Thermal Stability of Protein MJ0366: Insights into Molecular Dynamics and Monte Carlo Simulations",
