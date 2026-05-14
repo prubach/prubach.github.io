@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07",
+  "generated_at": "2026-05-14",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -167,9 +167,9 @@
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
         "scopus": 6,
-        "semanticscholar": 5,
+        "semanticscholar": 6,
         "openalex": 7,
-        "crossref": 9,
+        "crossref": 10,
         "webofscience": 6
       },
       "citations": {
@@ -241,7 +241,7 @@
       ],
       "publisher": "Informa UK Limited",
       "citation_counts": {
-        "scopus": 5,
+        "scopus": 6,
         "semanticscholar": 11,
         "openalex": 7,
         "crossref": 7,
@@ -251,6 +251,12 @@
         "scopus": [],
         "semanticscholar": [],
         "openalex": [
+          {
+            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
+            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
+            "year": 2026,
+            "alex_id": "W7140303124"
+          },
           {
             "title": "Biological interpretation of DNA/RNA modification by ALKBH proteins and their role in human cancer",
             "doi": "https://doi.org/10.1186/s40001-025-02735-9",
@@ -274,12 +280,6 @@
             "doi": "https://doi.org/10.1016/j.tim.2025.12.002",
             "year": 2026,
             "alex_id": "W7118650436"
-          },
-          {
-            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
-            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
-            "year": 2026,
-            "alex_id": "W7140303124"
           },
           {
             "title": "Heat shock protein Gp96 (Grp94) in malaria: functional insights at the host-parasite interface and therapeutic perspectives",
@@ -1350,9 +1350,9 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 73,
-        "semanticscholar": 66,
-        "openalex": 88,
-        "crossref": 82
+        "semanticscholar": 67,
+        "openalex": 89,
+        "crossref": 83
       },
       "citations": {
         "scopus": [],
@@ -1413,16 +1413,16 @@
             "alex_id": "W4388034836"
           },
           {
-            "title": "The 2022<i>Nucleic Acids Research</i>database issue and the online molecular biology database collection",
-            "doi": "https://doi.org/10.1093/nar/gkab1195",
-            "year": 2021,
-            "alex_id": "W4206145266"
-          },
-          {
             "title": "ModelArchive: A Deposition Database for Computational Macromolecular Structural Models",
             "doi": "https://doi.org/10.1016/j.jmb.2025.168996",
             "year": 2025,
             "alex_id": "W4407367564"
+          },
+          {
+            "title": "The 2022<i>Nucleic Acids Research</i>database issue and the online molecular biology database collection",
+            "doi": "https://doi.org/10.1093/nar/gkab1195",
+            "year": 2021,
+            "alex_id": "W4206145266"
           },
           {
             "title": "3DLigandSite: structure-based prediction of protein–ligand binding sites",
@@ -1437,16 +1437,16 @@
             "alex_id": "W4285732024"
           },
           {
-            "title": "Local energetic frustration conservation in protein families and superfamilies",
-            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
-            "year": 2023,
-            "alex_id": "W4389832090"
-          },
-          {
             "title": "Enzyme function and evolution through the lens of bioinformatics",
             "doi": "https://doi.org/10.1042/bcj20220405",
             "year": 2023,
             "alex_id": "W4388903750"
+          },
+          {
+            "title": "Local energetic frustration conservation in protein families and superfamilies",
+            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
+            "year": 2023,
+            "alex_id": "W4389832090"
           },
           {
             "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
@@ -1465,6 +1465,12 @@
             "doi": "https://doi.org/10.1002/pro.4439",
             "year": 2022,
             "alex_id": "W4297494206"
+          },
+          {
+            "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
+            "doi": "https://doi.org/10.1093/gigascience/giac118",
+            "year": 2022,
+            "alex_id": "W4311287562"
           },
           {
             "title": "Multi-Bioactivity of Protein Digests and Peptides from Oat (Avena sativa L.) Kernels in the Prevention of the Cardiometabolic Syndrome",
@@ -1513,12 +1519,6 @@
             "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
             "year": 2022,
             "alex_id": "W4221055411"
-          },
-          {
-            "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
-            "doi": "https://doi.org/10.1093/gigascience/giac118",
-            "year": 2022,
-            "alex_id": "W4311287562"
           },
           {
             "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
@@ -1657,6 +1657,12 @@
             "doi": "https://doi.org/10.1093/bioinformatics/btaf297",
             "year": 2025,
             "alex_id": "W4410253470"
+          },
+          {
+            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
+            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
+            "year": 2025,
+            "alex_id": "W7117150505"
           },
           {
             "title": "GWYRE: A Resource for Mapping Variants onto Experimental and Modeled Structures of Human Protein Complexes",
@@ -1851,12 +1857,6 @@
             "alex_id": "W4417305113"
           },
           {
-            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
-            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
-            "year": 2025,
-            "alex_id": "W7117150505"
-          },
-          {
             "title": "Challenges in protein folding",
             "doi": "https://doi.org/10.1016/b978-0-443-34193-9.00016-8",
             "year": 2026,
@@ -1885,6 +1885,12 @@
             "doi": "https://doi.org/10.1016/j.jmb.2026.169755",
             "year": 2026,
             "alex_id": "W7135211806"
+          },
+          {
+            "title": "Identification of the ACTB p.Ser348Leu de novo variant in individuals with syndromic neonatal diabetes",
+            "doi": "https://doi.org/10.1016/j.ebiom.2026.106286",
+            "year": 2026,
+            "alex_id": "W7160700421"
           }
         ],
         "crossref": []
@@ -1935,7 +1941,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 59,
+        "scopus": 60,
         "semanticscholar": 78,
         "openalex": 73,
         "crossref": 59,
@@ -2580,28 +2586,28 @@
             "alex_id": "W3005909868"
           },
           {
-            "title": "Topoly: Python package to analyze topology of polymers",
-            "doi": "https://doi.org/10.1093/bib/bbaa196",
-            "year": 2020,
-            "alex_id": "W3087730481"
-          },
-          {
             "title": "Topology in soft and biological matter",
             "doi": "https://doi.org/10.1016/j.physrep.2024.04.002",
             "year": 2024,
             "alex_id": "W4396962683"
           },
           {
-            "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
-            "doi": "https://doi.org/10.1021/jacs.1c08094",
-            "year": 2021,
-            "alex_id": "W3201765761"
+            "title": "Topoly: Python package to analyze topology of polymers",
+            "doi": "https://doi.org/10.1093/bib/bbaa196",
+            "year": 2020,
+            "alex_id": "W3087730481"
           },
           {
             "title": "Single-Molecule Force Spectroscopy of Protein Folding",
             "doi": "https://doi.org/10.1016/j.jmb.2021.167207",
             "year": 2021,
             "alex_id": "W3194730418"
+          },
+          {
+            "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
+            "doi": "https://doi.org/10.1021/jacs.1c08094",
+            "year": 2021,
+            "alex_id": "W3201765761"
           },
           {
             "title": "The mechanical bond in biological systems",
@@ -2902,6 +2908,12 @@
             "doi": "https://doi.org/10.1007/s11426-025-3137-0",
             "year": 2025,
             "alex_id": "W4416439536"
+          },
+          {
+            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
+            "doi": "https://doi.org/10.1021/jacs.5c20740",
+            "year": 2026,
+            "alex_id": "W7118786184"
           },
           {
             "title": "<i>f</i> -distance of knotoids and protein structure",
@@ -3268,12 +3280,6 @@
             "doi": "https://doi.org/10.1021/acs.macromol.5c01073",
             "year": 2025,
             "alex_id": "W4416915305"
-          },
-          {
-            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
-            "doi": "https://doi.org/10.1021/jacs.5c20740",
-            "year": 2026,
-            "alex_id": "W7118786184"
           },
           {
             "title": "Role of topology in protein thermal stability",
