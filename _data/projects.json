@@ -30,6 +30,18 @@
     "icon": "/assets/images/logos/topoly.png"
   },
   {
+    "name": "spyProt",
+    "url": "https://github.com/ilbsm/spyProt",
+    "description": "Rapid protein overview from multiple databases",
+    "icon": "/assets/images/logos/spyprot_logo_mini.png"
+  },
+  {
+    "name": "kafka-slurm-agent",
+    "url": "https://github.com/prubach/kafka-slurm-agent",
+    "description": "Distributed computing and stream processing engine",
+    "icon": "/assets/images/logos/kafka-slurm-agent_logo_mini.png"
+  },
+  {
     "name": "Horda",
     "url": "https://ilbsm.github.io/horda/",
     "description": "Documentation of the HORDA computing cluster at CeNT, UW (Joanna Sulkowska's Group).",
@@ -52,5 +64,11 @@
     "url": "https://bioreproducibility.org/figures/",
     "description": "Interactive figures for structural biology research papers published at Minor Lab.",
     "icon": "/assets/images/logos/bioreproducibility.png"
-  }
+  },
+  {
+    "name": "SORCER",
+    "url": "http://sorcersoft.org/",
+    "description": "SORCER Metacomputing Environment",
+    "icon": "/assets/images/logos/sorcer.gif"
+  },
 ]
