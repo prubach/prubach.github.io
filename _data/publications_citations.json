@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21",
+  "generated_at": "2026-05-28",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -167,10 +167,10 @@
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
         "scopus": 6,
-        "semanticscholar": 6,
+        "semanticscholar": 7,
         "openalex": 7,
         "crossref": 10,
-        "webofscience": 6
+        "webofscience": 7
       },
       "citations": {
         "scopus": [],
@@ -189,6 +189,12 @@
             "alex_id": "W4414123323"
           },
           {
+            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
+            "doi": "https://doi.org/10.1063/4.0000952",
+            "year": 2025,
+            "alex_id": "W4415590396"
+          },
+          {
             "title": "Complete and Continuous Invariants of 1-Periodic Sequences in Polynomial Time",
             "doi": "https://doi.org/10.1137/25m1733574",
             "year": 2025,
@@ -199,12 +205,6 @@
             "doi": "https://doi.org/10.1016/j.insi.2025.100083",
             "year": 2025,
             "alex_id": "W4415017050"
-          },
-          {
-            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
-            "doi": "https://doi.org/10.1063/4.0000952",
-            "year": 2025,
-            "alex_id": "W4415590396"
           },
           {
             "title": "How to mitigate the <i>caveat emptor</i> burden of human and machine users of the Protein Data Bank",
@@ -341,6 +341,12 @@
             "alex_id": "W4414123323"
           },
           {
+            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
+            "doi": "https://doi.org/10.1063/4.0000952",
+            "year": 2025,
+            "alex_id": "W4415590396"
+          },
+          {
             "title": "Cat_Wiz: a stereochemistry-guided toolkit for locating, diagnosing, and annotating Mg2+ ions in RNA structures",
             "doi": "https://doi.org/10.1093/nar/gkag120",
             "year": 2026,
@@ -351,12 +357,6 @@
             "doi": "https://doi.org/10.1101/2025.10.04.677962",
             "year": 2025,
             "alex_id": "W4414826986"
-          },
-          {
-            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
-            "doi": "https://doi.org/10.1063/4.0000952",
-            "year": 2025,
-            "alex_id": "W4415590396"
           },
           {
             "title": "How to mitigate the <i>caveat emptor</i> burden of human and machine users of the Protein Data Bank",
@@ -393,10 +393,10 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 10,
-        "semanticscholar": 14,
+        "semanticscholar": 15,
         "openalex": 13,
         "crossref": 13,
-        "webofscience": 10
+        "webofscience": 11
       },
       "citations": {
         "scopus": [],
@@ -473,6 +473,12 @@
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
             "alex_id": "W7155185629"
+          },
+          {
+            "title": "Zika virus recruits karyopherin α6 for efficient replication via NS2B",
+            "doi": "https://doi.org/10.1128/jvi.02009-25",
+            "year": 2026,
+            "alex_id": "W7161811450"
           }
         ],
         "crossref": [],
@@ -969,8 +975,8 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 28,
-        "semanticscholar": 9,
+        "scopus": 29,
+        "semanticscholar": 10,
         "openalex": 39,
         "crossref": 39,
         "webofscience": 30
@@ -1206,6 +1212,12 @@
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
             "alex_id": "W7155185629"
+          },
+          {
+            "title": "Advancing Knotted Protein Design with ESM3: Guided Generation and Topological Insights",
+            "doi": "https://doi.org/10.64898/2026.05.07.723606",
+            "year": 2026,
+            "alex_id": "W7161563848"
           }
         ],
         "crossref": [],
@@ -1350,7 +1362,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 74,
-        "semanticscholar": 67,
+        "semanticscholar": 68,
         "openalex": 89,
         "crossref": 83
       },
@@ -1443,16 +1455,16 @@
             "alex_id": "W4388903750"
           },
           {
-            "title": "Local energetic frustration conservation in protein families and superfamilies",
-            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
-            "year": 2023,
-            "alex_id": "W4389832090"
-          },
-          {
             "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
             "doi": "https://doi.org/10.1038/s41596-023-00876-x",
             "year": 2023,
             "alex_id": "W4386979884"
+          },
+          {
+            "title": "Local energetic frustration conservation in protein families and superfamilies",
+            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
+            "year": 2023,
+            "alex_id": "W4389832090"
           },
           {
             "title": "Comparative evaluation of methods for the prediction of protein–ligand binding sites",
@@ -1473,6 +1485,12 @@
             "alex_id": "W4387729537"
           },
           {
+            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
+            "doi": "https://doi.org/10.1093/nar/gkae965",
+            "year": 2024,
+            "alex_id": "W4403922164"
+          },
+          {
             "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
             "doi": "https://doi.org/10.1038/s42256-024-00887-7",
             "year": 2024,
@@ -1483,6 +1501,12 @@
             "doi": "https://doi.org/10.1093/nar/gkaf1175",
             "year": 2025,
             "alex_id": "W4416300358"
+          },
+          {
+            "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction",
+            "doi": "https://doi.org/10.1016/j.compbiomed.2024.109586",
+            "year": 2024,
+            "alex_id": "W4405650990"
           },
           {
             "title": "Resources for computational prediction of intrinsic disorder in proteins",
@@ -1527,12 +1551,6 @@
             "alex_id": "W4367399594"
           },
           {
-            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
-            "doi": "https://doi.org/10.1093/nar/gkae965",
-            "year": 2024,
-            "alex_id": "W4403922164"
-          },
-          {
             "title": "AHoJ-DB: A PDB-wide Assignment of apo &amp; holo Relationships Based on Individual Protein–Ligand Interactions",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168545",
             "year": 2024,
@@ -1569,12 +1587,6 @@
             "alex_id": "W4401632557"
           },
           {
-            "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction",
-            "doi": "https://doi.org/10.1016/j.compbiomed.2024.109586",
-            "year": 2024,
-            "alex_id": "W4405650990"
-          },
-          {
             "title": "PIPENN-EMB ensemble net and protein embeddings generalise protein interface prediction beyond homology",
             "doi": "https://doi.org/10.1038/s41598-025-88445-y",
             "year": 2025,
@@ -1597,6 +1609,12 @@
             "doi": "https://doi.org/10.3390/ph15081021",
             "year": 2022,
             "alex_id": "W4292962594"
+          },
+          {
+            "title": "The protein common assembly database (ProtCAD)—a comprehensive structural resource of protein complexes",
+            "doi": "https://doi.org/10.1093/nar/gkac937",
+            "year": 2022,
+            "alex_id": "W4307362031"
           },
           {
             "title": "The interoperability of crystallographic data and databases",
@@ -1681,12 +1699,6 @@
             "doi": "https://doi.org/10.1016/j.jmb.2022.167608",
             "year": 2022,
             "alex_id": "W4225009875"
-          },
-          {
-            "title": "The protein common assembly database (ProtCAD)—a comprehensive structural resource of protein complexes",
-            "doi": "https://doi.org/10.1093/nar/gkac937",
-            "year": 2022,
-            "alex_id": "W4307362031"
           },
           {
             "title": "OverProt: secondary structure consensus for protein families",
@@ -2060,16 +2072,16 @@
             "alex_id": "W4391363535"
           },
           {
-            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
-            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
-            "year": 2022,
-            "alex_id": "W4210827538"
-          },
-          {
             "title": "Knot data analysis using multiscale Gauss link integral",
             "doi": "https://doi.org/10.1073/pnas.2408431121",
             "year": 2024,
             "alex_id": "W4403333459"
+          },
+          {
+            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
+            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
+            "year": 2022,
+            "alex_id": "W4210827538"
           },
           {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
@@ -2388,6 +2400,12 @@
             "doi": "https://doi.org/10.1016/j.polymer.2026.130143",
             "year": 2026,
             "alex_id": "W7160313287"
+          },
+          {
+            "title": "Advancing Knotted Protein Design with ESM3: Guided Generation and Topological Insights",
+            "doi": "https://doi.org/10.64898/2026.05.07.723606",
+            "year": 2026,
+            "alex_id": "W7161563848"
           }
         ],
         "crossref": [],
@@ -2552,7 +2570,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 95,
-        "semanticscholar": 106,
+        "semanticscholar": 107,
         "openalex": 128,
         "crossref": 110,
         "webofscience": 91
@@ -2598,16 +2616,16 @@
             "alex_id": "W3087730481"
           },
           {
-            "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
-            "doi": "https://doi.org/10.1021/jacs.1c08094",
-            "year": 2021,
-            "alex_id": "W3201765761"
-          },
-          {
             "title": "Single-Molecule Force Spectroscopy of Protein Folding",
             "doi": "https://doi.org/10.1016/j.jmb.2021.167207",
             "year": 2021,
             "alex_id": "W3194730418"
+          },
+          {
+            "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
+            "doi": "https://doi.org/10.1021/jacs.1c08094",
+            "year": 2021,
+            "alex_id": "W3201765761"
           },
           {
             "title": "The mechanical bond in biological systems",
@@ -2718,16 +2736,16 @@
             "alex_id": "W4399523575"
           },
           {
-            "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
-            "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
-            "year": 2024,
-            "alex_id": "W4399812168"
-          },
-          {
             "title": "Knot data analysis using multiscale Gauss link integral",
             "doi": "https://doi.org/10.1073/pnas.2408431121",
             "year": 2024,
             "alex_id": "W4403333459"
+          },
+          {
+            "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
+            "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
+            "year": 2024,
+            "alex_id": "W4399812168"
           },
           {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
@@ -2752,6 +2770,12 @@
             "doi": "https://doi.org/10.1038/s41598-025-93304-x",
             "year": 2025,
             "alex_id": "W4408816229"
+          },
+          {
+            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
+            "doi": "https://doi.org/10.1021/jacs.5c20740",
+            "year": 2026,
+            "alex_id": "W7118786184"
           },
           {
             "title": "Rail knotoids",
@@ -2910,10 +2934,10 @@
             "alex_id": "W4416439536"
           },
           {
-            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
-            "doi": "https://doi.org/10.1021/jacs.5c20740",
+            "title": "Peptide cages: bioinspired supramolecular architectures for next-generation applications",
+            "doi": "https://doi.org/10.1039/d5sc08607h",
             "year": 2026,
-            "alex_id": "W7118786184"
+            "alex_id": "W7131643766"
           },
           {
             "title": "<i>f</i> -distance of knotoids and protein structure",
@@ -3294,12 +3318,6 @@
             "alex_id": "W7130732825"
           },
           {
-            "title": "Peptide cages: bioinspired supramolecular architectures for next-generation applications",
-            "doi": "https://doi.org/10.1039/d5sc08607h",
-            "year": 2026,
-            "alex_id": "W7131643766"
-          },
-          {
             "title": "Topological metrics as evolutionary and dynamical descriptors of conformational landscapes within protein families",
             "doi": "https://doi.org/10.1371/journal.pcbi.1013985",
             "year": 2026,
@@ -3328,6 +3346,12 @@
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
             "alex_id": "W7155185629"
+          },
+          {
+            "title": "Advancing Knotted Protein Design with ESM3: Guided Generation and Topological Insights",
+            "doi": "https://doi.org/10.64898/2026.05.07.723606",
+            "year": 2026,
+            "alex_id": "W7161563848"
           }
         ],
         "crossref": [],
