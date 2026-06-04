@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28",
+  "generated_at": "2026-06-04",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -242,10 +242,10 @@
       "publisher": "Informa UK Limited",
       "citation_counts": {
         "scopus": 6,
-        "semanticscholar": 11,
-        "openalex": 7,
+        "semanticscholar": 12,
+        "openalex": 8,
         "crossref": 7,
-        "webofscience": 7
+        "webofscience": 8
       },
       "citations": {
         "scopus": [],
@@ -292,6 +292,12 @@
             "doi": "https://doi.org/10.3389/frai.2026.1739303",
             "year": 2026,
             "alex_id": "W7151763198"
+          },
+          {
+            "title": "Molecular insights into voltage-gated sodium channels in excitable cells: pathophysiological roles and emerging therapeutic targets",
+            "doi": "https://doi.org/10.1080/10799893.2026.2676552",
+            "year": 2026,
+            "alex_id": "W7162992722"
           }
         ],
         "crossref": [],
@@ -975,7 +981,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 29,
+        "scopus": 30,
         "semanticscholar": 10,
         "openalex": 39,
         "crossref": 39,
@@ -1455,16 +1461,16 @@
             "alex_id": "W4388903750"
           },
           {
-            "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
-            "doi": "https://doi.org/10.1038/s41596-023-00876-x",
-            "year": 2023,
-            "alex_id": "W4386979884"
-          },
-          {
             "title": "Local energetic frustration conservation in protein families and superfamilies",
             "doi": "https://doi.org/10.1038/s41467-023-43801-2",
             "year": 2023,
             "alex_id": "W4389832090"
+          },
+          {
+            "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
+            "doi": "https://doi.org/10.1038/s41596-023-00876-x",
+            "year": 2023,
+            "alex_id": "W4386979884"
           },
           {
             "title": "Comparative evaluation of methods for the prediction of protein–ligand binding sites",
@@ -1551,16 +1557,16 @@
             "alex_id": "W4367399594"
           },
           {
-            "title": "AHoJ-DB: A PDB-wide Assignment of apo &amp; holo Relationships Based on Individual Protein–Ligand Interactions",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168545",
-            "year": 2024,
-            "alex_id": "W4392907675"
-          },
-          {
             "title": "Graph databases in systems biology: a systematic review",
             "doi": "https://doi.org/10.1093/bib/bbae561",
             "year": 2024,
             "alex_id": "W4404568502"
+          },
+          {
+            "title": "AHoJ-DB: A PDB-wide Assignment of apo &amp; holo Relationships Based on Individual Protein–Ligand Interactions",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168545",
+            "year": 2024,
+            "alex_id": "W4392907675"
           },
           {
             "title": "<scp>PDBe</scp> tools for an in‐depth analysis of small molecules in the Protein Data Bank",
@@ -2570,7 +2576,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 95,
-        "semanticscholar": 107,
+        "semanticscholar": 108,
         "openalex": 128,
         "crossref": 110,
         "webofscience": 91
@@ -3794,16 +3800,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "The Role of Semantic Annotations in Business Process Modelling",
-            "doi": "https://doi.org/10.1109/edoc.2014.33",
-            "year": 2014,
-            "alex_id": "W1993516667"
-          },
-          {
             "title": "Social Software and Semantics for Business Process Management - Alternative or Synergy?",
             "doi": "https://doi.org/10.20470/jsi.v2i3.95",
             "year": 2011,
             "alex_id": "W2151367150"
+          },
+          {
+            "title": "The Role of Semantic Annotations in Business Process Modelling",
+            "doi": "https://doi.org/10.1109/edoc.2014.33",
+            "year": 2014,
+            "alex_id": "W1993516667"
           },
           {
             "title": "An Approach for Managing Clinical Trial Applications Using Semantic Information Models",
