@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04",
+  "generated_at": "2026-06-11",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -241,11 +241,11 @@
       ],
       "publisher": "Informa UK Limited",
       "citation_counts": {
-        "scopus": 6,
-        "semanticscholar": 12,
-        "openalex": 8,
-        "crossref": 7,
-        "webofscience": 8
+        "scopus": 8,
+        "semanticscholar": 13,
+        "openalex": 9,
+        "crossref": 9,
+        "webofscience": 9
       },
       "citations": {
         "scopus": [],
@@ -298,6 +298,12 @@
             "doi": "https://doi.org/10.1080/10799893.2026.2676552",
             "year": 2026,
             "alex_id": "W7162992722"
+          },
+          {
+            "title": "Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning",
+            "doi": "https://doi.org/10.64898/2026.06.01.729423",
+            "year": 2026,
+            "alex_id": "W7163683836"
           }
         ],
         "crossref": [],
@@ -409,16 +415,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "LassoPred: a tool to predict the 3D structure of lasso peptides",
             "doi": "https://doi.org/10.1038/s41467-025-60544-4",
             "year": 2025,
             "alex_id": "W4411891308"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
           },
           {
             "title": "The Complex Energy Landscape of miRFP709, a 4<sub>1</sub>-Knotted Protein, Results in Its Irreversible Denaturation",
@@ -516,9 +522,9 @@
       "publisher": "Wiley",
       "citation_counts": {
         "scopus": 7,
-        "semanticscholar": 8,
-        "openalex": 10,
-        "crossref": 8,
+        "semanticscholar": 9,
+        "openalex": 11,
+        "crossref": 9,
         "webofscience": 6
       },
       "citations": {
@@ -526,16 +532,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
             "doi": "https://doi.org/10.1093/nar/gkae443",
             "year": 2024,
             "alex_id": "W4399394178"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
           },
           {
             "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
@@ -584,6 +590,12 @@
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
             "alex_id": "W7155185629"
+          },
+          {
+            "title": "SCOP-KHNET: An Interpretable Hybrid Network for Protein Structural Class Prediction",
+            "doi": "https://doi.org/10.1021/acs.jpclett.6c01417",
+            "year": 2026,
+            "alex_id": "W7163541253"
           }
         ],
         "crossref": [],
@@ -690,16 +702,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
             "doi": "https://doi.org/10.1002/pro.4998",
             "year": 2024,
             "alex_id": "W4399776685"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
           },
           {
             "title": "Theta‐curves in proteins",
@@ -765,12 +777,6 @@
             "alex_id": "W4407688507"
           },
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "<scp>AlphaFold</scp> predicts novel human proteins with knots",
             "doi": "https://doi.org/10.1002/pro.4631",
             "year": 2023,
@@ -819,16 +825,22 @@
             "alex_id": "W4399523575"
           },
           {
-            "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
-            "doi": "https://doi.org/10.1103/z7jb-fvjl",
-            "year": 2025,
-            "alex_id": "W4417267505"
-          },
-          {
             "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
             "doi": "https://doi.org/10.1002/pro.4998",
             "year": 2024,
             "alex_id": "W4399776685"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
+          },
+          {
+            "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
+            "doi": "https://doi.org/10.1103/z7jb-fvjl",
+            "year": 2025,
+            "alex_id": "W4417267505"
           },
           {
             "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
@@ -1010,12 +1022,6 @@
             "alex_id": "W4285086987"
           },
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "<scp>AlphaFold</scp> predicts novel human proteins with knots",
             "doi": "https://doi.org/10.1002/pro.4631",
             "year": 2023,
@@ -1052,10 +1058,22 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
+            "doi": "https://doi.org/10.1002/pro.4998",
+            "year": 2024,
+            "alex_id": "W4399776685"
+          },
+          {
             "title": "Comprehensive in-silico analysis of deleterious SNPs in APOC2 and APOA5 and their differential expression in cancer and cardiovascular diseases conditions",
             "doi": "https://doi.org/10.1016/j.ygeno.2023.110567",
             "year": 2023,
             "alex_id": "W4317611847"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
           },
           {
             "title": "Knotted artifacts in predicted 3D RNA structures",
@@ -1068,12 +1086,6 @@
             "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
             "year": 2025,
             "alex_id": "W4406535649"
-          },
-          {
-            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
           },
           {
             "title": "Challenges and limitations in computational prediction of protein misfolding in neurodegenerative diseases",
@@ -2090,6 +2102,12 @@
             "alex_id": "W4210827538"
           },
           {
+            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
+            "doi": "https://doi.org/10.1002/pro.4998",
+            "year": 2024,
+            "alex_id": "W4399776685"
+          },
+          {
             "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
@@ -2102,22 +2120,16 @@
             "alex_id": "W4399849543"
           },
           {
-            "title": "GridPyM: A Python module to handle grid diagrams",
-            "doi": "https://doi.org/10.2140/jsag.2024.14.31",
-            "year": 2024,
-            "alex_id": "W4393195253"
+            "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
+            "doi": "https://doi.org/10.1007/s10462-025-11462-w",
+            "year": 2025,
+            "alex_id": "W4417535890"
           },
           {
             "title": "Trapping probabilities of multiple rings in end-linked gels",
             "doi": "https://doi.org/10.1016/j.polymer.2022.124683",
             "year": 2022,
             "alex_id": "W4213416824"
-          },
-          {
-            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
           },
           {
             "title": "Lasso Proteins—Unifying Cysteine Knots and Miniproteins",
@@ -2180,6 +2192,12 @@
             "alex_id": "W4385664445"
           },
           {
+            "title": "GridPyM: A Python module to handle grid diagrams",
+            "doi": "https://doi.org/10.2140/jsag.2024.14.31",
+            "year": 2024,
+            "alex_id": "W4393195253"
+          },
+          {
             "title": "Link node: A method to characterize the chain topology of intrinsically disordered proteins",
             "doi": "https://doi.org/10.1002/qub2.96",
             "year": 2025,
@@ -2190,12 +2208,6 @@
             "doi": "https://doi.org/10.1021/acs.jpcb.4c07910",
             "year": 2025,
             "alex_id": "W4409316139"
-          },
-          {
-            "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
-            "doi": "https://doi.org/10.1007/s10462-025-11462-w",
-            "year": 2025,
-            "alex_id": "W4417535890"
           },
           {
             "title": "Sliding dynamics of ring chain on a knotted polymer in rotaxane",
@@ -2640,12 +2652,6 @@
             "alex_id": "W4366824646"
           },
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "Learning to unknot",
             "doi": "https://doi.org/10.1088/2632-2153/abe91f",
             "year": 2021,
@@ -2748,6 +2754,12 @@
             "alex_id": "W4403333459"
           },
           {
+            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
+            "doi": "https://doi.org/10.1002/pro.4998",
+            "year": 2024,
+            "alex_id": "W4399776685"
+          },
+          {
             "title": "Mechanically Interlocked Water-Soluble Pd<sub>6</sub> Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
             "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
             "year": 2024,
@@ -2758,6 +2770,12 @@
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
             "alex_id": "W4315880917"
+          },
+          {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
           },
           {
             "title": "The Complex Energy Landscape of miRFP709, a 4<sub>1</sub>-Knotted Protein, Results in Its Irreversible Denaturation",
@@ -2830,12 +2848,6 @@
             "doi": "https://doi.org/10.1098/rsif.2022.0727",
             "year": 2023,
             "alex_id": "W4367056236"
-          },
-          {
-            "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
           },
           {
             "title": "Slipknotted and unknotted monovalent cation-proton antiporters evolved from a common ancestor",
@@ -3066,6 +3078,12 @@
             "alex_id": "W4327803079"
           },
           {
+            "title": "A Survey on Knotoids, Braidoids and Their Applications",
+            "doi": "https://doi.org/10.1007/978-3-030-16031-9_19",
+            "year": 2019,
+            "alex_id": "W2902765385"
+          },
+          {
             "title": "Theta‐curves in proteins",
             "doi": "https://doi.org/10.1002/pro.5133",
             "year": 2024,
@@ -3088,12 +3106,6 @@
             "doi": "https://doi.org/10.1016/b978-0-323-90800-9.00263-8",
             "year": 2023,
             "alex_id": "W4385563148"
-          },
-          {
-            "title": "A Survey on Knotoids, Braidoids and Their Applications",
-            "doi": "https://doi.org/10.1007/978-3-030-16031-9_19",
-            "year": 2019,
-            "alex_id": "W2902765385"
           },
           {
             "title": "Protein Contact Map Denoising Using Generative Adversarial Networks",
