@@ -1,9 +1,27 @@
 {
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-06-25",
   "sources": [
     "orcid"
   ],
   "publications": [
+    {
+      "id": "orcid_218573648",
+      "title": "Lysozyme revisited: evaluating models of a reference protein in structural biology",
+      "journal": "Current Research in Structural Biology",
+      "year": "2026",
+      "doi": "10.1016/j.crstbi.2026.100192",
+      "authors": [
+        "Alexander Wlodawer",
+        "Pawel Rubach",
+        "Zbigniew Dauter",
+        "Wojciech Dec",
+        "Dariusz Brzezinski",
+        "Mariusz Jaskolski",
+        "Wladek Minor"
+      ],
+      "publisher": "Elsevier BV",
+      "citation": ""
+    },
     {
       "id": "orcid_201424571",
       "title": "How to mitigate the caveat emptor burden of human and machine users of the Protein Data Bank",
