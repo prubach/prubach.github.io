@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-09",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -14,7 +14,7 @@
       "doi": "10.1016/j.crstbi.2026.100192",
       "year": "2026",
       "alex_id": "W7164306426",
-      "wos_id": null,
+      "wos_id": "WOS:001800092000001",
       "journal": "Current Research in Structural Biology",
       "authors": [
         "Alexander Wlodawer",
@@ -30,13 +30,15 @@
         "scopus": 0,
         "semanticscholar": 0,
         "openalex": 0,
-        "crossref": 0
+        "crossref": 0,
+        "webofscience": 0
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
         "openalex": [],
-        "crossref": []
+        "crossref": [],
+        "webofscience": []
       }
     },
     {
@@ -295,16 +297,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
-            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
-            "year": 2026,
-            "alex_id": "W7140303124"
-          },
-          {
             "title": "Biological interpretation of DNA/RNA modification by ALKBH proteins and their role in human cancer",
             "doi": "https://doi.org/10.1186/s40001-025-02735-9",
             "year": 2025,
             "alex_id": "W4411077544"
+          },
+          {
+            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
+            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
+            "year": 2026,
+            "alex_id": "W7140303124"
           },
           {
             "title": "The transformative impact of AI-enabled AlphaFold 3: evolution, current status, and future prospects in structural biology",
@@ -374,7 +376,7 @@
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
         "scopus": 7,
-        "semanticscholar": 4,
+        "semanticscholar": 5,
         "openalex": 8,
         "crossref": 9,
         "webofscience": 7
@@ -396,6 +398,12 @@
             "alex_id": "W4414123323"
           },
           {
+            "title": "Artificial intelligence in enzyme catalysis: Emerging trends and applications in biocatalyst engineering",
+            "doi": "https://doi.org/10.1002/cjce.70383",
+            "year": 2026,
+            "alex_id": "W7143510529"
+          },
+          {
             "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
             "doi": "https://doi.org/10.1063/4.0000952",
             "year": 2025,
@@ -406,12 +414,6 @@
             "doi": "https://doi.org/10.1093/nar/gkag120",
             "year": 2026,
             "alex_id": "W7131120057"
-          },
-          {
-            "title": "Artificial intelligence in enzyme catalysis: Emerging trends and applications in biocatalyst engineering",
-            "doi": "https://doi.org/10.1002/cjce.70383",
-            "year": 2026,
-            "alex_id": "W7143510529"
           },
           {
             "title": "Cat_Wiz: A stereochemistry-guided toolkit for locating, diagnosing and annotating Mg <sup>2+</sup> ions in RNA structures",
@@ -453,7 +455,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 10,
+        "scopus": 11,
         "semanticscholar": 16,
         "openalex": 14,
         "crossref": 14,
@@ -1048,7 +1050,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 30,
+        "scopus": 31,
         "semanticscholar": 10,
         "openalex": 41,
         "crossref": 41,
@@ -1492,16 +1494,16 @@
             "alex_id": "W4310645193"
           },
           {
-            "title": "Role of genomics in combating COVID-19 pandemic",
-            "doi": "https://doi.org/10.1016/j.gene.2022.146387",
-            "year": 2022,
-            "alex_id": "W4214894446"
-          },
-          {
             "title": "MOBIDB in 2025: integrating ensemble properties and function annotations for intrinsically disordered proteins",
             "doi": "https://doi.org/10.1093/nar/gkae969",
             "year": 2024,
             "alex_id": "W4403852237"
+          },
+          {
+            "title": "Role of genomics in combating COVID-19 pandemic",
+            "doi": "https://doi.org/10.1016/j.gene.2022.146387",
+            "year": 2022,
+            "alex_id": "W4214894446"
           },
           {
             "title": "PED in 2024: improving the community deposition of structural ensembles for intrinsically disordered proteins",
@@ -1576,6 +1578,12 @@
             "alex_id": "W4402666674"
           },
           {
+            "title": "Graph databases in systems biology: a systematic review",
+            "doi": "https://doi.org/10.1093/bib/bbae561",
+            "year": 2024,
+            "alex_id": "W4404568502"
+          },
+          {
             "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation",
             "doi": "https://doi.org/10.1093/nar/gkaf1175",
             "year": 2025,
@@ -1636,12 +1644,6 @@
             "alex_id": "W4367399594"
           },
           {
-            "title": "Graph databases in systems biology: a systematic review",
-            "doi": "https://doi.org/10.1093/bib/bbae561",
-            "year": 2024,
-            "alex_id": "W4404568502"
-          },
-          {
             "title": "AHoJ-DB: A PDB-wide Assignment of apo &amp; holo Relationships Based on Individual Protein–Ligand Interactions",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168545",
             "year": 2024,
@@ -1678,16 +1680,16 @@
             "alex_id": "W4407153268"
           },
           {
-            "title": "Halogen bonds between ligands and proteins: Can we use them in validation?",
-            "doi": "https://doi.org/10.1002/pro.70321",
-            "year": 2025,
-            "alex_id": "W4415076663"
-          },
-          {
             "title": "MobiDB-lite 4.0: faster prediction of intrinsic protein disorder and structural compactness",
             "doi": "https://doi.org/10.1093/bioinformatics/btaf297",
             "year": 2025,
             "alex_id": "W4410253470"
+          },
+          {
+            "title": "Halogen bonds between ligands and proteins: Can we use them in validation?",
+            "doi": "https://doi.org/10.1002/pro.70321",
+            "year": 2025,
+            "alex_id": "W4415076663"
           },
           {
             "title": "Unified access to up-to-date residue-level annotations from UniProtKB and other biological databases for PDB data",
@@ -1792,6 +1794,12 @@
             "alex_id": "W4309938757"
           },
           {
+            "title": "OverProt: secondary structure consensus for protein families",
+            "doi": "https://doi.org/10.1093/bioinformatics/btac384",
+            "year": 2022,
+            "alex_id": "W4282931350"
+          },
+          {
             "title": "Metal-binding proteins and proteases in RNA viruses: unravelling functional diversity and expanding therapeutic horizons",
             "doi": "https://doi.org/10.1128/jvi.01399-23",
             "year": 2023,
@@ -1804,10 +1812,10 @@
             "alex_id": "W4401506043"
           },
           {
-            "title": "OverProt: secondary structure consensus for protein families",
-            "doi": "https://doi.org/10.1093/bioinformatics/btac384",
-            "year": 2022,
-            "alex_id": "W4282931350"
+            "title": "Modern resources for intrinsic disorder predictions: protein language models, deep learning, meta-servers, and databases",
+            "doi": "https://doi.org/10.1007/s00018-026-06087-3",
+            "year": 2026,
+            "alex_id": "W7128911768"
           },
           {
             "title": "Experiences From Developing Software for Large X-Ray Crystallography-Driven Protein-Ligand Studies",
@@ -1966,12 +1974,6 @@
             "alex_id": "W7128515158"
           },
           {
-            "title": "Modern resources for intrinsic disorder predictions: protein language models, deep learning, meta-servers, and databases",
-            "doi": "https://doi.org/10.1007/s00018-026-06087-3",
-            "year": 2026,
-            "alex_id": "W7128911768"
-          },
-          {
             "title": "Chart builder: an interactive tool for user driven data visualization in the electron microscopy data bank",
             "doi": "https://doi.org/10.3389/fbinf.2026.1763403",
             "year": 2026,
@@ -2038,8 +2040,8 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 60,
-        "semanticscholar": 81,
+        "scopus": 62,
+        "semanticscholar": 82,
         "openalex": 75,
         "crossref": 62,
         "webofscience": 48
@@ -2067,12 +2069,6 @@
             "alex_id": "W4396962683"
           },
           {
-            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
-            "year": 2021,
-            "alex_id": "W3127139700"
-          },
-          {
             "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
             "doi": "https://doi.org/10.1093/nar/gkac388",
             "year": 2022,
@@ -2083,6 +2079,12 @@
             "doi": "https://doi.org/10.1038/s41467-025-60559-x",
             "year": 2025,
             "alex_id": "W4411887343"
+          },
+          {
+            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
+            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
+            "year": 2021,
+            "alex_id": "W3127139700"
           },
           {
             "title": "Molecular Dynamics Simulations of Ring Shapes on a Ring Fraction in Ring–Linear Polymer Blends",
@@ -2157,12 +2159,6 @@
             "alex_id": "W4403333459"
           },
           {
-            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
-            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
-            "year": 2022,
-            "alex_id": "W4210827538"
-          },
-          {
             "title": "Knot or not? <scp>Identifying</scp> unknotted proteins in knotted families with sequence‐based <scp>Machine Learning</scp> model",
             "doi": "https://doi.org/10.1002/pro.4998",
             "year": 2024,
@@ -2191,6 +2187,12 @@
             "doi": "https://doi.org/10.1007/s10462-025-11462-w",
             "year": 2025,
             "alex_id": "W4417535890"
+          },
+          {
+            "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
+            "doi": "https://doi.org/10.1038/s41597-022-01138-3",
+            "year": 2022,
+            "alex_id": "W4210827538"
           },
           {
             "title": "Trapping probabilities of multiple rings in end-linked gels",
@@ -2660,11 +2662,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 96,
+        "scopus": 97,
         "semanticscholar": 110,
         "openalex": 131,
         "crossref": 113,
-        "webofscience": 92
+        "webofscience": 93
       },
       "citations": {
         "scopus": [],
@@ -2869,12 +2871,6 @@
             "alex_id": "W4416439536"
           },
           {
-            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
-            "doi": "https://doi.org/10.1021/jacs.5c20740",
-            "year": 2026,
-            "alex_id": "W7118786184"
-          },
-          {
             "title": "Rail knotoids",
             "doi": "https://doi.org/10.1142/s0218216519400194",
             "year": 2019,
@@ -2999,6 +2995,12 @@
             "doi": "https://doi.org/10.3390/math13203260",
             "year": 2025,
             "alex_id": "W4415142606"
+          },
+          {
+            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
+            "doi": "https://doi.org/10.1021/jacs.5c20740",
+            "year": 2026,
+            "alex_id": "W7118786184"
           },
           {
             "title": "Effect of a Knot on the Thermal Stability of Protein MJ0366: Insights into Molecular Dynamics and Monte Carlo Simulations",
