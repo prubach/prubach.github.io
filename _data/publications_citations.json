@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23",
+  "generated_at": "2026-07-30",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -31,7 +31,7 @@
         "semanticscholar": 1,
         "openalex": 1,
         "crossref": 1,
-        "webofscience": 0
+        "webofscience": 1
       },
       "citations": {
         "scopus": [],
@@ -294,9 +294,9 @@
       "publisher": "Informa UK Limited",
       "citation_counts": {
         "scopus": 8,
-        "semanticscholar": 14,
-        "openalex": 9,
-        "crossref": 10,
+        "semanticscholar": 15,
+        "openalex": 11,
+        "crossref": 12,
         "webofscience": 9
       },
       "citations": {
@@ -310,16 +310,16 @@
             "alex_id": "W4411077544"
           },
           {
-            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
-            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
-            "year": 2026,
-            "alex_id": "W7140303124"
-          },
-          {
             "title": "The transformative impact of AI-enabled AlphaFold 3: evolution, current status, and future prospects in structural biology",
             "doi": "https://doi.org/10.3389/frai.2026.1739303",
             "year": 2026,
             "alex_id": "W7151763198"
+          },
+          {
+            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
+            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
+            "year": 2026,
+            "alex_id": "W7140303124"
           },
           {
             "title": "Fillnet: A cryogenic electron tomography restoration framework integrating FFT_Unet architecture and weight optimisation strategy",
@@ -356,6 +356,18 @@
             "doi": "https://doi.org/10.64898/2026.06.01.729423",
             "year": 2026,
             "alex_id": "W7163683836"
+          },
+          {
+            "title": "In silico drug discovery pipelines targeting antibiotic resistance: from genomes to leads",
+            "doi": "https://doi.org/10.3389/fbinf.2026.1839606",
+            "year": 2026,
+            "alex_id": "W7170826172"
+          },
+          {
+            "title": "Convergence of cryo‐electron microscopy and artificial intelligence in integrative structural biology: A critical review of advances, synergies, and implications for molecular biophysics and drug discovery",
+            "doi": "https://doi.org/10.1111/jmi.70154",
+            "year": 2026,
+            "alex_id": "W7171404445"
           }
         ],
         "crossref": [],
@@ -382,7 +394,7 @@
       ],
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
-        "scopus": 7,
+        "scopus": 8,
         "semanticscholar": 6,
         "openalex": 9,
         "crossref": 10,
@@ -1314,16 +1326,16 @@
             "alex_id": "W4404226808"
           },
           {
-            "title": "Local energetic frustration conservation in protein families and superfamilies",
-            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
-            "year": 2023,
-            "alex_id": "W4389832090"
-          },
-          {
             "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
             "doi": "https://doi.org/10.1038/s41596-023-00876-x",
             "year": 2023,
             "alex_id": "W4386979884"
+          },
+          {
+            "title": "Local energetic frustration conservation in protein families and superfamilies",
+            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
+            "year": 2023,
+            "alex_id": "W4389832090"
           },
           {
             "title": "<scp>PDBe</scp> and <scp>PDBe‐KB</scp>: Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
@@ -1506,6 +1518,12 @@
             "alex_id": "W4410251246"
           },
           {
+            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
+            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
+            "year": 2025,
+            "alex_id": "W7117150505"
+          },
+          {
             "title": "A Versatile Class of 1,4,4-Trisubstituted Piperidines Block Coronavirus Replication In Vitro",
             "doi": "https://doi.org/10.3390/ph15081021",
             "year": 2022,
@@ -1564,12 +1582,6 @@
             "doi": "https://doi.org/10.3389/fphys.2025.1489907",
             "year": 2025,
             "alex_id": "W4408904065"
-          },
-          {
-            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
-            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
-            "year": 2025,
-            "alex_id": "W7117150505"
           },
           {
             "title": "Modern resources for intrinsic disorder predictions: protein language models, deep learning, meta-servers, and databases",
@@ -1806,11 +1818,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 62,
+        "scopus": 63,
         "semanticscholar": 84,
         "openalex": 77,
         "crossref": 64,
-        "webofscience": 50
+        "webofscience": 51
       },
       "citations": {
         "scopus": [],
@@ -2003,12 +2015,6 @@
             "alex_id": "W4408725100"
           },
           {
-            "title": "Penetration of linear chains into semiflexible knotted rings in linear-ring blends",
-            "doi": "https://doi.org/10.1016/j.polymer.2022.125248",
-            "year": 2022,
-            "alex_id": "W4292395904"
-          },
-          {
             "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
             "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
             "year": 2025,
@@ -2049,6 +2055,12 @@
             "doi": "https://doi.org/10.1016/j.commatsci.2021.111104",
             "year": 2021,
             "alex_id": "W4200257115"
+          },
+          {
+            "title": "Penetration of linear chains into semiflexible knotted rings in linear-ring blends",
+            "doi": "https://doi.org/10.1016/j.polymer.2022.125248",
+            "year": 2022,
+            "alex_id": "W4292395904"
           },
           {
             "title": "From Feynman’s ratchet to time crystalline molecular motors",
@@ -2267,7 +2279,7 @@
             "alex_id": "W7164908079"
           },
           {
-            "title": "Identifying the Threshold Chain Length for Stress Overshoot in Ring-Linear Polymer Blends under Uniaxial Elongation: The Role of Multiple Threading",
+            "title": "Identifying the Threshold Chain Length for StressOvershoot in Ring-Linear Polymer Blends under Uniaxial Elongation:The Role of Multiple Threading",
             "doi": "https://doi.org/10.1021/acs.macromol.6c00881",
             "year": 2026,
             "alex_id": "W7168145123"
