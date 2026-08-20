@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13",
+  "generated_at": "2026-08-20",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -297,12 +297,18 @@
         "semanticscholar": 17,
         "openalex": 11,
         "crossref": 13,
-        "webofscience": 10
+        "webofscience": 11
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
         "openalex": [
+          {
+            "title": "The transformative impact of AI-enabled AlphaFold 3: evolution, current status, and future prospects in structural biology",
+            "doi": "https://doi.org/10.3389/frai.2026.1739303",
+            "year": 2026,
+            "alex_id": "W7151763198"
+          },
           {
             "title": "Biological interpretation of DNA/RNA modification by ALKBH proteins and their role in human cancer",
             "doi": "https://doi.org/10.1186/s40001-025-02735-9",
@@ -314,12 +320,6 @@
             "doi": "https://doi.org/10.1007/s12551-026-01429-8",
             "year": 2026,
             "alex_id": "W7140303124"
-          },
-          {
-            "title": "The transformative impact of AI-enabled AlphaFold 3: evolution, current status, and future prospects in structural biology",
-            "doi": "https://doi.org/10.3389/frai.2026.1739303",
-            "year": 2026,
-            "alex_id": "W7151763198"
           },
           {
             "title": "Fillnet: A cryogenic electron tomography restoration framework integrating FFT_Unet architecture and weight optimisation strategy",
@@ -1507,7 +1507,7 @@
             "alex_id": "W4309153596"
           },
           {
-            "title": "Critical assessment of protein intrinsic disorder prediction (<scp>CAID</scp>) ‐ Results of round 2",
+            "title": "Critical assessment of protein intrinsic disorder prediction ( <scp>CAID</scp> ) ‐ Results of round 2",
             "doi": "https://doi.org/10.1002/prot.26582",
             "year": 2023,
             "alex_id": "W4386152095"
@@ -1561,28 +1561,28 @@
             "alex_id": "W4285732024"
           },
           {
-            "title": "Enzyme function and evolution through the lens of bioinformatics",
-            "doi": "https://doi.org/10.1042/bcj20220405",
-            "year": 2023,
-            "alex_id": "W4388903750"
-          },
-          {
             "title": "Comparative evaluation of methods for the prediction of protein–ligand binding sites",
             "doi": "https://doi.org/10.1186/s13321-024-00923-z",
             "year": 2024,
             "alex_id": "W4404226808"
           },
           {
-            "title": "Local energetic frustration conservation in protein families and superfamilies",
-            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
+            "title": "Enzyme function and evolution through the lens of bioinformatics",
+            "doi": "https://doi.org/10.1042/bcj20220405",
             "year": 2023,
-            "alex_id": "W4389832090"
+            "alex_id": "W4388903750"
           },
           {
             "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
             "doi": "https://doi.org/10.1038/s41596-023-00876-x",
             "year": 2023,
             "alex_id": "W4386979884"
+          },
+          {
+            "title": "Local energetic frustration conservation in protein families and superfamilies",
+            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
+            "year": 2023,
+            "alex_id": "W4389832090"
           },
           {
             "title": "<scp>PDBe</scp> and <scp>PDBe‐KB</scp>: Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
@@ -1595,6 +1595,12 @@
             "doi": "https://doi.org/10.1002/prot.26614",
             "year": 2023,
             "alex_id": "W4387729537"
+          },
+          {
+            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
+            "doi": "https://doi.org/10.1093/nar/gkae965",
+            "year": 2024,
+            "alex_id": "W4403922164"
           },
           {
             "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
@@ -1651,28 +1657,22 @@
             "alex_id": "W4388622554"
           },
           {
-            "title": "RepeatsDB in 2025: expanding annotations of structured tandem repeats proteins on AlphaFoldDB",
-            "doi": "https://doi.org/10.1093/nar/gkae965",
-            "year": 2024,
-            "alex_id": "W4403922164"
-          },
-          {
             "title": "Protein structure-based evaluation of missense variants: Resources, challenges and future directions",
             "doi": "https://doi.org/10.1016/j.sbi.2023.102600",
             "year": 2023,
             "alex_id": "W4367399594"
           },
           {
-            "title": "<scp>PDBe</scp> tools for an in‐depth analysis of small molecules in the Protein Data Bank",
-            "doi": "https://doi.org/10.1002/pro.70084",
-            "year": 2025,
-            "alex_id": "W4408574219"
-          },
-          {
             "title": "AHoJ-DB: A PDB-wide Assignment of apo &amp; holo Relationships Based on Individual Protein–Ligand Interactions",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168545",
             "year": 2024,
             "alex_id": "W4392907675"
+          },
+          {
+            "title": "<scp>PDBe</scp> tools for an in‐depth analysis of small molecules in the Protein Data Bank",
+            "doi": "https://doi.org/10.1002/pro.70084",
+            "year": 2025,
+            "alex_id": "W4408574219"
           },
           {
             "title": "Large-scale annotation of biochemically relevant pockets and tunnels in cognate enzyme–ligand complexes",
@@ -1693,22 +1693,28 @@
             "alex_id": "W4401632557"
           },
           {
-            "title": "PIPENN-EMB ensemble net and protein embeddings generalise protein interface prediction beyond homology",
-            "doi": "https://doi.org/10.1038/s41598-025-88445-y",
-            "year": 2025,
-            "alex_id": "W4407153268"
-          },
-          {
             "title": "MobiDB-lite 4.0: faster prediction of intrinsic protein disorder and structural compactness",
             "doi": "https://doi.org/10.1093/bioinformatics/btaf297",
             "year": 2025,
             "alex_id": "W4410253470"
           },
           {
+            "title": "PIPENN-EMB ensemble net and protein embeddings generalise protein interface prediction beyond homology",
+            "doi": "https://doi.org/10.1038/s41598-025-88445-y",
+            "year": 2025,
+            "alex_id": "W4407153268"
+          },
+          {
             "title": "Halogen bonds between ligands and proteins: Can we use them in validation?",
             "doi": "https://doi.org/10.1002/pro.70321",
             "year": 2025,
             "alex_id": "W4415076663"
+          },
+          {
+            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
+            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
+            "year": 2025,
+            "alex_id": "W7117150505"
           },
           {
             "title": "The interoperability of crystallographic data and databases",
@@ -1735,6 +1741,12 @@
             "alex_id": "W4383186274"
           },
           {
+            "title": "MetalPrognosis: A Biological Language Model-Based Approach for Disease-Associated Mutations in Metal-Binding Site Prediction",
+            "doi": "https://doi.org/10.1109/tcbb.2024.3467093",
+            "year": 2024,
+            "alex_id": "W4402829751"
+          },
+          {
             "title": "A comprehensive in silico analysis of multiple sclerosis related non-synonymous SNPs and their potential effects on protein structure and function",
             "doi": "https://doi.org/10.1016/j.msard.2022.104253",
             "year": 2022,
@@ -1753,22 +1765,10 @@
             "alex_id": "W4402607711"
           },
           {
-            "title": "MetalPrognosis: A Biological Language Model-Based Approach for Disease-Associated Mutations in Metal-Binding Site Prediction",
-            "doi": "https://doi.org/10.1109/tcbb.2024.3467093",
-            "year": 2024,
-            "alex_id": "W4402829751"
-          },
-          {
             "title": "PDBe: enhanced structural data exploration to facilitate discovery",
             "doi": "https://doi.org/10.1093/nar/gkaf1120",
             "year": 2025,
             "alex_id": "W4417210096"
-          },
-          {
-            "title": "Exploratory analysis of HLA SNPs associated with occult HBV infection: a multicenter case–control study in Chinese blood donors",
-            "doi": "https://doi.org/10.1007/s00439-025-02805-2",
-            "year": 2025,
-            "alex_id": "W7117150505"
           },
           {
             "title": "A Versatile Class of 1,4,4-Trisubstituted Piperidines Block Coronavirus Replication In Vitro",
@@ -2644,6 +2644,12 @@
             "alex_id": "W4412838172"
           },
           {
+            "title": "Mechanisms of Saposhnikovia divaricata in attenuating NaAsO2-induced neural injury via the PI3K/AKT pathway",
+            "doi": "https://doi.org/10.1038/s41598-025-04735-5",
+            "year": 2025,
+            "alex_id": "W4414556087"
+          },
+          {
             "title": "Molecular mechanisms of Buqing granule for the treatment of diabetic retinopathy: Network pharmacology analysis and experimental validation",
             "doi": "https://doi.org/10.4239/wjd.v15.i9.1942",
             "year": 2024,
@@ -2672,12 +2678,6 @@
             "doi": "https://doi.org/10.1145/3708035.3736007",
             "year": 2025,
             "alex_id": "W4413059337"
-          },
-          {
-            "title": "Mechanisms of Saposhnikovia divaricata in attenuating NaAsO2-induced neural injury via the PI3K/AKT pathway",
-            "doi": "https://doi.org/10.1038/s41598-025-04735-5",
-            "year": 2025,
-            "alex_id": "W4414556087"
           }
         ],
         "crossref": [],
