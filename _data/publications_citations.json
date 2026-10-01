@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-10-01",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -210,7 +210,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 1,
+        "scopus": 2,
         "semanticscholar": 3,
         "openalex": 2,
         "crossref": 3,
@@ -333,10 +333,10 @@
       ],
       "publisher": "Informa UK Limited",
       "citation_counts": {
-        "scopus": 12,
-        "semanticscholar": 20,
-        "openalex": 16,
-        "crossref": 18,
+        "scopus": 14,
+        "semanticscholar": 21,
+        "openalex": 17,
+        "crossref": 19,
         "webofscience": 14
       },
       "citations": {
@@ -438,6 +438,12 @@
             "doi": "https://doi.org/10.3389/fsysb.2026.1940022",
             "year": 2026,
             "alex_id": "W7213977669"
+          },
+          {
+            "title": "Structural Parasitology Meets Nanomedicine: Current Structural Evidence and Future Opportunities for Leishmania and Schistosoma Targets",
+            "doi": "https://doi.org/10.3390/cimb48101007",
+            "year": 2026,
+            "alex_id": "W7214983884"
           }
         ],
         "crossref": [],
@@ -481,12 +487,6 @@
             "alex_id": "W4408248370"
           },
           {
-            "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
-            "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
-            "year": 2025,
-            "alex_id": "W4414123323"
-          },
-          {
             "title": "Cat_Wiz: a stereochemistry-guided toolkit for locating, diagnosing, and annotating Mg2+ ions in RNA structures",
             "doi": "https://doi.org/10.1093/nar/gkag120",
             "year": 2026,
@@ -503,6 +503,12 @@
             "doi": "https://doi.org/10.1016/j.crstbi.2026.100192",
             "year": 2026,
             "alex_id": "W7164306426"
+          },
+          {
+            "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
+            "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
+            "year": 2025,
+            "alex_id": "W4414123323"
           },
           {
             "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are Not Enough",
@@ -562,7 +568,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 12,
+        "scopus": 14,
         "semanticscholar": 18,
         "openalex": 15,
         "crossref": 16,
@@ -872,6 +878,12 @@
         "semanticscholar": [],
         "openalex": [
           {
+            "title": "Theta‐curves in proteins",
+            "doi": "https://doi.org/10.1002/pro.5133",
+            "year": 2024,
+            "alex_id": "W2968801969"
+          },
+          {
             "title": "Everything AlphaFold tells us about protein knots",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
             "year": 2024,
@@ -882,12 +894,6 @@
             "doi": "https://doi.org/10.1002/pro.4998",
             "year": 2024,
             "alex_id": "W4399776685"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
           },
           {
             "title": "Knot or Not? Sequence-Based Identification of Knotted Proteins With Machine Learning",
@@ -924,7 +930,7 @@
       ],
       "publisher": "Wiley",
       "citation_counts": {
-        "scopus": 27,
+        "scopus": 29,
         "semanticscholar": 26,
         "openalex": 36,
         "crossref": 34,
@@ -953,16 +959,16 @@
             "alex_id": "W4387206154"
           },
           {
-            "title": "AlphaFold predicts novel human proteins with knots",
-            "doi": "https://doi.org/10.1002/pro.4631",
-            "year": 2023,
-            "alex_id": "W4360814081"
-          },
-          {
             "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
             "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
             "year": 2023,
             "alex_id": "W4389513536"
+          },
+          {
+            "title": "AlphaFold predicts novel human proteins with knots",
+            "doi": "https://doi.org/10.1002/pro.4631",
+            "year": 2023,
+            "alex_id": "W4360814081"
           },
           {
             "title": "De novo design of knotted tandem repeat proteins",
@@ -989,6 +995,12 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Theta‐curves in proteins",
+            "doi": "https://doi.org/10.1002/pro.5133",
+            "year": 2024,
+            "alex_id": "W2968801969"
+          },
+          {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
@@ -1007,16 +1019,16 @@
             "alex_id": "W4399776685"
           },
           {
-            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
-            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
-            "year": 2024,
-            "alex_id": "W4392307869"
-          },
-          {
             "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
             "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
             "year": 2023,
             "alex_id": "W4388210953"
+          },
+          {
+            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
+            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
+            "year": 2024,
+            "alex_id": "W4392307869"
           },
           {
             "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
@@ -1031,22 +1043,10 @@
             "alex_id": "W4407746425"
           },
           {
-            "title": "Mathematical topology and geometry-based classification of tauopathies",
-            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
-            "year": 2024,
-            "alex_id": "W4393333752"
-          },
-          {
             "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
             "doi": "https://doi.org/10.1103/z7jb-fvjl",
             "year": 2025,
             "alex_id": "W4417267505"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
           },
           {
             "title": "Effects of sequence-dependent non-native interactions in equilibrium and kinetic folding properties of knotted proteins",
@@ -1055,16 +1055,22 @@
             "alex_id": "W4385659485"
           },
           {
+            "title": "Mathematical topology and geometry-based classification of tauopathies",
+            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
+            "year": 2024,
+            "alex_id": "W4393333752"
+          },
+          {
+            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
+            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
+            "year": 2025,
+            "alex_id": "W4410488060"
+          },
+          {
             "title": "AlphaLasso—a web server to identify loop and lasso motifs in 3D structure of biopolymers",
             "doi": "https://doi.org/10.1093/nar/gkaf375",
             "year": 2025,
             "alex_id": "W4410190596"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
           },
           {
             "title": "Proteins containing 6-crossing knot types and their folding pathways",
@@ -1175,7 +1181,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 31,
+        "scopus": 32,
         "semanticscholar": 10,
         "openalex": 41,
         "crossref": 41,
@@ -1270,16 +1276,22 @@
             "alex_id": "W4317611847"
           },
           {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
             "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
             "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
             "year": 2023,
             "alex_id": "W4388210953"
+          },
+          {
+            "title": "Mechanically Interlocked Biomacromolecules",
+            "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
+            "year": 2023,
+            "alex_id": "W4389805695"
+          },
+          {
+            "title": "Knotted artifacts in predicted 3D RNA structures",
+            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
+            "year": 2024,
+            "alex_id": "W4399849543"
           },
           {
             "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
@@ -1306,28 +1318,34 @@
             "alex_id": "W4407391667"
           },
           {
-            "title": "Autophagy3D: a comprehensive autophagy structure database",
-            "doi": "https://doi.org/10.1093/database/baae088",
-            "year": 2024,
-            "alex_id": "W4402634247"
-          },
-          {
             "title": "Discrepant Effects of Hydrated and Neat Reline on the Conformational Stability of a Knotted Protein",
             "doi": "https://doi.org/10.1021/acs.jpcb.5c00148",
             "year": 2025,
             "alex_id": "W4409993690"
           },
           {
-            "title": "Mechanically Interlocked Biomacromolecules",
-            "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
-            "year": 2023,
-            "alex_id": "W4389805695"
+            "title": "Autophagy3D: a comprehensive autophagy structure database",
+            "doi": "https://doi.org/10.1093/database/baae088",
+            "year": 2024,
+            "alex_id": "W4402634247"
+          },
+          {
+            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
+            "doi": "https://doi.org/10.1073/pnas.2537891123",
+            "year": 2026,
+            "alex_id": "W7164908079"
           },
           {
             "title": "Computational discovery and systematic analysis of protein entangling motifs in nature: from algorithm to database",
             "doi": "https://doi.org/10.1039/d4sc08649j",
             "year": 2025,
             "alex_id": "W4408991798"
+          },
+          {
+            "title": "Genomic characterization of respiratory Elizabethkingia: antimicrobial resistance and strain relatedness",
+            "doi": "https://doi.org/10.3389/fmicb.2026.1815762",
+            "year": 2026,
+            "alex_id": "W7153126515"
           },
           {
             "title": "Tangled Tail of Mechanically Interlocked Peptides",
@@ -1408,12 +1426,6 @@
             "alex_id": "W7130732825"
           },
           {
-            "title": "Genomic characterization of respiratory Elizabethkingia: antimicrobial resistance and strain relatedness",
-            "doi": "https://doi.org/10.3389/fmicb.2026.1815762",
-            "year": 2026,
-            "alex_id": "W7153126515"
-          },
-          {
             "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology",
             "doi": "https://doi.org/10.1073/pnas.2525920123",
             "year": 2026,
@@ -1424,12 +1436,6 @@
             "doi": "https://doi.org/10.1088/3049-477x/aea330",
             "year": 2026,
             "alex_id": "W7161563848"
-          },
-          {
-            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
-            "doi": "https://doi.org/10.1073/pnas.2537891123",
-            "year": 2026,
-            "alex_id": "W7164908079"
           }
         ],
         "crossref": [],
@@ -1573,7 +1579,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 75,
+        "scopus": 77,
         "semanticscholar": 70,
         "openalex": 92,
         "crossref": 88
@@ -1667,6 +1673,12 @@
             "alex_id": "W4404226808"
           },
           {
+            "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
+            "doi": "https://doi.org/10.1038/s41596-023-00876-x",
+            "year": 2023,
+            "alex_id": "W4386979884"
+          },
+          {
             "title": "Enzyme function and evolution through the lens of bioinformatics",
             "doi": "https://doi.org/10.1042/bcj20220405",
             "year": 2023,
@@ -1677,12 +1689,6 @@
             "doi": "https://doi.org/10.1038/s41467-023-43801-2",
             "year": 2023,
             "alex_id": "W4389832090"
-          },
-          {
-            "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
-            "doi": "https://doi.org/10.1038/s41596-023-00876-x",
-            "year": 2023,
-            "alex_id": "W4386979884"
           },
           {
             "title": "PDBe and PDBe‐KB : Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
@@ -1697,16 +1703,16 @@
             "alex_id": "W4387729537"
           },
           {
+            "title": "Multi-Bioactivity of Protein Digests and Peptides from Oat (Avena sativa L.) Kernels in the Prevention of the Cardiometabolic Syndrome",
+            "doi": "https://doi.org/10.3390/molecules27227907",
+            "year": 2022,
+            "alex_id": "W4309308583"
+          },
+          {
             "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation",
             "doi": "https://doi.org/10.1093/nar/gkaf1175",
             "year": 2025,
             "alex_id": "W4416300358"
-          },
-          {
-            "title": "Resources for computational prediction of intrinsic disorder in proteins",
-            "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
-            "year": 2022,
-            "alex_id": "W4221055411"
           },
           {
             "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
@@ -1715,16 +1721,16 @@
             "alex_id": "W4311287562"
           },
           {
+            "title": "Resources for computational prediction of intrinsic disorder in proteins",
+            "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
+            "year": 2022,
+            "alex_id": "W4221055411"
+          },
+          {
             "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
             "doi": "https://doi.org/10.1016/j.sbi.2023.102543",
             "year": 2023,
             "alex_id": "W4321354559"
-          },
-          {
-            "title": "Multi-Bioactivity of Protein Digests and Peptides from Oat (Avena sativa L.) Kernels in the Prevention of the Cardiometabolic Syndrome",
-            "doi": "https://doi.org/10.3390/molecules27227907",
-            "year": 2022,
-            "alex_id": "W4309308583"
           },
           {
             "title": "The druggable genome: Twenty years later",
@@ -1805,34 +1811,10 @@
             "alex_id": "W4415076663"
           },
           {
-            "title": "The interoperability of crystallographic data and databases",
-            "doi": "https://doi.org/10.1107/s2052252523010424",
-            "year": 2023,
-            "alex_id": "W4390103691"
-          },
-          {
-            "title": "Determinants of receptor tyrosine phosphatase homophilic adhesion: Structural comparison of PTPRK and PTPRM extracellular domains",
-            "doi": "https://doi.org/10.1016/j.jbc.2022.102750",
-            "year": 2022,
-            "alex_id": "W4309938757"
-          },
-          {
-            "title": "CD38 restrains the activity of extracellular cGAMP in a model of multiple myeloma",
-            "doi": "https://doi.org/10.1016/j.isci.2024.109814",
-            "year": 2024,
-            "alex_id": "W4395450327"
-          },
-          {
             "title": "MetalPrognosis: A Biological Language Model-Based Approach for Disease-Associated Mutations in Metal-Binding Site Prediction",
             "doi": "https://doi.org/10.1109/tcbb.2024.3467093",
             "year": 2024,
             "alex_id": "W4402829751"
-          },
-          {
-            "title": "A comprehensive in silico analysis of multiple sclerosis related non-synonymous SNPs and their potential effects on protein structure and function",
-            "doi": "https://doi.org/10.1016/j.msard.2022.104253",
-            "year": 2022,
-            "alex_id": "W4307141444"
           },
           {
             "title": "Validation of electron-microscopy maps using solution small-angle X-ray scattering",
@@ -1871,10 +1853,10 @@
             "alex_id": "W7128911768"
           },
           {
-            "title": "GWYRE: A Resource for Mapping Variants onto Experimental and Modeled Structures of Human Protein Complexes",
-            "doi": "https://doi.org/10.1016/j.jmb.2022.167608",
-            "year": 2022,
-            "alex_id": "W4225009875"
+            "title": "The interoperability of crystallographic data and databases",
+            "doi": "https://doi.org/10.1107/s2052252523010424",
+            "year": 2023,
+            "alex_id": "W4390103691"
           },
           {
             "title": "A Versatile Class of 1,4,4-Trisubstituted Piperidines Block Coronavirus Replication In Vitro",
@@ -1883,16 +1865,46 @@
             "alex_id": "W4292962594"
           },
           {
+            "title": "GWYRE: A Resource for Mapping Variants onto Experimental and Modeled Structures of Human Protein Complexes",
+            "doi": "https://doi.org/10.1016/j.jmb.2022.167608",
+            "year": 2022,
+            "alex_id": "W4225009875"
+          },
+          {
             "title": "The protein common assembly database (ProtCAD)—a comprehensive structural resource of protein complexes",
             "doi": "https://doi.org/10.1093/nar/gkac937",
             "year": 2022,
             "alex_id": "W4307362031"
           },
           {
+            "title": "Determinants of receptor tyrosine phosphatase homophilic adhesion: Structural comparison of PTPRK and PTPRM extracellular domains",
+            "doi": "https://doi.org/10.1016/j.jbc.2022.102750",
+            "year": 2022,
+            "alex_id": "W4309938757"
+          },
+          {
+            "title": "CD38 restrains the activity of extracellular cGAMP in a model of multiple myeloma",
+            "doi": "https://doi.org/10.1016/j.isci.2024.109814",
+            "year": 2024,
+            "alex_id": "W4395450327"
+          },
+          {
             "title": "LEVELNET to visualize, explore, and compare protein–protein interaction networks",
             "doi": "https://doi.org/10.1002/pmic.202200159",
             "year": 2023,
             "alex_id": "W4383186274"
+          },
+          {
+            "title": "A comprehensive in silico analysis of multiple sclerosis related non-synonymous SNPs and their potential effects on protein structure and function",
+            "doi": "https://doi.org/10.1016/j.msard.2022.104253",
+            "year": 2022,
+            "alex_id": "W4307141444"
+          },
+          {
+            "title": "FGDB: a comprehensive graph database of ligand fragments from the Protein Data Bank",
+            "doi": "https://doi.org/10.1093/database/baac044",
+            "year": 2022,
+            "alex_id": "W4283706276"
           },
           {
             "title": "OverProt: secondary structure consensus for protein families",
@@ -1935,12 +1947,6 @@
             "doi": "https://doi.org/10.1016/j.dci.2024.105254",
             "year": 2024,
             "alex_id": "W4401942514"
-          },
-          {
-            "title": "FGDB: a comprehensive graph database of ligand fragments from the Protein Data Bank",
-            "doi": "https://doi.org/10.1093/database/baac044",
-            "year": 2022,
-            "alex_id": "W4283706276"
           },
           {
             "title": "Exploring the action mechanism of Gegensan in the treatment of alcoholic liver disease based on network pharmacology and bioinformatics",
@@ -2184,9 +2190,9 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 63,
-        "semanticscholar": 86,
+        "semanticscholar": 87,
         "openalex": 77,
-        "crossref": 67,
+        "crossref": 68,
         "webofscience": 52
       },
       "citations": {
@@ -2212,16 +2218,16 @@
             "alex_id": "W4396962683"
           },
           {
-            "title": "Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy",
-            "doi": "https://doi.org/10.1038/s41467-025-60559-x",
-            "year": 2025,
-            "alex_id": "W4411887343"
-          },
-          {
             "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
             "doi": "https://doi.org/10.1007/s10462-025-11462-w",
             "year": 2025,
             "alex_id": "W4417535890"
+          },
+          {
+            "title": "Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy",
+            "doi": "https://doi.org/10.1038/s41467-025-60559-x",
+            "year": 2025,
+            "alex_id": "W4411887343"
           },
           {
             "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
@@ -2260,12 +2266,6 @@
             "alex_id": "W4381510375"
           },
           {
-            "title": "Pulse labeling reveals the tail end of protein folding by proteome profiling",
-            "doi": "https://doi.org/10.1016/j.celrep.2022.111096",
-            "year": 2022,
-            "alex_id": "W4286252602"
-          },
-          {
             "title": "Topological Analysis and Recovery of Entanglements in Polymer Melts",
             "doi": "https://doi.org/10.1021/acs.macromol.3c00278",
             "year": 2023,
@@ -2288,6 +2288,12 @@
             "doi": "https://doi.org/10.1126/sciadv.ads7379",
             "year": 2025,
             "alex_id": "W4408423748"
+          },
+          {
+            "title": "Theta‐curves in proteins",
+            "doi": "https://doi.org/10.1002/pro.5133",
+            "year": 2024,
+            "alex_id": "W2968801969"
           },
           {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
@@ -2320,6 +2326,12 @@
             "alex_id": "W3141189759"
           },
           {
+            "title": "Pulse labeling reveals the tail end of protein folding by proteome profiling",
+            "doi": "https://doi.org/10.1016/j.celrep.2022.111096",
+            "year": 2022,
+            "alex_id": "W4286252602"
+          },
+          {
             "title": "Trapping probabilities of multiple rings in end-linked gels",
             "doi": "https://doi.org/10.1016/j.polymer.2022.124683",
             "year": 2022,
@@ -2350,16 +2362,16 @@
             "alex_id": "W4318261670"
           },
           {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
             "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
             "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
             "year": 2023,
             "alex_id": "W4388210953"
+          },
+          {
+            "title": "Knotted artifacts in predicted 3D RNA structures",
+            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
+            "year": 2024,
+            "alex_id": "W4399849543"
           },
           {
             "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
@@ -2374,28 +2386,10 @@
             "alex_id": "W4408725100"
           },
           {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
             "title": "Effect of a Knot on the Thermal Stability of Protein MJ0366: Insights into Molecular Dynamics and Monte Carlo Simulations",
             "doi": "https://doi.org/10.1021/acs.jpcb.4c07910",
             "year": 2025,
             "alex_id": "W4409316139"
-          },
-          {
-            "title": "Link node: A method to characterize the chain topology of intrinsically disordered proteins",
-            "doi": "https://doi.org/10.1002/qub2.96",
-            "year": 2025,
-            "alex_id": "W4408499218"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
           },
           {
             "title": "Sliding dynamics of ring chain on a knotted polymer in rotaxane",
@@ -2432,6 +2426,30 @@
             "doi": "https://doi.org/10.1016/j.polymer.2022.125248",
             "year": 2022,
             "alex_id": "W4292395904"
+          },
+          {
+            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
+            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
+            "year": 2025,
+            "alex_id": "W4407391667"
+          },
+          {
+            "title": "Link node: A method to characterize the chain topology of intrinsically disordered proteins",
+            "doi": "https://doi.org/10.1002/qub2.96",
+            "year": 2025,
+            "alex_id": "W4408499218"
+          },
+          {
+            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
+            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
+            "year": 2025,
+            "alex_id": "W4410488060"
+          },
+          {
+            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
+            "doi": "https://doi.org/10.1073/pnas.2537891123",
+            "year": 2026,
+            "alex_id": "W7164908079"
           },
           {
             "title": "Dynamic and facilitated binding of topoisomerase accelerates topological relaxation",
@@ -2506,12 +2524,6 @@
             "alex_id": "W3185688855"
           },
           {
-            "title": "Dynamic and facilitated binding of topoisomerase accelerates topological relaxation.",
-            "doi": "https://doi.org/10.1093/nar/gkac260",
-            "year": 2022,
-            "alex_id": "W3196929978"
-          },
-          {
             "title": "Knot Factories with Helical Geometry Enhance Knotting and Induce Handedness to Knots",
             "doi": "https://doi.org/10.3390/polym14194201",
             "year": 2022,
@@ -2524,10 +2536,10 @@
             "alex_id": "W4389775047"
           },
           {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
+            "title": "Dynamic and facilitated binding of topoisomerase accelerates topological relaxation.",
+            "doi": "https://doi.org/10.1093/nar/gkac260",
+            "year": 2022,
+            "alex_id": "W3196929978"
           },
           {
             "title": "Efficient compressed database of equilibrated configurations of ring-linear polymer blends for MD simulations",
@@ -2636,12 +2648,6 @@
             "doi": "https://doi.org/10.1088/3049-477x/aea330",
             "year": 2026,
             "alex_id": "W7161563848"
-          },
-          {
-            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
-            "doi": "https://doi.org/10.1073/pnas.2537891123",
-            "year": 2026,
-            "alex_id": "W7164908079"
           },
           {
             "title": "Identifying the Threshold Chain Length for Stress Overshoot in Ring-Linear Polymer Blends under Uniaxial Elongation: The Role of Multiple Threading",
@@ -2768,16 +2774,16 @@
             "alex_id": "W4414556087"
           },
           {
-            "title": "Bio-inspired Materials in Nanobiotechnology Applications and Industrial Potential Scale",
-            "doi": "https://doi.org/10.1007/978-3-030-67223-2_12",
-            "year": 2021,
-            "alex_id": "W3173869184"
-          },
-          {
             "title": "Feynman Diagrams beyond Physics: From Biology to Economy",
             "doi": "https://doi.org/10.3390/math12091295",
             "year": 2024,
             "alex_id": "W4395452975"
+          },
+          {
+            "title": "Bio-inspired Materials in Nanobiotechnology Applications and Industrial Potential Scale",
+            "doi": "https://doi.org/10.1007/978-3-030-67223-2_12",
+            "year": 2021,
+            "alex_id": "W3173869184"
           },
           {
             "title": "Mechanism of action of Buqing Granule against Diabetic retinopathy based on network pharmacology and animal experiments",
@@ -2817,11 +2823,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 97,
-        "semanticscholar": 115,
-        "openalex": 134,
-        "crossref": 120,
-        "webofscience": 95
+        "scopus": 101,
+        "semanticscholar": 117,
+        "openalex": 135,
+        "crossref": 121,
+        "webofscience": 96
       },
       "citations": {
         "scopus": [],
@@ -2882,6 +2888,12 @@
             "alex_id": "W4387206154"
           },
           {
+            "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
+            "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
+            "year": 2023,
+            "alex_id": "W4389513536"
+          },
+          {
             "title": "Learning to unknot",
             "doi": "https://doi.org/10.1088/2632-2153/abe91f",
             "year": 2021,
@@ -2910,12 +2922,6 @@
             "doi": "https://doi.org/10.1371/journal.pcbi.1007904",
             "year": 2020,
             "alex_id": "W3031470308"
-          },
-          {
-            "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
-            "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
-            "year": 2023,
-            "alex_id": "W4389513536"
           },
           {
             "title": "Cellular Synthesis and X‐ray Crystal Structure of a Designed Protein Heterocatenane",
@@ -2966,6 +2972,12 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Theta‐curves in proteins",
+            "doi": "https://doi.org/10.1002/pro.5133",
+            "year": 2024,
+            "alex_id": "W2968801969"
+          },
+          {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
@@ -3014,6 +3026,12 @@
             "alex_id": "W2955591508"
           },
           {
+            "title": "Knot theory for proteins: Gauss codes, quandles and bondles",
+            "doi": "https://doi.org/10.1007/s10910-020-01151-0",
+            "year": 2020,
+            "alex_id": "W2995562708"
+          },
+          {
             "title": "Protein contact map refinement for improving structure prediction using generative adversarial networks",
             "doi": "https://doi.org/10.1093/bioinformatics/btab220",
             "year": 2021,
@@ -3038,12 +3056,6 @@
             "alex_id": "W4399776685"
           },
           {
-            "title": "On topology and knotty entanglement in protein folding",
-            "doi": "https://doi.org/10.1371/journal.pone.0244547",
-            "year": 2021,
-            "alex_id": "W3120879690"
-          },
-          {
             "title": "A Note on the Effects of Linear Topology Preservation in Monte Carlo Simulations of Knotted Proteins",
             "doi": "https://doi.org/10.3390/ijms232213871",
             "year": 2022,
@@ -3062,22 +3074,10 @@
             "alex_id": "W3211933918"
           },
           {
-            "title": "Elucidation of the folding pathway of a circular permutant of topologically knotted YbeA by tryptophan substitutions",
-            "doi": "https://doi.org/10.1016/j.bbrc.2023.06.021",
-            "year": 2023,
-            "alex_id": "W4380792329"
-          },
-          {
             "title": "“Protein” no longer means what it used to",
             "doi": "https://doi.org/10.1016/j.crstbi.2021.06.002",
             "year": 2021,
             "alex_id": "W3182356695"
-          },
-          {
-            "title": "A Marcus-Type Inverted Region in the Translocation Kinetics of a Knotted Protein",
-            "doi": "https://doi.org/10.1021/acs.jpclett.3c02183",
-            "year": 2023,
-            "alex_id": "W4389048402"
           },
           {
             "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
@@ -3086,16 +3086,22 @@
             "alex_id": "W4388210953"
           },
           {
+            "title": "A Marcus-Type Inverted Region in the Translocation Kinetics of a Knotted Protein",
+            "doi": "https://doi.org/10.1021/acs.jpclett.3c02183",
+            "year": 2023,
+            "alex_id": "W4389048402"
+          },
+          {
+            "title": "Mechanically Interlocked Biomacromolecules",
+            "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
+            "year": 2023,
+            "alex_id": "W4389805695"
+          },
+          {
             "title": "The Complex Energy Landscape of miRFP709, a 41-Knotted Protein, Results in Its Irreversible Denaturation",
             "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
             "year": 2025,
             "alex_id": "W4406535649"
-          },
-          {
-            "title": "Exploring the electronic structure of knotted proteins: the case of two ornithine transcarbamylase family",
-            "doi": "https://doi.org/10.1007/s00894-024-06009-9",
-            "year": 2024,
-            "alex_id": "W4400662077"
           },
           {
             "title": "Folding of a tandemly knotted protein: Evidence that a polypeptide chain can get out of deep kinetic traps",
@@ -3104,28 +3110,10 @@
             "alex_id": "W4407746425"
           },
           {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
-            "title": "Using steered molecular dynamic tension for assessing quality of computational protein structure models",
-            "doi": "https://doi.org/10.1002/jcc.26876",
-            "year": 2022,
-            "alex_id": "W3208396663"
-          },
-          {
-            "title": "A tile model of circuit topology for self-entangled biopolymers",
-            "doi": "https://doi.org/10.1038/s41598-023-35771-8",
-            "year": 2023,
-            "alex_id": "W4379055587"
-          },
-          {
-            "title": "Mathematical topology and geometry-based classification of tauopathies",
-            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
+            "title": "Exploring the electronic structure of knotted proteins: the case of two ornithine transcarbamylase family",
+            "doi": "https://doi.org/10.1007/s00894-024-06009-9",
             "year": 2024,
-            "alex_id": "W4393333752"
+            "alex_id": "W4400662077"
           },
           {
             "title": "Effect of a Knot on the Thermal Stability of Protein MJ0366: Insights into Molecular Dynamics and Monte Carlo Simulations",
@@ -3138,24 +3126,6 @@
             "doi": "https://doi.org/10.1007/s11426-025-3137-0",
             "year": 2025,
             "alex_id": "W4416439536"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Topology and Algebra of Bonded Knots and Braids",
-            "doi": "https://doi.org/10.3390/math13203260",
-            "year": 2025,
-            "alex_id": "W4415142606"
-          },
-          {
-            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
-            "doi": "https://doi.org/10.1021/jacs.5c20740",
-            "year": 2026,
-            "alex_id": "W7118786184"
           },
           {
             "title": "f -distance of knotoids and protein structure",
@@ -3176,6 +3146,12 @@
             "alex_id": "W3035156883"
           },
           {
+            "title": "On topology and knotty entanglement in protein folding",
+            "doi": "https://doi.org/10.1371/journal.pone.0244547",
+            "year": 2021,
+            "alex_id": "W3120879690"
+          },
+          {
             "title": "Homology of homologous knotted proteins",
             "doi": "https://doi.org/10.1098/rsif.2022.0727",
             "year": 2023,
@@ -3186,6 +3162,12 @@
             "doi": "https://doi.org/10.1007/s00894-022-05094-y",
             "year": 2022,
             "alex_id": "W4220849079"
+          },
+          {
+            "title": "Elucidation of the folding pathway of a circular permutant of topologically knotted YbeA by tryptophan substitutions",
+            "doi": "https://doi.org/10.1016/j.bbrc.2023.06.021",
+            "year": 2023,
+            "alex_id": "W4380792329"
           },
           {
             "title": "Statistical Properties of Lasso-Shape Polymers and Their Implications for Complex Lasso Proteins Function",
@@ -3212,6 +3194,60 @@
             "alex_id": "W4385659485"
           },
           {
+            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
+            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
+            "year": 2025,
+            "alex_id": "W4407391667"
+          },
+          {
+            "title": "Using steered molecular dynamic tension for assessing quality of computational protein structure models",
+            "doi": "https://doi.org/10.1002/jcc.26876",
+            "year": 2022,
+            "alex_id": "W3208396663"
+          },
+          {
+            "title": "A tile model of circuit topology for self-entangled biopolymers",
+            "doi": "https://doi.org/10.1038/s41598-023-35771-8",
+            "year": 2023,
+            "alex_id": "W4379055587"
+          },
+          {
+            "title": "Mathematical topology and geometry-based classification of tauopathies",
+            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
+            "year": 2024,
+            "alex_id": "W4393333752"
+          },
+          {
+            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
+            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
+            "year": 2025,
+            "alex_id": "W4410488060"
+          },
+          {
+            "title": "Topology and Algebra of Bonded Knots and Braids",
+            "doi": "https://doi.org/10.3390/math13203260",
+            "year": 2025,
+            "alex_id": "W4415142606"
+          },
+          {
+            "title": "Phosphoglycerate Kinase Can Adopt Topologically Misfolded Forms That Are More Stable Than Its Native State",
+            "doi": "https://doi.org/10.1021/jacs.5c20740",
+            "year": 2026,
+            "alex_id": "W7118786184"
+          },
+          {
+            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
+            "doi": "https://doi.org/10.1073/pnas.2537891123",
+            "year": 2026,
+            "alex_id": "W7164908079"
+          },
+          {
+            "title": "A Survey on Knotoids, Braidoids and Their Applications",
+            "doi": "https://doi.org/10.1007/978-3-030-16031-9_19",
+            "year": 2019,
+            "alex_id": "W2902765385"
+          },
+          {
             "title": "Channels with Helical Modulation Display Stereospecific Sensitivity for Chiral Superstructures",
             "doi": "https://doi.org/10.3390/polym13213726",
             "year": 2021,
@@ -3228,12 +3264,6 @@
             "doi": "https://doi.org/10.1007/s11856-021-2155-8",
             "year": 2021,
             "alex_id": "W4235033673"
-          },
-          {
-            "title": "Mechanically Interlocked Biomacromolecules",
-            "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
-            "year": 2023,
-            "alex_id": "W4389805695"
           },
           {
             "title": "Enhancement of the coloring invariant for folded molecular chains",
@@ -3278,12 +3308,6 @@
             "alex_id": "W7165680396"
           },
           {
-            "title": "Knot theory for proteins: Gauss codes, quandles and bondles",
-            "doi": "https://doi.org/10.1007/s10910-020-01151-0",
-            "year": 2020,
-            "alex_id": "W2995562708"
-          },
-          {
             "title": "Slipknot or Crystallographic Error: A Computational Analysis of the Plasmodium falciparum DHFR Structural Folds",
             "doi": "https://doi.org/10.3390/ijms23031514",
             "year": 2022,
@@ -3306,18 +3330,6 @@
             "doi": "https://doi.org/10.1002/ange.202005490",
             "year": 2020,
             "alex_id": "W4205152632"
-          },
-          {
-            "title": "A Survey on Knotoids, Braidoids and Their Applications",
-            "doi": "https://doi.org/10.1007/978-3-030-16031-9_19",
-            "year": 2019,
-            "alex_id": "W2902765385"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
           },
           {
             "title": "A variant of the unknotting number of a knot with applications to the topology of biomolecules",
@@ -3608,12 +3620,6 @@
             "alex_id": "W7162752791"
           },
           {
-            "title": "Computational design and cellular synthesis of two protein topological isomers: Solomon link vs. three-twist knot",
-            "doi": "https://doi.org/10.1073/pnas.2537891123",
-            "year": 2026,
-            "alex_id": "W7164908079"
-          },
-          {
             "title": "Topologically complex knotted proteins are processed differentially by ATP ‐dependent proteases ClpXP and ClpAP",
             "doi": "https://doi.org/10.1002/pro.70789",
             "year": 2026,
@@ -3636,6 +3642,12 @@
             "doi": "https://doi.org/10.1002/ange.6529490",
             "year": 2026,
             "alex_id": "W7213983745"
+          },
+          {
+            "title": "Crowder Environments Control Interfacial Dynamics and Topological Stability in a Knotted Protein",
+            "doi": "https://doi.org/10.1021/acs.biomac.6c01203",
+            "year": 2026,
+            "alex_id": "W7214361163"
           }
         ],
         "crossref": [],
