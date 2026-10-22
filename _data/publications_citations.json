@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-22",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -28,7 +28,7 @@
       "publisher": "Elsevier BV",
       "citation_counts": {
         "scopus": 1,
-        "semanticscholar": 0,
+        "semanticscholar": 2,
         "openalex": 2,
         "crossref": 2,
         "webofscience": 2
@@ -141,7 +141,7 @@
       "publisher": "MDPI AG",
       "citation_counts": {
         "scopus": 0,
-        "semanticscholar": 0,
+        "semanticscholar": 1,
         "openalex": 2,
         "crossref": 2
       },
@@ -211,7 +211,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 2,
-        "semanticscholar": 3,
+        "semanticscholar": 0,
         "openalex": 2,
         "crossref": 3,
         "webofscience": 2
@@ -259,10 +259,10 @@
       "publisher": "International Union of Crystallography (IUCr)",
       "citation_counts": {
         "scopus": 8,
-        "semanticscholar": 8,
+        "semanticscholar": 0,
         "openalex": 8,
         "crossref": 12,
-        "webofscience": 8
+        "webofscience": 9
       },
       "citations": {
         "scopus": [],
@@ -339,11 +339,11 @@
       ],
       "publisher": "Informa UK Limited",
       "citation_counts": {
-        "scopus": 14,
-        "semanticscholar": 0,
+        "scopus": 15,
+        "semanticscholar": 23,
         "openalex": 18,
         "crossref": 20,
-        "webofscience": 16
+        "webofscience": 17
       },
       "citations": {
         "scopus": [],
@@ -368,6 +368,12 @@
             "alex_id": "W7140303124"
           },
           {
+            "title": "Protein crystallization strategies in structure-based drug design",
+            "doi": "https://doi.org/10.1080/17460441.2025.2605355",
+            "year": 2025,
+            "alex_id": "W7117117613"
+          },
+          {
             "title": "Molecular insights into voltage-gated sodium channels in excitable cells: pathophysiological roles and emerging therapeutic targets",
             "doi": "https://doi.org/10.1080/10799893.2026.2676552",
             "year": 2026,
@@ -384,12 +390,6 @@
             "doi": "https://doi.org/10.1016/j.jsb.2025.108261",
             "year": 2025,
             "alex_id": "W4416166871"
-          },
-          {
-            "title": "Protein crystallization strategies in structure-based drug design",
-            "doi": "https://doi.org/10.1080/17460441.2025.2605355",
-            "year": 2025,
-            "alex_id": "W7117117613"
           },
           {
             "title": "Multiscale imaging of RNA virus: bridging structural mapping and functional insights",
@@ -486,7 +486,7 @@
         "semanticscholar": 0,
         "openalex": 10,
         "crossref": 12,
-        "webofscience": 9
+        "webofscience": 10
       },
       "citations": {
         "scopus": [],
@@ -574,10 +574,10 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 14,
-        "semanticscholar": 19,
-        "openalex": 15,
-        "crossref": 17,
+        "scopus": 15,
+        "semanticscholar": 20,
+        "openalex": 16,
+        "crossref": 18,
         "webofscience": 14
       },
       "citations": {
@@ -621,6 +621,12 @@
             "alex_id": "W4410190596"
           },
           {
+            "title": "Tube Model for Complex Polymer Knots",
+            "doi": "https://doi.org/10.1007/s10118-025-3405-8",
+            "year": 2025,
+            "alex_id": "W4414589160"
+          },
+          {
             "title": "Zika virus recruits karyopherin α6 for efficient replication via NS2B",
             "doi": "https://doi.org/10.1128/jvi.02009-25",
             "year": 2026,
@@ -645,12 +651,6 @@
             "alex_id": "W4413059337"
           },
           {
-            "title": "Tube Model for Complex Polymer Knots",
-            "doi": "https://doi.org/10.1007/s10118-025-3405-8",
-            "year": 2025,
-            "alex_id": "W4414589160"
-          },
-          {
             "title": "Topologically Directed Simulations Reveal the Impact of Geometric Constraints on Knotted Proteins",
             "doi": "https://doi.org/10.1021/acs.macromol.5c01073",
             "year": 2025,
@@ -673,6 +673,12 @@
             "doi": "https://doi.org/10.1002/pro.70789",
             "year": 2026,
             "alex_id": "W7213333354"
+          },
+          {
+            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
+            "doi": "https://doi.org/10.1073/pnas.2523017123",
+            "year": 2026,
+            "alex_id": "W7222939779"
           }
         ],
         "crossref": [],
@@ -705,8 +711,8 @@
       "citation_counts": {
         "scopus": 9,
         "semanticscholar": 0,
-        "openalex": 12,
-        "crossref": 10,
+        "openalex": 13,
+        "crossref": 11,
         "webofscience": 8
       },
       "citations": {
@@ -784,6 +790,12 @@
             "doi": "https://doi.org/10.1021/acs.jpclett.6c01417",
             "year": 2026,
             "alex_id": "W7163541253"
+          },
+          {
+            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
+            "doi": "https://doi.org/10.1073/pnas.2523017123",
+            "year": 2026,
+            "alex_id": "W7222939779"
           }
         ],
         "crossref": [],
@@ -842,8 +854,8 @@
       "publisher": "openRxiv",
       "citation_counts": {
         "scopus": 0,
-        "semanticscholar": 0,
-        "openalex": 12,
+        "semanticscholar": 1,
+        "openalex": 13,
         "crossref": 0
       },
       "citations": {
@@ -921,6 +933,12 @@
             "doi": "https://doi.org/10.1021/acs.jpclett.6c01417",
             "year": 2026,
             "alex_id": "W7163541253"
+          },
+          {
+            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
+            "doi": "https://doi.org/10.1073/pnas.2523017123",
+            "year": 2026,
+            "alex_id": "W7222939779"
           }
         ],
         "crossref": []
@@ -947,7 +965,7 @@
       "publisher": "openRxiv",
       "citation_counts": {
         "scopus": 0,
-        "semanticscholar": 6,
+        "semanticscholar": 0,
         "openalex": 4,
         "crossref": 3
       },
@@ -956,16 +974,16 @@
         "semanticscholar": [],
         "openalex": [
           {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
             "title": "Everything AlphaFold tells us about protein knots",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
             "year": 2024,
             "alex_id": "W4400723686"
+          },
+          {
+            "title": "Theta‐curves in proteins",
+            "doi": "https://doi.org/10.1002/pro.5133",
+            "year": 2024,
+            "alex_id": "W2968801969"
           },
           {
             "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
@@ -1003,9 +1021,9 @@
       "publisher": "Wiley",
       "citation_counts": {
         "scopus": 29,
-        "semanticscholar": 26,
-        "openalex": 35,
-        "crossref": 35,
+        "semanticscholar": 27,
+        "openalex": 36,
+        "crossref": 36,
         "webofscience": 23
       },
       "citations": {
@@ -1037,16 +1055,16 @@
             "alex_id": "W4389513536"
           },
           {
-            "title": "AlphaFold predicts novel human proteins with knots",
-            "doi": "https://doi.org/10.1002/pro.4631",
-            "year": 2023,
-            "alex_id": "W4360814081"
-          },
-          {
             "title": "De novo design of knotted tandem repeat proteins",
             "doi": "https://doi.org/10.1038/s41467-023-42388-y",
             "year": 2023,
             "alex_id": "W4387904362"
+          },
+          {
+            "title": "AlphaFold predicts novel human proteins with knots",
+            "doi": "https://doi.org/10.1002/pro.4631",
+            "year": 2023,
+            "alex_id": "W4360814081"
           },
           {
             "title": "Topological links in predicted protein complex structures reveal limitations of AlphaFold",
@@ -1067,6 +1085,12 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
+          },
+          {
             "title": "Theta‐curves in proteins",
             "doi": "https://doi.org/10.1002/pro.5133",
             "year": 2024,
@@ -1077,12 +1101,6 @@
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
             "alex_id": "W4388453703"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
           },
           {
             "title": "Folding of a tandemly knotted protein: Evidence that a polypeptide chain can get out of deep kinetic traps",
@@ -1189,8 +1207,8 @@
       "citation_counts": {
         "scopus": 32,
         "semanticscholar": 0,
-        "openalex": 39,
-        "crossref": 42,
+        "openalex": 40,
+        "crossref": 43,
         "webofscience": 31
       },
       "citations": {
@@ -1240,6 +1258,12 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
+          },
+          {
             "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
@@ -1252,12 +1276,6 @@
             "alex_id": "W4390610516"
           },
           {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
             "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
             "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
             "year": 2024,
@@ -1268,6 +1286,18 @@
             "doi": "https://doi.org/10.1016/j.jmb.2024.168455",
             "year": 2024,
             "alex_id": "W4391133548"
+          },
+          {
+            "title": "Knotted artifacts in predicted 3D RNA structures",
+            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
+            "year": 2024,
+            "alex_id": "W4399849543"
+          },
+          {
+            "title": "The Complex Energy Landscape of miRFP709, a 41-Knotted Protein, Results in Its Irreversible Denaturation",
+            "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
+            "year": 2025,
+            "alex_id": "W4406535649"
           },
           {
             "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
@@ -1294,22 +1324,10 @@
             "alex_id": "W4389805695"
           },
           {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
             "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
             "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
             "year": 2024,
             "alex_id": "W4394854922"
-          },
-          {
-            "title": "The Complex Energy Landscape of miRFP709, a 41-Knotted Protein, Results in Its Irreversible Denaturation",
-            "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
-            "year": 2025,
-            "alex_id": "W4406535649"
           },
           {
             "title": "Salt-bridge mediated conformational dynamics in the figure-of-eight knotted ketol acid reductoisomerase (KARI)",
@@ -1370,7 +1388,7 @@
       "publisher": "openRxiv",
       "citation_counts": {
         "scopus": 0,
-        "semanticscholar": 0,
+        "semanticscholar": 3,
         "openalex": 3,
         "crossref": 4
       },
@@ -1484,7 +1502,7 @@
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
         "scopus": 77,
-        "semanticscholar": 0,
+        "semanticscholar": 70,
         "openalex": 82,
         "crossref": 88
       },
@@ -1613,6 +1631,12 @@
             "alex_id": "W4311287562"
           },
           {
+            "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
+            "doi": "https://doi.org/10.1016/j.sbi.2023.102543",
+            "year": 2023,
+            "alex_id": "W4321354559"
+          },
+          {
             "title": "Resources for computational prediction of intrinsic disorder in proteins",
             "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
             "year": 2022,
@@ -1629,12 +1653,6 @@
             "doi": "https://doi.org/10.3390/molecules27227907",
             "year": 2022,
             "alex_id": "W4309308583"
-          },
-          {
-            "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
-            "doi": "https://doi.org/10.1016/j.sbi.2023.102543",
-            "year": 2023,
-            "alex_id": "W4321354559"
           },
           {
             "title": "The druggable genome: Twenty years later",
@@ -1691,11 +1709,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 64,
-        "semanticscholar": 0,
-        "openalex": 71,
-        "crossref": 69,
-        "webofscience": 53
+        "scopus": 65,
+        "semanticscholar": 88,
+        "openalex": 72,
+        "crossref": 70,
+        "webofscience": 54
       },
       "citations": {
         "scopus": [],
@@ -1816,6 +1834,12 @@
             "alex_id": "W4391133548"
           },
           {
+            "title": "Knotted artifacts in predicted 3D RNA structures",
+            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
+            "year": 2024,
+            "alex_id": "W4399849543"
+          },
+          {
             "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
             "doi": "https://doi.org/10.1038/s41467-025-66236-3",
             "year": 2025,
@@ -1844,12 +1868,6 @@
             "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
             "year": 2023,
             "alex_id": "W4315880917"
-          },
-          {
-            "title": "Lasso Proteins—Unifying Cysteine Knots and Miniproteins",
-            "doi": "https://doi.org/10.3390/polym13223988",
-            "year": 2021,
-            "alex_id": "W3211933918"
           }
         ],
         "crossref": [],
@@ -2013,11 +2031,11 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 102,
-        "semanticscholar": 0,
-        "openalex": 126,
-        "crossref": 122,
-        "webofscience": 95
+        "scopus": 103,
+        "semanticscholar": 118,
+        "openalex": 127,
+        "crossref": 123,
+        "webofscience": 96
       },
       "citations": {
         "scopus": [],
@@ -2084,16 +2102,22 @@
             "alex_id": "W4389513536"
           },
           {
-            "title": "Learning to unknot",
-            "doi": "https://doi.org/10.1088/2632-2153/abe91f",
-            "year": 2021,
-            "alex_id": "W3133361432"
+            "title": "De novo design of knotted tandem repeat proteins",
+            "doi": "https://doi.org/10.1038/s41467-023-42388-y",
+            "year": 2023,
+            "alex_id": "W4387904362"
           },
           {
             "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
             "doi": "https://doi.org/10.1093/nar/gkac388",
             "year": 2022,
             "alex_id": "W4282920722"
+          },
+          {
+            "title": "Learning to unknot",
+            "doi": "https://doi.org/10.1088/2632-2153/abe91f",
+            "year": 2021,
+            "alex_id": "W3133361432"
           },
           {
             "title": "AlphaFold predicts novel human proteins with knots",
@@ -2112,12 +2136,6 @@
             "doi": "https://doi.org/10.1371/journal.pcbi.1007904",
             "year": 2020,
             "alex_id": "W3031470308"
-          },
-          {
-            "title": "De novo design of knotted tandem repeat proteins",
-            "doi": "https://doi.org/10.1038/s41467-023-42388-y",
-            "year": 2023,
-            "alex_id": "W4387904362"
           },
           {
             "title": "Cellular Synthesis and X‐ray Crystal Structure of a Designed Protein Heterocatenane",
@@ -2156,6 +2174,12 @@
             "alex_id": "W4399523575"
           },
           {
+            "title": "Everything AlphaFold tells us about protein knots",
+            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
+            "year": 2024,
+            "alex_id": "W4400723686"
+          },
+          {
             "title": "Theta‐curves in proteins",
             "doi": "https://doi.org/10.1002/pro.5133",
             "year": 2024,
@@ -2166,12 +2190,6 @@
             "doi": "https://doi.org/10.3390/molecules28227462",
             "year": 2023,
             "alex_id": "W4388453703"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
           }
         ],
         "crossref": [],
@@ -2261,7 +2279,7 @@
       "publisher": "Warsaw University of Life Sciences - SGGW Press",
       "citation_counts": {
         "scopus": 0,
-        "semanticscholar": 0,
+        "semanticscholar": 1,
         "openalex": 1,
         "crossref": 1
       },
@@ -2445,7 +2463,7 @@
       "citation_counts": {
         "scopus": 10,
         "semanticscholar": 22,
-        "openalex": 17,
+        "openalex": 18,
         "crossref": 4,
         "webofscience": 7
       },
@@ -2458,6 +2476,12 @@
             "doi": "https://doi.org/10.1109/dest.2010.5610586",
             "year": 2010,
             "alex_id": "W2013542432"
+          },
+          {
+            "title": "KnotProt 2.0: a database of proteins with knots and other entangled structures",
+            "doi": "https://doi.org/10.1093/nar/gky1140",
+            "year": 2018,
+            "alex_id": "W2901992705"
           },
           {
             "title": "A time-constrained SLA negotiation strategy in competitive computational grids",
