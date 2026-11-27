@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19",
+  "generated_at": "2026-11-27",
   "sources": [
     "scopus",
     "semanticscholar",
@@ -36,20 +36,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Interfacial Charge-Driven Compression-Induced Structural and Morphological Reorganization in Lysozyme–DMPA Mixed Langmuir Films",
-            "doi": "https://doi.org/10.1021/acs.jpcb.6c01986",
-            "year": 2026,
-            "alex_id": "W7168753982"
-          },
-          {
-            "title": "Comparative assessment of crystallographic and cryo‐ EM models in the Protein Data Bank",
-            "doi": "https://doi.org/10.1002/2211-5463.70326",
-            "year": 2026,
-            "alex_id": "W7204227567"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -116,14 +103,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Lysozyme revisited: evaluating models of a reference protein in structural biology",
-            "doi": "https://doi.org/10.1016/j.crstbi.2026.100192",
-            "year": 2026,
-            "alex_id": "W7164306426"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -156,20 +136,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Lysozyme revisited: evaluating models of a reference protein in structural biology",
-            "doi": "https://doi.org/10.1016/j.crstbi.2026.100192",
-            "year": 2026,
-            "alex_id": "W7164306426"
-          },
-          {
-            "title": "How to mitigate the caveat emptor burden of human and machine users of the Protein Data Bank",
-            "doi": "https://doi.org/10.1107/s2059798325011477",
-            "year": 2026,
-            "alex_id": "W7119502689"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -196,14 +163,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "AlphaLasso—a web server to identify loop and lasso motifs in 3D structure of biopolymers",
-            "doi": "https://doi.org/10.1093/nar/gkaf375",
-            "year": 2025,
-            "alex_id": "W4410190596"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -235,32 +195,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Tangled Tail of Mechanically Interlocked Peptides",
-            "doi": "https://doi.org/10.1021/jacs.6c05395",
-            "year": 2026,
-            "alex_id": "W7165680396"
-          },
-          {
-            "title": "Native entanglement misfolding contributes to age-associated structural changes across the Saccharomyces cerevisiae proteome",
-            "doi": "https://doi.org/10.64898/2026.04.15.717356",
-            "year": 2026,
-            "alex_id": "W7154840135"
-          },
-          {
-            "title": "Entanglement-based continuum conformational landscape of proteins",
-            "doi": "https://doi.org/10.64898/2026.08.17.745258",
-            "year": 2026,
-            "alex_id": "W7203716587"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -295,86 +230,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Continued challenges in high-throughput materials predictions: MatterGen predicts compounds from the training dataset",
-            "doi": "https://doi.org/10.1039/d6mh00268d",
-            "year": 2026,
-            "alex_id": "W4411457000"
-          },
-          {
-            "title": "Pointwise Distance Distributions for Detecting Near-Duplicates in Large Materials Databases",
-            "doi": "https://doi.org/10.1137/25m1736657",
-            "year": 2026,
-            "alex_id": "W4287026417"
-          },
-          {
-            "title": "Geographic-style maps with a local novelty distance help navigate in the materials space",
-            "doi": "https://doi.org/10.1038/s41598-025-10672-0",
-            "year": 2025,
-            "alex_id": "W4412785809"
-          },
-          {
-            "title": "Complete and Continuous Invariants of 1-Periodic Sequences in Polynomial Time",
-            "doi": "https://doi.org/10.1137/25m1733574",
-            "year": 2025,
-            "alex_id": "W4414930758"
-          },
-          {
-            "title": "Why different PDB IDs for the same dysregulated protein can lead to inconsistent in-silico predictions and preclinical results",
-            "doi": "https://doi.org/10.1016/j.insi.2025.100083",
-            "year": 2025,
-            "alex_id": "W4415017050"
-          },
-          {
-            "title": "Stereochemical aspects of the nucleophilic attack in different classes of L -asparaginases",
-            "doi": "https://doi.org/10.1107/s2052252525010826",
-            "year": 2026,
-            "alex_id": "W7124470721"
-          },
-          {
-            "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
-            "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
-            "year": 2025,
-            "alex_id": "W4414123323"
-          },
-          {
-            "title": "How to mitigate the caveat emptor burden of human and machine users of the Protein Data Bank",
-            "doi": "https://doi.org/10.1107/s2059798325011477",
-            "year": 2026,
-            "alex_id": "W7119502689"
-          },
-          {
-            "title": "Seeing Through Ice",
-            "doi": "https://doi.org/10.1007/s00283-025-10499-7",
-            "year": 2026,
-            "alex_id": "W7128468784"
-          },
-          {
-            "title": "Scotty : lattice coincidences in the Protein Data Bank",
-            "doi": "https://doi.org/10.1107/s2059798326005723",
-            "year": 2026,
-            "alex_id": "W7165739127"
-          },
-          {
-            "title": "The Strength of a Geometric Simplex Helps Quantify Geometric Affinities of Molecules",
-            "doi": "https://doi.org/10.46793/match.98-1.36226",
-            "year": 2026,
-            "alex_id": "W7220987356"
-          },
-          {
-            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
-            "doi": "https://doi.org/10.1063/4.0000952",
-            "year": 2025,
-            "alex_id": "W4415590396"
-          },
-          {
-            "title": "Mathematics in the age of artificial intelligence: A primer on key topics in the mathematical sciences that underpin AI",
-            "doi": "https://doi.org/10.5281/zenodo.20538962",
-            "year": 2026,
-            "alex_id": "W7163572791"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -397,167 +253,16 @@
       ],
       "publisher": "Informa UK Limited",
       "citation_counts": {
-        "scopus": 18,
-        "semanticscholar": 25,
-        "openalex": 28,
-        "crossref": 22,
-        "webofscience": 19
+        "scopus": 19,
+        "semanticscholar": 27,
+        "openalex": 29,
+        "crossref": 24,
+        "webofscience": 20
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "The transformative impact of AI-enabled AlphaFold 3: evolution, current status, and future prospects in structural biology",
-            "doi": "https://doi.org/10.3389/frai.2026.1739303",
-            "year": 2026,
-            "alex_id": "W7151763198"
-          },
-          {
-            "title": "Precision by design: Surface plasmon resonance and the integration of biophysics in fragment-based drug discovery",
-            "doi": "https://doi.org/10.1007/s12551-026-01429-8",
-            "year": 2026,
-            "alex_id": "W7140303124"
-          },
-          {
-            "title": "Biological interpretation of DNA/RNA modification by ALKBH proteins and their role in human cancer",
-            "doi": "https://doi.org/10.1186/s40001-025-02735-9",
-            "year": 2025,
-            "alex_id": "W4411077544"
-          },
-          {
-            "title": "In silico drug discovery pipelines targeting antibiotic resistance: from genomes to leads",
-            "doi": "https://doi.org/10.3389/fbinf.2026.1839606",
-            "year": 2026,
-            "alex_id": "W7170826172"
-          },
-          {
-            "title": "Disrupting the Undruggable: Emerging Modalities for Targeting Protein–Protein Interactions in Oncology",
-            "doi": "https://doi.org/10.3390/biology15100759",
-            "year": 2026,
-            "alex_id": "W7162107897"
-          },
-          {
-            "title": "Molecular insights into voltage-gated sodium channels in excitable cells: pathophysiological roles and emerging therapeutic targets",
-            "doi": "https://doi.org/10.1080/10799893.2026.2676552",
-            "year": 2026,
-            "alex_id": "W7162992722"
-          },
-          {
-            "title": "Protein crystallization strategies in structure-based drug design",
-            "doi": "https://doi.org/10.1080/17460441.2025.2605355",
-            "year": 2025,
-            "alex_id": "W7117117613"
-          },
-          {
-            "title": "Drug Repurposing Potential of Natural Products: Molecular Targets, Pharmacological Profiles, and Precision Therapeutic Strategies: A Narrative Review",
-            "doi": "https://doi.org/10.68041/jbpt.v2i3/09",
-            "year": 2026,
-            "alex_id": "W7213500274"
-          },
-          {
-            "title": "Structural Parasitology Meets Nanomedicine: Current Structural Evidence and Future Opportunities for Leishmania and Schistosoma Targets",
-            "doi": "https://doi.org/10.3390/cimb48101007",
-            "year": 2026,
-            "alex_id": "W7214983884"
-          },
-          {
-            "title": "BConformeR: A Conformer Based on Mutual Sampling for Unified Prediction of Continuous and Discontinuous Antibody Binding Sites",
-            "doi": "https://doi.org/10.48550/arxiv.2508.12029",
-            "year": 2025,
-            "alex_id": "W4416679640"
-          },
-          {
-            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
-            "doi": "https://doi.org/10.1063/4.0000952",
-            "year": 2025,
-            "alex_id": "W4415590396"
-          },
-          {
-            "title": "A Structural Antibody Benchmark of AlphaFold3 reveals Hallucinated Epitopes and a Bias for Orderness",
-            "doi": "https://doi.org/10.64898/2026.07.30.741792",
-            "year": 2026,
-            "alex_id": "W7172116897"
-          },
-          {
-            "title": "ABConformer: Physics-inspired Sliding Attention for Antibody-Antigen Interface Prediction",
-            "doi": "https://doi.org/10.48550/arxiv.2509.23254",
-            "year": 2025,
-            "alex_id": "W4415332286"
-          },
-          {
-            "title": "Fillnet: A cryogenic electron tomography restoration framework integrating FFT_Unet architecture and weight optimisation strategy",
-            "doi": "https://doi.org/10.1016/j.jsb.2025.108261",
-            "year": 2025,
-            "alex_id": "W4416166871"
-          },
-          {
-            "title": "Multiscale imaging of RNA virus: bridging structural mapping and functional insights",
-            "doi": "https://doi.org/10.1016/j.tim.2025.12.002",
-            "year": 2026,
-            "alex_id": "W7118650436"
-          },
-          {
-            "title": "Heat shock protein Gp96 (Grp94) in malaria: functional insights at the host-parasite interface and therapeutic perspectives",
-            "doi": "https://doi.org/10.3389/fcell.2026.1760166",
-            "year": 2026,
-            "alex_id": "W7140860520"
-          },
-          {
-            "title": "Direct Detection and Atomic Modeling of Ligands in Cryo-EM Maps Using Deep Learning",
-            "doi": "https://doi.org/10.64898/2026.06.01.729423",
-            "year": 2026,
-            "alex_id": "W7163683836"
-          },
-          {
-            "title": "Fast prediction of acidic amino acid sidechain conformations for cryo-EM modeling",
-            "doi": "https://doi.org/10.64898/2026.07.12.738023",
-            "year": 2026,
-            "alex_id": "W7168397923"
-          },
-          {
-            "title": "Convergence of cryo‐electron microscopy and artificial intelligence in integrative structural biology: A critical review of advances, synergies, and implications for molecular biophysics and drug discovery",
-            "doi": "https://doi.org/10.1111/jmi.70154",
-            "year": 2026,
-            "alex_id": "W7171404445"
-          },
-          {
-            "title": "Comparative assessment of crystallographic and cryo‐ EM models in the Protein Data Bank",
-            "doi": "https://doi.org/10.1002/2211-5463.70326",
-            "year": 2026,
-            "alex_id": "W7204227567"
-          },
-          {
-            "title": "Matrine Alleviates Sepsis-Induced Acute Lung Injury by Reinforcing NQO1/SLC7A11/GPX4-Associated Anti-Ferroptotic Defenses and Attenuating NF-κB-Driven Inflammation",
-            "doi": "https://doi.org/10.2147/dddt.s594483",
-            "year": 2026,
-            "alex_id": "W7207705592"
-          },
-          {
-            "title": "N‐Myristoylation: A Central Hub Integrating Tumor Signaling, Metabolism, and Immunity for Precision Therapy",
-            "doi": "https://doi.org/10.1002/med.70102",
-            "year": 2026,
-            "alex_id": "W7211911028"
-          },
-          {
-            "title": "Dark proteome and emerging technologies for functional characterization and drug discovery",
-            "doi": "https://doi.org/10.1016/j.drudis.2026.104806",
-            "year": 2026,
-            "alex_id": "W7213461391"
-          },
-          {
-            "title": "GPCR signaling systems facilitate precision interventions for multi-oncology therapy",
-            "doi": "https://doi.org/10.3389/fsysb.2026.1940022",
-            "year": 2026,
-            "alex_id": "W7213977669"
-          },
-          {
-            "title": "Current applications of isothermal titration calorimetry for lead optimization",
-            "doi": "https://doi.org/10.1080/17460441.2026.2746971",
-            "year": 2026,
-            "alex_id": "W7221825622"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -591,80 +296,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Duplicate entries in the Protein Data Bank: how to detect and handle them",
-            "doi": "https://doi.org/10.1107/s2059798325001883",
-            "year": 2025,
-            "alex_id": "W4408248370"
-          },
-          {
-            "title": "A Complete and Bi-Continuous Invariant of Protein Backbones under Rigid Motion",
-            "doi": "https://doi.org/10.46793/match.94-1.097a",
-            "year": 2025,
-            "alex_id": "W4407813268"
-          },
-          {
-            "title": "Artificial intelligence in enzyme catalysis: Emerging trends and applications in biocatalyst engineering",
-            "doi": "https://doi.org/10.1002/cjce.70383",
-            "year": 2026,
-            "alex_id": "W7143510529"
-          },
-          {
-            "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are Not Enough",
-            "doi": "https://doi.org/10.1016/j.jmb.2026.169949",
-            "year": 2026,
-            "alex_id": "W7169069429"
-          },
-          {
-            "title": "Cat_Wiz: a stereochemistry-guided toolkit for locating, diagnosing, and annotating Mg2+ ions in RNA structures",
-            "doi": "https://doi.org/10.1093/nar/gkag120",
-            "year": 2026,
-            "alex_id": "W7131120057"
-          },
-          {
-            "title": "A Critical Look at the Crystal Structures of cAMP-Dependent Protein Kinases",
-            "doi": "https://doi.org/10.3390/kinasesphosphatases3030019",
-            "year": 2025,
-            "alex_id": "W4414123323"
-          },
-          {
-            "title": "Lysozyme revisited: evaluating models of a reference protein in structural biology",
-            "doi": "https://doi.org/10.1016/j.crstbi.2026.100192",
-            "year": 2026,
-            "alex_id": "W7164306426"
-          },
-          {
-            "title": "Role of restraints on hydrogen atoms in Hirshfeld atom refinement: the case of tri-aspartic acid trihydrate",
-            "doi": "https://doi.org/10.1107/s2052520625006110",
-            "year": 2025,
-            "alex_id": "W4414981198"
-          },
-          {
-            "title": "How to mitigate the caveat emptor burden of human and machine users of the Protein Data Bank",
-            "doi": "https://doi.org/10.1107/s2059798325011477",
-            "year": 2026,
-            "alex_id": "W7119502689"
-          },
-          {
-            "title": "Advances in cryo-electron microscopy (cryoEM) and X-Ray for structure-based drug discovery",
-            "doi": "https://doi.org/10.1063/4.0000952",
-            "year": 2025,
-            "alex_id": "W4415590396"
-          },
-          {
-            "title": "Comparative assessment of crystallographic and cryo‐ EM models in the Protein Data Bank",
-            "doi": "https://doi.org/10.1002/2211-5463.70326",
-            "year": 2026,
-            "alex_id": "W7204227567"
-          },
-          {
-            "title": "WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures",
-            "doi": "https://doi.org/10.64898/2026.08.26.747373",
-            "year": 2026,
-            "alex_id": "W7204462175"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -686,7 +318,7 @@
       ],
       "publisher": "Oxford University Press (OUP)",
       "citation_counts": {
-        "scopus": 16,
+        "scopus": 17,
         "semanticscholar": 21,
         "openalex": 22,
         "crossref": 19,
@@ -695,140 +327,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "LassoPred: a tool to predict the 3D structure of lasso peptides",
-            "doi": "https://doi.org/10.1038/s41467-025-60544-4",
-            "year": 2025,
-            "alex_id": "W4411891308"
-          },
-          {
-            "title": "The Complex Energy Landscape of miRFP709, a 41-Knotted Protein, Results in Its Irreversible Denaturation",
-            "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
-            "year": 2025,
-            "alex_id": "W4406535649"
-          },
-          {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "AlphaLasso—a web server to identify loop and lasso motifs in 3D structure of biopolymers",
-            "doi": "https://doi.org/10.1093/nar/gkaf375",
-            "year": 2025,
-            "alex_id": "W4410190596"
-          },
-          {
-            "title": "Tangled Tail of Mechanically Interlocked Peptides",
-            "doi": "https://doi.org/10.1021/jacs.6c05395",
-            "year": 2026,
-            "alex_id": "W7165680396"
-          },
-          {
-            "title": "Zika virus recruits karyopherin α6 for efficient replication via NS2B",
-            "doi": "https://doi.org/10.1128/jvi.02009-25",
-            "year": 2026,
-            "alex_id": "W7161811450"
-          },
-          {
-            "title": "Generating knotted polymer and protein structures by machine learning",
-            "doi": "https://doi.org/10.1038/s42004-026-02082-8",
-            "year": 2026,
-            "alex_id": "W7162692526"
-          },
-          {
-            "title": "Tube Model for Complex Polymer Knots",
-            "doi": "https://doi.org/10.1007/s10118-025-3405-8",
-            "year": 2025,
-            "alex_id": "W4414589160"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          },
-          {
-            "title": "Recognizing and generating knotted molecular structures by machine learning",
-            "doi": "https://doi.org/10.48550/arxiv.2501.12780",
-            "year": 2025,
-            "alex_id": "W4406779195"
-          },
-          {
-            "title": "On knot detection via picture recognition",
-            "doi": "https://doi.org/10.2139/ssrn.6685376",
-            "year": 2026,
-            "alex_id": "W4415314443"
-          },
-          {
-            "title": "Topologically Directed Simulations Reveal the Impact of Geometric Constraints on Knotted Proteins",
-            "doi": "https://doi.org/10.1021/acs.macromol.5c01073",
-            "year": 2025,
-            "alex_id": "W4416915305"
-          },
-          {
-            "title": "Three-Dimensional Molecular Modeling of Amino Acid Sequences and Mutations to Enrich Biophysics Education",
-            "doi": "https://doi.org/10.36838/v8i4.15",
-            "year": 2026,
-            "alex_id": "W7141393203"
-          },
-          {
-            "title": "Navigating the knotty paths: Structures, folding, and functions of topologically knotted proteins",
-            "doi": "https://doi.org/10.1016/b978-0-323-99507-8.00077-9",
-            "year": 2026,
-            "alex_id": "W7152109651"
-          },
-          {
-            "title": "Native entanglement misfolding contributes to age-associated structural changes across the Saccharomyces cerevisiae proteome",
-            "doi": "https://doi.org/10.64898/2026.04.15.717356",
-            "year": 2026,
-            "alex_id": "W7154840135"
-          },
-          {
-            "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology",
-            "doi": "https://doi.org/10.1073/pnas.2525920123",
-            "year": 2026,
-            "alex_id": "W7155185629"
-          },
-          {
-            "title": "Advancing knotted protein design with ESM3: guided generation and topological insights",
-            "doi": "https://doi.org/10.1088/3049-477x/aea330",
-            "year": 2026,
-            "alex_id": "W7161563848"
-          },
-          {
-            "title": "Topologically complex knotted proteins are processed differentially by ATP ‐dependent proteases ClpXP and ClpAP",
-            "doi": "https://doi.org/10.1002/pro.70789",
-            "year": 2026,
-            "alex_id": "W7213333354"
-          },
-          {
-            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
-            "doi": "https://doi.org/10.1073/pnas.2523017123",
-            "year": 2026,
-            "alex_id": "W7222939779"
-          },
-          {
-            "title": "Entropic tightening of knots in granular chains under vibration",
-            "doi": "https://doi.org/10.1073/pnas.2615990123",
-            "year": 2026,
-            "alex_id": "W7225276008"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -866,92 +365,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
-            "year": 2024,
-            "alex_id": "W4394854922"
-          },
-          {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Loop Modulates Long-Range Allosteric Communications in a Knotted Protein",
-            "doi": "https://doi.org/10.1021/acs.jpcb.5c07460",
-            "year": 2025,
-            "alex_id": "W7117312781"
-          },
-          {
-            "title": "Generating knotted polymer and protein structures by machine learning",
-            "doi": "https://doi.org/10.1038/s42004-026-02082-8",
-            "year": 2026,
-            "alex_id": "W7162692526"
-          },
-          {
-            "title": "Sequence‐Similar Protein Domain Pairs With Structural or Topological Dissimilarity",
-            "doi": "https://doi.org/10.1002/prot.26753",
-            "year": 2024,
-            "alex_id": "W4403338047"
-          },
-          {
-            "title": "SCOP-KHNET: An Interpretable Hybrid Network for Protein Structural Class Prediction",
-            "doi": "https://doi.org/10.1021/acs.jpclett.6c01417",
-            "year": 2026,
-            "alex_id": "W7163541253"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          },
-          {
-            "title": "Recognizing and generating knotted molecular structures by machine learning",
-            "doi": "https://doi.org/10.48550/arxiv.2501.12780",
-            "year": 2025,
-            "alex_id": "W4406779195"
-          },
-          {
-            "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology",
-            "doi": "https://doi.org/10.1073/pnas.2525920123",
-            "year": 2026,
-            "alex_id": "W7155185629"
-          },
-          {
-            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
-            "doi": "https://doi.org/10.1073/pnas.2523017123",
-            "year": 2026,
-            "alex_id": "W7222939779"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -1015,92 +429,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
-            "year": 2024,
-            "alex_id": "W4394854922"
-          },
-          {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Loop Modulates Long-Range Allosteric Communications in a Knotted Protein",
-            "doi": "https://doi.org/10.1021/acs.jpcb.5c07460",
-            "year": 2025,
-            "alex_id": "W7117312781"
-          },
-          {
-            "title": "Generating knotted polymer and protein structures by machine learning",
-            "doi": "https://doi.org/10.1038/s42004-026-02082-8",
-            "year": 2026,
-            "alex_id": "W7162692526"
-          },
-          {
-            "title": "Sequence‐Similar Protein Domain Pairs With Structural or Topological Dissimilarity",
-            "doi": "https://doi.org/10.1002/prot.26753",
-            "year": 2024,
-            "alex_id": "W4403338047"
-          },
-          {
-            "title": "SCOP-KHNET: An Interpretable Hybrid Network for Protein Structural Class Prediction",
-            "doi": "https://doi.org/10.1021/acs.jpclett.6c01417",
-            "year": 2026,
-            "alex_id": "W7163541253"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          },
-          {
-            "title": "Recognizing and generating knotted molecular structures by machine learning",
-            "doi": "https://doi.org/10.48550/arxiv.2501.12780",
-            "year": 2025,
-            "alex_id": "W4406779195"
-          },
-          {
-            "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology",
-            "doi": "https://doi.org/10.1073/pnas.2525920123",
-            "year": 2026,
-            "alex_id": "W7155185629"
-          },
-          {
-            "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
-            "doi": "https://doi.org/10.1073/pnas.2523017123",
-            "year": 2026,
-            "alex_id": "W7222939779"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -1126,62 +455,13 @@
       "citation_counts": {
         "scopus": 0,
         "semanticscholar": 6,
-        "openalex": 8,
+        "openalex": 6,
         "crossref": 3
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
-          },
-          {
-            "title": "Multi-barrier unfolding of the double-knotted protein, TrmD–Tm1570, revealed by single-molecule force spectroscopy and molecular dynamics",
-            "doi": "https://doi.org/10.7554/elife.108823.1",
-            "year": 2025,
-            "alex_id": "W4416332756"
-          },
-          {
-            "title": "Multi-barrier unfolding of the double-knotted protein, TrmD–Tm1570, revealed by single-molecule force spectroscopy and molecular dynamics",
-            "doi": "https://doi.org/10.1101/2025.08.27.672562",
-            "year": 2025,
-            "alex_id": "W4413824435"
-          },
-          {
-            "title": "Multi-barrier unfolding of the double-knotted protein, TrmD–Tm1570, revealed by single-molecule force spectroscopy and molecular dynamics",
-            "doi": "https://doi.org/10.7554/elife.108823",
-            "year": 2025,
-            "alex_id": "W4416332730"
-          },
-          {
-            "title": "Multi-barrier unfolding of the double-knotted protein, TrmD–Tm1570, revealed by single-molecule force spectroscopy and molecular dynamics",
-            "doi": "https://doi.org/10.7554/elife.108823.2",
-            "year": 2026,
-            "alex_id": "W7130732825"
-          },
-          {
-            "title": "Navigating the knotty paths: Structures, folding, and functions of topologically knotted proteins",
-            "doi": "https://doi.org/10.1016/b978-0-323-99507-8.00077-9",
-            "year": 2026,
-            "alex_id": "W7152109651"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -1213,158 +493,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Topology in soft and biological matter",
-            "doi": "https://doi.org/10.1016/j.physrep.2024.04.002",
-            "year": 2024,
-            "alex_id": "W4396962683"
-          },
-          {
-            "title": "Advancements in protein structure prediction: A comparative overview of AlphaFold and its derivatives",
-            "doi": "https://doi.org/10.1016/j.compbiomed.2025.109842",
-            "year": 2025,
-            "alex_id": "W4407688507"
-          },
-          {
-            "title": "De novo design of knotted tandem repeat proteins",
-            "doi": "https://doi.org/10.1038/s41467-023-42388-y",
-            "year": 2023,
-            "alex_id": "W4387904362"
-          },
-          {
-            "title": "Folding and functions of knotted proteins",
-            "doi": "https://doi.org/10.1016/j.sbi.2023.102709",
-            "year": 2023,
-            "alex_id": "W4387206154"
-          },
-          {
-            "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
-            "doi": "https://doi.org/10.1093/nar/gkac388",
-            "year": 2022,
-            "alex_id": "W4282920722"
-          },
-          {
-            "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
-            "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
-            "year": 2023,
-            "alex_id": "W4389513536"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
-            "title": "Topological links in predicted protein complex structures reveal limitations of AlphaFold",
-            "doi": "https://doi.org/10.1038/s42003-023-05489-4",
-            "year": 2023,
-            "alex_id": "W4388001385"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Are there double knots in proteins? Prediction and in vitro verification based on TrmD-Tm1570 fusion from C. nitroreducens",
-            "doi": "https://doi.org/10.3389/fmolb.2023.1223830",
-            "year": 2024,
-            "alex_id": "W4399523575"
-          },
-          {
-            "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
-            "doi": "https://doi.org/10.3390/molecules28227462",
-            "year": 2023,
-            "alex_id": "W4388453703"
-          },
-          {
-            "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
-          },
-          {
-            "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
-            "year": 2024,
-            "alex_id": "W4394854922"
-          },
-          {
-            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
-            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
-            "year": 2024,
-            "alex_id": "W4392307869"
-          },
-          {
-            "title": "Folding of a tandemly knotted protein: Evidence that a polypeptide chain can get out of deep kinetic traps",
-            "doi": "https://doi.org/10.1002/pro.70048",
-            "year": 2025,
-            "alex_id": "W4407746425"
-          },
-          {
-            "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
-            "doi": "https://doi.org/10.1103/z7jb-fvjl",
-            "year": 2025,
-            "alex_id": "W4417267505"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Mathematical topology and geometry-based classification of tauopathies",
-            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
-            "year": 2024,
-            "alex_id": "W4393333752"
-          },
-          {
-            "title": "AlphaLasso—a web server to identify loop and lasso motifs in 3D structure of biopolymers",
-            "doi": "https://doi.org/10.1093/nar/gkaf375",
-            "year": 2025,
-            "alex_id": "W4410190596"
-          },
-          {
-            "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
-            "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
-            "year": 2023,
-            "alex_id": "W4388210953"
-          },
-          {
-            "title": "Effects of sequence-dependent non-native interactions in equilibrium and kinetic folding properties of knotted proteins",
-            "doi": "https://doi.org/10.1063/5.0160886",
-            "year": 2023,
-            "alex_id": "W4385659485"
-          },
-          {
-            "title": "Topological metrics as evolutionary and dynamical descriptors of conformational landscapes within protein families",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1013985",
-            "year": 2026,
-            "alex_id": "W7133561347"
-          },
-          {
-            "title": "3D structural analysis of aptamer and diagnostic platforms for detecting hepatocellular carcinoma",
-            "doi": "https://doi.org/10.1007/s13273-023-00369-8",
-            "year": 2023,
-            "alex_id": "W4383224127"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -1391,165 +520,14 @@
       "citation_counts": {
         "scopus": 34,
         "semanticscholar": 35,
-        "openalex": 43,
+        "openalex": 41,
         "crossref": 44,
         "webofscience": 33
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Artificial Intelligence (AI) Applications in Drug Discovery and Drug Delivery: Revolutionizing Personalized Medicine",
-            "doi": "https://doi.org/10.3390/pharmaceutics16101328",
-            "year": 2024,
-            "alex_id": "W4403402994"
-          },
-          {
-            "title": "The mechanical bond in biological systems",
-            "doi": "https://doi.org/10.1016/j.chempr.2023.03.030",
-            "year": 2023,
-            "alex_id": "W4366824646"
-          },
-          {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
-            "title": "AlphaFold predicts the most complex protein knot and composite protein knots",
-            "doi": "https://doi.org/10.1002/pro.4380",
-            "year": 2022,
-            "alex_id": "W4285086987"
-          },
-          {
-            "title": "AlphaFold predicts novel human proteins with knots",
-            "doi": "https://doi.org/10.1002/pro.4631",
-            "year": 2023,
-            "alex_id": "W4360814081"
-          },
-          {
-            "title": "Topological links in predicted protein complex structures reveal limitations of AlphaFold",
-            "doi": "https://doi.org/10.1038/s42003-023-05489-4",
-            "year": 2023,
-            "alex_id": "W4388001385"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Challenges and limitations in computational prediction of protein misfolding in neurodegenerative diseases",
-            "doi": "https://doi.org/10.3389/fncom.2023.1323182",
-            "year": 2024,
-            "alex_id": "W4390610516"
-          },
-          {
-            "title": "Discovery of a trefoil knot in the RydC RNA: Challenging previous notions of RNA topology",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168455",
-            "year": 2024,
-            "alex_id": "W4391133548"
-          },
-          {
-            "title": "Are there double knots in proteins? Prediction and in vitro verification based on TrmD-Tm1570 fusion from C. nitroreducens",
-            "doi": "https://doi.org/10.3389/fmolb.2023.1223830",
-            "year": 2024,
-            "alex_id": "W4399523575"
-          },
-          {
-            "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
-            "doi": "https://doi.org/10.3390/molecules28227462",
-            "year": 2023,
-            "alex_id": "W4388453703"
-          },
-          {
-            "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
-          },
-          {
-            "title": "Mechanically Interlocked Biomacromolecules",
-            "doi": "https://doi.org/10.1016/j.supmat.2023.100059",
-            "year": 2023,
-            "alex_id": "W4389805695"
-          },
-          {
-            "title": "Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168459",
-            "year": 2024,
-            "alex_id": "W4391363535"
-          },
-          {
-            "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
-            "year": 2024,
-            "alex_id": "W4394854922"
-          },
-          {
-            "title": "Comprehensive in-silico analysis of deleterious SNPs in APOC2 and APOA5 and their differential expression in cancer and cardiovascular diseases conditions",
-            "doi": "https://doi.org/10.1016/j.ygeno.2023.110567",
-            "year": 2023,
-            "alex_id": "W4317611847"
-          },
-          {
-            "title": "The Complex Energy Landscape of miRFP709, a 41-Knotted Protein, Results in Its Irreversible Denaturation",
-            "doi": "https://doi.org/10.1021/acs.jpcb.4c05439",
-            "year": 2025,
-            "alex_id": "W4406535649"
-          },
-          {
-            "title": "HYPERMATRIX ALGEBRA AND IRREDUCIBLE ARITY IN HIGHER-ORDER SYSTEMS: CONCEPTS AND PERSPECTIVES",
-            "doi": "https://doi.org/10.1142/s0219525923500078",
-            "year": 2023,
-            "alex_id": "W4387159697"
-          },
-          {
-            "title": "Salt-bridge mediated conformational dynamics in the figure-of-eight knotted ketol acid reductoisomerase (KARI)",
-            "doi": "https://doi.org/10.1039/d4cp02677b",
-            "year": 2024,
-            "alex_id": "W4402465123"
-          },
-          {
-            "title": "Deep Learning-Assisted Discovery of Protein Entangling Motifs",
-            "doi": "https://doi.org/10.1021/acs.biomac.4c01243",
-            "year": 2025,
-            "alex_id": "W4407391667"
-          },
-          {
-            "title": "Tangled Tail of Mechanically Interlocked Peptides",
-            "doi": "https://doi.org/10.1021/jacs.6c05395",
-            "year": 2026,
-            "alex_id": "W7165680396"
-          },
-          {
-            "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
-            "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
-            "year": 2023,
-            "alex_id": "W4388210953"
-          },
-          {
-            "title": "Discrepant Effects of Hydrated and Neat Reline on the Conformational Stability of a Knotted Protein",
-            "doi": "https://doi.org/10.1021/acs.jpcb.5c00148",
-            "year": 2025,
-            "alex_id": "W4409993690"
-          },
-          {
-            "title": "Computational discovery and systematic analysis of protein entangling motifs in nature: from algorithm to database",
-            "doi": "https://doi.org/10.1039/d4sc08649j",
-            "year": 2025,
-            "alex_id": "W4408991798"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -1579,158 +557,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Topology in soft and biological matter",
-            "doi": "https://doi.org/10.1016/j.physrep.2024.04.002",
-            "year": 2024,
-            "alex_id": "W4396962683"
-          },
-          {
-            "title": "Advancements in protein structure prediction: A comparative overview of AlphaFold and its derivatives",
-            "doi": "https://doi.org/10.1016/j.compbiomed.2025.109842",
-            "year": 2025,
-            "alex_id": "W4407688507"
-          },
-          {
-            "title": "De novo design of knotted tandem repeat proteins",
-            "doi": "https://doi.org/10.1038/s41467-023-42388-y",
-            "year": 2023,
-            "alex_id": "W4387904362"
-          },
-          {
-            "title": "Folding and functions of knotted proteins",
-            "doi": "https://doi.org/10.1016/j.sbi.2023.102709",
-            "year": 2023,
-            "alex_id": "W4387206154"
-          },
-          {
-            "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
-            "doi": "https://doi.org/10.1093/nar/gkac388",
-            "year": 2022,
-            "alex_id": "W4282920722"
-          },
-          {
-            "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
-            "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
-            "year": 2023,
-            "alex_id": "W4389513536"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
-            "title": "Topological links in predicted protein complex structures reveal limitations of AlphaFold",
-            "doi": "https://doi.org/10.1038/s42003-023-05489-4",
-            "year": 2023,
-            "alex_id": "W4388001385"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Are there double knots in proteins? Prediction and in vitro verification based on TrmD-Tm1570 fusion from C. nitroreducens",
-            "doi": "https://doi.org/10.3389/fmolb.2023.1223830",
-            "year": 2024,
-            "alex_id": "W4399523575"
-          },
-          {
-            "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
-            "doi": "https://doi.org/10.3390/molecules28227462",
-            "year": 2023,
-            "alex_id": "W4388453703"
-          },
-          {
-            "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
-          },
-          {
-            "title": "Knots and θ-Curves Identification in Polymeric Chains and Native Proteins Using Neural Networks",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c02479",
-            "year": 2024,
-            "alex_id": "W4394854922"
-          },
-          {
-            "title": "AI-Assisted Methods for Protein Structure Prediction and Analysis",
-            "doi": "https://doi.org/10.1007/978-981-99-9621-6_22",
-            "year": 2024,
-            "alex_id": "W4392307869"
-          },
-          {
-            "title": "Folding of a tandemly knotted protein: Evidence that a polypeptide chain can get out of deep kinetic traps",
-            "doi": "https://doi.org/10.1002/pro.70048",
-            "year": 2025,
-            "alex_id": "W4407746425"
-          },
-          {
-            "title": "Hierarchical Knot Formation of Semiflexible Filaments Driven by Hydrodynamics",
-            "doi": "https://doi.org/10.1103/z7jb-fvjl",
-            "year": 2025,
-            "alex_id": "W4417267505"
-          },
-          {
-            "title": "Universe of Lasso Proteins: Exploring the Limit of Entanglement of Proteins Predicted by AlphaFold",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.169217",
-            "year": 2025,
-            "alex_id": "W4410488060"
-          },
-          {
-            "title": "Mathematical topology and geometry-based classification of tauopathies",
-            "doi": "https://doi.org/10.1038/s41598-024-58221-5",
-            "year": 2024,
-            "alex_id": "W4393333752"
-          },
-          {
-            "title": "AlphaLasso—a web server to identify loop and lasso motifs in 3D structure of biopolymers",
-            "doi": "https://doi.org/10.1093/nar/gkaf375",
-            "year": 2025,
-            "alex_id": "W4410190596"
-          },
-          {
-            "title": "Conservation of knotted and slipknotted topology in transmembrane transporters",
-            "doi": "https://doi.org/10.1016/j.bpj.2023.10.031",
-            "year": 2023,
-            "alex_id": "W4388210953"
-          },
-          {
-            "title": "Effects of sequence-dependent non-native interactions in equilibrium and kinetic folding properties of knotted proteins",
-            "doi": "https://doi.org/10.1063/5.0160886",
-            "year": 2023,
-            "alex_id": "W4385659485"
-          },
-          {
-            "title": "Topological metrics as evolutionary and dynamical descriptors of conformational landscapes within protein families",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1013985",
-            "year": 2026,
-            "alex_id": "W7133561347"
-          },
-          {
-            "title": "3D structural analysis of aptamer and diagnostic platforms for detecting hepatocellular carcinoma",
-            "doi": "https://doi.org/10.1007/s13273-023-00369-8",
-            "year": 2023,
-            "alex_id": "W4383224127"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -1825,158 +652,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences",
-            "doi": "https://doi.org/10.1093/nar/gkad1011",
-            "year": 2023,
-            "alex_id": "W4388464011"
-          },
-          {
-            "title": "BioLiP2: an updated structure database for biologically relevant ligand–protein interactions",
-            "doi": "https://doi.org/10.1093/nar/gkad630",
-            "year": 2023,
-            "alex_id": "W4385407166"
-          },
-          {
-            "title": "MobiDB: 10 years of intrinsically disordered proteins",
-            "doi": "https://doi.org/10.1093/nar/gkac1065",
-            "year": 2022,
-            "alex_id": "W4309765941"
-          },
-          {
-            "title": "The impact of AlphaFold Protein Structure Database on the fields of life sciences",
-            "doi": "https://doi.org/10.1002/pmic.202200128",
-            "year": 2022,
-            "alex_id": "W4309153596"
-          },
-          {
-            "title": "Critical assessment of protein intrinsic disorder prediction ( CAID ) ‐ Results of round 2",
-            "doi": "https://doi.org/10.1002/prot.26582",
-            "year": 2023,
-            "alex_id": "W4386152095"
-          },
-          {
-            "title": "MOBIDB in 2025: integrating ensemble properties and function annotations for intrinsically disordered proteins",
-            "doi": "https://doi.org/10.1093/nar/gkae969",
-            "year": 2024,
-            "alex_id": "W4403852237"
-          },
-          {
-            "title": "RosettaDDGPrediction for high‐throughput mutational scans: From stability to binding",
-            "doi": "https://doi.org/10.1002/pro.4527",
-            "year": 2022,
-            "alex_id": "W4310645193"
-          },
-          {
-            "title": "Role of genomics in combating COVID-19 pandemic",
-            "doi": "https://doi.org/10.1016/j.gene.2022.146387",
-            "year": 2022,
-            "alex_id": "W4214894446"
-          },
-          {
-            "title": "PED in 2024: improving the community deposition of structural ensembles for intrinsically disordered proteins",
-            "doi": "https://doi.org/10.1093/nar/gkad947",
-            "year": 2023,
-            "alex_id": "W4388034836"
-          },
-          {
-            "title": "The 2022Nucleic Acids Researchdatabase issue and the online molecular biology database collection",
-            "doi": "https://doi.org/10.1093/nar/gkab1195",
-            "year": 2021,
-            "alex_id": "W4206145266"
-          },
-          {
-            "title": "ModelArchive: A Deposition Database for Computational Macromolecular Structural Models",
-            "doi": "https://doi.org/10.1016/j.jmb.2025.168996",
-            "year": 2025,
-            "alex_id": "W4407367564"
-          },
-          {
-            "title": "BIOPEP-UWM Virtual—A Novel Database of Food-Derived Peptides with In Silico-Predicted Biological Activity",
-            "doi": "https://doi.org/10.3390/app12147204",
-            "year": 2022,
-            "alex_id": "W4285732024"
-          },
-          {
-            "title": "Local energetic frustration conservation in protein families and superfamilies",
-            "doi": "https://doi.org/10.1038/s41467-023-43801-2",
-            "year": 2023,
-            "alex_id": "W4389832090"
-          },
-          {
-            "title": "Comparative evaluation of methods for the prediction of protein–ligand binding sites",
-            "doi": "https://doi.org/10.1186/s13321-024-00923-z",
-            "year": 2024,
-            "alex_id": "W4404226808"
-          },
-          {
-            "title": "Enzyme function and evolution through the lens of bioinformatics",
-            "doi": "https://doi.org/10.1042/bcj20220405",
-            "year": 2023,
-            "alex_id": "W4388903750"
-          },
-          {
-            "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins",
-            "doi": "https://doi.org/10.1038/s41596-023-00876-x",
-            "year": 2023,
-            "alex_id": "W4386979884"
-          },
-          {
-            "title": "Challenges in bridging the gap between protein structure prediction and functional interpretation",
-            "doi": "https://doi.org/10.1002/prot.26614",
-            "year": 2023,
-            "alex_id": "W4387729537"
-          },
-          {
-            "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation",
-            "doi": "https://doi.org/10.1093/nar/gkaf1175",
-            "year": 2025,
-            "alex_id": "W4416300358"
-          },
-          {
-            "title": "Zero-shot transfer of protein sequence likelihood models to thermostability prediction",
-            "doi": "https://doi.org/10.1038/s42256-024-00887-7",
-            "year": 2024,
-            "alex_id": "W4402666674"
-          },
-          {
-            "title": "3DLigandSite: structure-based prediction of protein–ligand binding sites",
-            "doi": "https://doi.org/10.1093/nar/gkac250",
-            "year": 2022,
-            "alex_id": "W4223432929"
-          },
-          {
-            "title": "3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources",
-            "doi": "https://doi.org/10.1093/gigascience/giac118",
-            "year": 2022,
-            "alex_id": "W4311287562"
-          },
-          {
-            "title": "The opportunities and challenges posed by the new generation of deep learning-based protein structure predictors",
-            "doi": "https://doi.org/10.1016/j.sbi.2023.102543",
-            "year": 2023,
-            "alex_id": "W4321354559"
-          },
-          {
-            "title": "Resources for computational prediction of intrinsic disorder in proteins",
-            "doi": "https://doi.org/10.1016/j.ymeth.2022.03.018",
-            "year": 2022,
-            "alex_id": "W4221055411"
-          },
-          {
-            "title": "Multi-Bioactivity of Protein Digests and Peptides from Oat (Avena sativa L.) Kernels in the Prevention of the Cardiometabolic Syndrome",
-            "doi": "https://doi.org/10.3390/molecules27227907",
-            "year": 2022,
-            "alex_id": "W4309308583"
-          },
-          {
-            "title": "PDBe and PDBe‐KB : Providing high‐quality, up‐to‐date and integrated resources of macromolecular structures to support basic and applied research and education",
-            "doi": "https://doi.org/10.1002/pro.4439",
-            "year": 2022,
-            "alex_id": "W4297494206"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -2027,165 +703,14 @@
       "citation_counts": {
         "scopus": 66,
         "semanticscholar": 89,
-        "openalex": 91,
+        "openalex": 90,
         "crossref": 71,
         "webofscience": 55
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Applied machine learning as a driver for polymeric biomaterials design",
-            "doi": "https://doi.org/10.1038/s41467-023-40459-8",
-            "year": 2023,
-            "alex_id": "W4385740652"
-          },
-          {
-            "title": "Topology in soft and biological matter",
-            "doi": "https://doi.org/10.1016/j.physrep.2024.04.002",
-            "year": 2024,
-            "alex_id": "W4396962683"
-          },
-          {
-            "title": "On folding of entangled proteins: knots, lassos, links and θ -curves",
-            "doi": "https://doi.org/10.1016/j.sbi.2020.01.007",
-            "year": 2020,
-            "alex_id": "W3005909868"
-          },
-          {
-            "title": "Topological data analysis and topological deep learning beyond persistent homology: a review",
-            "doi": "https://doi.org/10.1007/s10462-025-11462-w",
-            "year": 2025,
-            "alex_id": "W4417535890"
-          },
-          {
-            "title": "Knot data analysis using multiscale Gauss link integral",
-            "doi": "https://doi.org/10.1073/pnas.2408431121",
-            "year": 2024,
-            "alex_id": "W4403333459"
-          },
-          {
-            "title": "Quantifying complexity in DNA structures with high resolution Atomic Force Microscopy",
-            "doi": "https://doi.org/10.1038/s41467-025-60559-x",
-            "year": 2025,
-            "alex_id": "W4411887343"
-          },
-          {
-            "title": "Predicting RNA 3D structure and conformers using a pre-trained secondary structure model and structure-aware attention",
-            "doi": "https://doi.org/10.1038/s42256-026-01223-x",
-            "year": 2026,
-            "alex_id": "W4409453873"
-          },
-          {
-            "title": "Knotted artifacts in predicted 3D RNA structures",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1011959",
-            "year": 2024,
-            "alex_id": "W4399849543"
-          },
-          {
-            "title": "Effect of chain-penetration on ring shape for mixtures of rings and linear polymers",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123493",
-            "year": 2021,
-            "alex_id": "W3127139700"
-          },
-          {
-            "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
-            "doi": "https://doi.org/10.1093/nar/gkac388",
-            "year": 2022,
-            "alex_id": "W4282920722"
-          },
-          {
-            "title": "Viscosity Overshoot in Biaxial Elongational Flow: Coarse-Grained Molecular Dynamics Simulation of Ring–Linear Polymer Mixtures",
-            "doi": "https://doi.org/10.1021/acs.macromol.1c00267",
-            "year": 2021,
-            "alex_id": "W3126753800"
-          },
-          {
-            "title": "Molecular Dynamics Simulations of Ring Shapes on a Ring Fraction in Ring–Linear Polymer Blends",
-            "doi": "https://doi.org/10.1021/acs.macromol.1c00656",
-            "year": 2021,
-            "alex_id": "W3191916740"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
-            "title": "Topological links in predicted protein complex structures reveal limitations of AlphaFold",
-            "doi": "https://doi.org/10.1038/s42003-023-05489-4",
-            "year": 2023,
-            "alex_id": "W4388001385"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Topological Analysis and Recovery of Entanglements in Polymer Melts",
-            "doi": "https://doi.org/10.1021/acs.macromol.3c00278",
-            "year": 2023,
-            "alex_id": "W4366303786"
-          },
-          {
-            "title": "Discovery of a trefoil knot in the RydC RNA: Challenging previous notions of RNA topology",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168455",
-            "year": 2024,
-            "alex_id": "W4391133548"
-          },
-          {
-            "title": "A widespread protein misfolding mechanism is differentially rescued in vitro by chaperones based on gene essentiality",
-            "doi": "https://doi.org/10.1038/s41467-025-66236-3",
-            "year": 2025,
-            "alex_id": "W4417269918"
-          },
-          {
-            "title": "Multi-ring configurations and penetration of linear chains into rings on bonded ring systems and polycatenanes in linear chain matrices",
-            "doi": "https://doi.org/10.1016/j.polymer.2021.123705",
-            "year": 2021,
-            "alex_id": "W3141189759"
-          },
-          {
-            "title": "How soluble misfolded proteins bypass chaperones at the molecular level",
-            "doi": "https://doi.org/10.1038/s41467-023-38962-z",
-            "year": 2023,
-            "alex_id": "W4381510375"
-          },
-          {
-            "title": "A computational package for measuring Topological Entanglement in Polymers, Proteins and Periodic systems (TEPPP)",
-            "doi": "https://doi.org/10.1016/j.cpc.2022.108639",
-            "year": 2023,
-            "alex_id": "W4315880917"
-          },
-          {
-            "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
-            "doi": "https://doi.org/10.3390/molecules28227462",
-            "year": 2023,
-            "alex_id": "W4388453703"
-          },
-          {
-            "title": "Knot or not? Identifying unknotted proteins in knotted families with sequence‐based Machine Learning model",
-            "doi": "https://doi.org/10.1002/pro.4998",
-            "year": 2024,
-            "alex_id": "W4399776685"
-          },
-          {
-            "title": "Protein misfolding involving entanglements provides a structural explanation for the origin of stretched-exponential refolding kinetics",
-            "doi": "https://doi.org/10.1126/sciadv.ads7379",
-            "year": 2025,
-            "alex_id": "W4408423748"
-          },
-          {
-            "title": "Geometric Predictors of Knotted and Linked Arcs",
-            "doi": "https://doi.org/10.1021/acspolymersau.2c00021",
-            "year": 2022,
-            "alex_id": "W4284966717"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2235,87 +760,14 @@
       "citation_counts": {
         "scopus": 10,
         "semanticscholar": 13,
-        "openalex": 12,
+        "openalex": 14,
         "crossref": 12,
         "webofscience": 9
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "On folding of entangled proteins: knots, lassos, links and θ -curves",
-            "doi": "https://doi.org/10.1016/j.sbi.2020.01.007",
-            "year": 2020,
-            "alex_id": "W3005909868"
-          },
-          {
-            "title": "The 27th annual Nucleic Acids Research database issue and molecular biology database collection",
-            "doi": "https://doi.org/10.1093/nar/gkz1161",
-            "year": 2019,
-            "alex_id": "W2999471177"
-          },
-          {
-            "title": "RNAspider: a webserver to analyze entanglements in RNA 3D structures",
-            "doi": "https://doi.org/10.1093/nar/gkac218",
-            "year": 2022,
-            "alex_id": "W4220987767"
-          },
-          {
-            "title": "Topology of Folded Molecular Chains: From Single Biomolecules to Engineered Origami",
-            "doi": "https://doi.org/10.1016/j.trechm.2020.04.009",
-            "year": 2020,
-            "alex_id": "W3023716564"
-          },
-          {
-            "title": "Network pharmacology and molecular docking analysis predict the mechanisms of Huangbai liniment in treating oral lichen planus",
-            "doi": "https://doi.org/10.1097/md.0000000000039352",
-            "year": 2024,
-            "alex_id": "W4401669917"
-          },
-          {
-            "title": "Automatic generation of pseudoknotted RNAs taxonomy",
-            "doi": "https://doi.org/10.1186/s12859-023-05362-5",
-            "year": 2023,
-            "alex_id": "W4380872495"
-          },
-          {
-            "title": "Mechanisms of Saposhnikovia divaricata in attenuating NaAsO2-induced neural injury via the PI3K/AKT pathway",
-            "doi": "https://doi.org/10.1038/s41598-025-04735-5",
-            "year": 2025,
-            "alex_id": "W4414556087"
-          },
-          {
-            "title": "Feynman Diagrams beyond Physics: From Biology to Economy",
-            "doi": "https://doi.org/10.3390/math12091295",
-            "year": 2024,
-            "alex_id": "W4395452975"
-          },
-          {
-            "title": "Molecular mechanisms of Buqing granule for the treatment of diabetic retinopathy: Network pharmacology analysis and experimental validation",
-            "doi": "https://doi.org/10.4239/wjd.v15.i9.1942",
-            "year": 2024,
-            "alex_id": "W4401923469"
-          },
-          {
-            "title": "A Genus Comparison in the Topological Analysis of RNA Structures",
-            "doi": "https://doi.org/10.1007/s10441-025-09500-9",
-            "year": 2025,
-            "alex_id": "W4412838172"
-          },
-          {
-            "title": "Bio-inspired Materials in Nanobiotechnology Applications and Industrial Potential Scale",
-            "doi": "https://doi.org/10.1007/978-3-030-67223-2_12",
-            "year": 2021,
-            "alex_id": "W3173869184"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2345,163 +797,12 @@
         "semanticscholar": 118,
         "openalex": 139,
         "crossref": 124,
-        "webofscience": 97
+        "webofscience": 98
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Cyclotides: From Structure to Function",
-            "doi": "https://doi.org/10.1021/acs.chemrev.9b00402",
-            "year": 2019,
-            "alex_id": "W2995013727"
-          },
-          {
-            "title": "Metal-Peptide Torus Knots from Flexible Short Peptides",
-            "doi": "https://doi.org/10.1016/j.chempr.2019.12.009",
-            "year": 2020,
-            "alex_id": "W2997762167"
-          },
-          {
-            "title": "Topology in soft and biological matter",
-            "doi": "https://doi.org/10.1016/j.physrep.2024.04.002",
-            "year": 2024,
-            "alex_id": "W4396962683"
-          },
-          {
-            "title": "On folding of entangled proteins: knots, lassos, links and θ -curves",
-            "doi": "https://doi.org/10.1016/j.sbi.2020.01.007",
-            "year": 2020,
-            "alex_id": "W3005909868"
-          },
-          {
-            "title": "Learning to unknot",
-            "doi": "https://doi.org/10.1088/2632-2153/abe91f",
-            "year": 2021,
-            "alex_id": "W3133361432"
-          },
-          {
-            "title": "PDBe-KB: collaboratively defining the biological context of structural data",
-            "doi": "https://doi.org/10.1093/nar/gkab988",
-            "year": 2021,
-            "alex_id": "W3214131546"
-          },
-          {
-            "title": "The mechanical bond in biological systems",
-            "doi": "https://doi.org/10.1016/j.chempr.2023.03.030",
-            "year": 2023,
-            "alex_id": "W4366824646"
-          },
-          {
-            "title": "Single-Molecule Force Spectroscopy of Protein Folding",
-            "doi": "https://doi.org/10.1016/j.jmb.2021.167207",
-            "year": 2021,
-            "alex_id": "W3194730418"
-          },
-          {
-            "title": "De novo design of knotted tandem repeat proteins",
-            "doi": "https://doi.org/10.1038/s41467-023-42388-y",
-            "year": 2023,
-            "alex_id": "W4387904362"
-          },
-          {
-            "title": "Folding and functions of knotted proteins",
-            "doi": "https://doi.org/10.1016/j.sbi.2023.102709",
-            "year": 2023,
-            "alex_id": "W4387206154"
-          },
-          {
-            "title": "Knot data analysis using multiscale Gauss link integral",
-            "doi": "https://doi.org/10.1073/pnas.2408431121",
-            "year": 2024,
-            "alex_id": "W4403333459"
-          },
-          {
-            "title": "Metal–Peptide Nonafoil Knots and Decafoil Supercoils",
-            "doi": "https://doi.org/10.1021/jacs.1c08094",
-            "year": 2021,
-            "alex_id": "W3201765761"
-          },
-          {
-            "title": "AlphaKnot: server to analyze entanglement in structures predicted by AlphaFold methods",
-            "doi": "https://doi.org/10.1093/nar/gkac388",
-            "year": 2022,
-            "alex_id": "W4282920722"
-          },
-          {
-            "title": "AlphaFold predicts novel human proteins with knots",
-            "doi": "https://doi.org/10.1002/pro.4631",
-            "year": 2023,
-            "alex_id": "W4360814081"
-          },
-          {
-            "title": "Untying a Knotted SPOUT RNA Methyltransferase by Circular Permutation Results in a Domain-Swapped Dimer",
-            "doi": "https://doi.org/10.1016/j.str.2019.04.004",
-            "year": 2019,
-            "alex_id": "W2945906086"
-          },
-          {
-            "title": "Restriction of S-adenosylmethionine conformational freedom by knotted protein binding sites",
-            "doi": "https://doi.org/10.1371/journal.pcbi.1007904",
-            "year": 2020,
-            "alex_id": "W3031470308"
-          },
-          {
-            "title": "Structure, dynamics, and stability of the smallest and most complex 71 protein knot",
-            "doi": "https://doi.org/10.1016/j.jbc.2023.105553",
-            "year": 2023,
-            "alex_id": "W4389513536"
-          },
-          {
-            "title": "Theta‐curves in proteins",
-            "doi": "https://doi.org/10.1002/pro.5133",
-            "year": 2024,
-            "alex_id": "W2968801969"
-          },
-          {
-            "title": "Converging experimental and computational views of the knotting mechanism of a small knotted protein",
-            "doi": "https://doi.org/10.1016/j.bpj.2021.03.032",
-            "year": 2021,
-            "alex_id": "W3152449913"
-          },
-          {
-            "title": "AlphaKnot 2.0: a web server for the visualization of proteins’ knotting and a database of knotted AlphaFold-predicted models",
-            "doi": "https://doi.org/10.1093/nar/gkae443",
-            "year": 2024,
-            "alex_id": "W4399394178"
-          },
-          {
-            "title": "Everything AlphaFold tells us about protein knots",
-            "doi": "https://doi.org/10.1016/j.jmb.2024.168715",
-            "year": 2024,
-            "alex_id": "W4400723686"
-          },
-          {
-            "title": "Mechanically Interlocked Water-Soluble Pd6 Host for the Selective Separation of Coal Tar-Based Planar Aromatic Molecules",
-            "doi": "https://doi.org/10.1021/acs.inorgchem.4c01376",
-            "year": 2024,
-            "alex_id": "W4399812168"
-          },
-          {
-            "title": "Geometry based prediction of tau protein sites and motifs associated with misfolding and aggregation",
-            "doi": "https://doi.org/10.1038/s41598-025-93304-x",
-            "year": 2025,
-            "alex_id": "W4408816229"
-          },
-          {
-            "title": "Topology and Algebra of Bonded Knots and Braids",
-            "doi": "https://doi.org/10.3390/math13203260",
-            "year": 2025,
-            "alex_id": "W4415142606"
-          },
-          {
-            "title": "Cellular Synthesis and X‐ray Crystal Structure of a Designed Protein Heterocatenane",
-            "doi": "https://doi.org/10.1002/anie.202005490",
-            "year": 2020,
-            "alex_id": "W3033301893"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2528,14 +829,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "SEPARACJA FINANSOWYCH SZEREGÓW CZASOWYCH Z WYKORZYSTANIEM DEKORELACJI Z OPÓŹNIENIAMI",
-            "doi": "https://doi.org/10.22630/mibe.2019.20.4.28",
-            "year": 2019,
-            "alex_id": "W3007582937"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -2562,14 +856,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "FILTRACJA FINANSOWYCH SZEREGÓW CZASOWYCH METODAMI NIEUJEMNEJ FAKTORYZACJI MACIERZY",
-            "doi": "https://doi.org/10.22630/mibe.2018.19.3.26",
-            "year": 2018,
-            "alex_id": "W2916141107"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2596,20 +883,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": null,
-            "doi": "https://doi.org/10.22630/mibe.2025.26.3",
-            "year": 2025,
-            "alex_id": "W4417118757"
-          },
-          {
-            "title": "Model głębokiego uczenia LCA-NN na bazie systemu poprawy predykcji za pomocą dekompozycji wielowymiarowych",
-            "doi": "https://doi.org/10.22630/mibe.2025.26.3.12",
-            "year": 2025,
-            "alex_id": "W4417118796"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -2654,111 +928,14 @@
       "citation_counts": {
         "scopus": 11,
         "semanticscholar": 0,
-        "openalex": 16,
+        "openalex": 14,
         "crossref": 8,
         "webofscience": 5
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "A Dynamic Data-Driven Simulation Approach for Preventing Service Level Agreement Violations in Cloud Federation",
-            "doi": "https://doi.org/10.1016/j.procs.2012.04.126",
-            "year": 2012,
-            "alex_id": "W2053160774"
-          },
-          {
-            "title": "Engineering Proprioception in SLA Management for Cloud Architectures",
-            "doi": "https://doi.org/10.1109/wicsa.2011.52",
-            "year": 2011,
-            "alex_id": "W2153912370"
-          },
-          {
-            "title": "Service Level Agreements in Cloud Computing and Big Data",
-            "doi": "https://doi.org/10.11591/ijece.v5i1.pp158-165",
-            "year": 2015,
-            "alex_id": "W1676283159"
-          },
-          {
-            "title": "Dynamic SLA Negotiation in Autonomic Federated Environments",
-            "doi": "https://doi.org/10.1007/978-3-642-05290-3_36",
-            "year": 2009,
-            "alex_id": "W2098402794"
-          },
-          {
-            "title": "Metacomputing with Federated Method Invocation",
-            "doi": "https://doi.org/10.5772/8095",
-            "year": 2009,
-            "alex_id": "W1548388747"
-          },
-          {
-            "title": "Markets and clouds: Adaptive and resilient computational resource allocation inspired by economics",
-            "doi": null,
-            "year": 2014,
-            "alex_id": "W2979427268"
-          },
-          {
-            "title": "Exerted Enterprise Computing: From Protocol-Oriented Networking to Exertion-Oriented Networking",
-            "doi": "https://doi.org/10.1007/978-3-642-16961-8_36",
-            "year": 2010,
-            "alex_id": "W1484491853"
-          },
-          {
-            "title": "Provisioning Object-oriented Service Clouds for Exertion-oriented Programming.",
-            "doi": null,
-            "year": 2011,
-            "alex_id": "W2405961001"
-          },
-          {
-            "title": "Object-Oriented Service Clouds for Transdisciplinary Computing",
-            "doi": "https://doi.org/10.1007/978-1-4614-2326-3_1",
-            "year": 2012,
-            "alex_id": "W121844402"
-          },
-          {
-            "title": "Unified Mogramming with Var-Oriented Modeling and Exertion-Oriented Programming Languages",
-            "doi": "https://doi.org/10.4236/ijcns.2012.529068",
-            "year": 2012,
-            "alex_id": "W2134721945"
-          },
-          {
-            "title": "A Service-Oriented Computing Platform: An Architecture Case Study",
-            "doi": "https://doi.org/10.4018/978-1-4666-6178-3.ch010",
-            "year": 2014,
-            "alex_id": "W2482099829"
-          },
-          {
-            "title": "Cloud management and monitoring - a systematic mapping study",
-            "doi": "https://doi.org/10.11591/ijeecs.v21.i3.pp1648-1662",
-            "year": 2021,
-            "alex_id": "W3129699448"
-          },
-          {
-            "title": "A relative study on service level agreements in cloud computing",
-            "doi": "https://doi.org/10.1109/gcct.2015.7342625",
-            "year": 2015,
-            "alex_id": "W2188448273"
-          },
-          {
-            "title": "Using ANSYS and SORCER Modeling Framework for the Optimization of the Design of a Flapping Wing Bionic Object",
-            "doi": null,
-            "year": 2015,
-            "alex_id": "W2993991134"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          },
-          {
-            "title": "SLA-based Asynchronous Coordination in Metacomputing Environments",
-            "doi": "https://doi.org/10.2316/p.2011.719-024",
-            "year": 2011,
-            "alex_id": "W2172017674"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2786,128 +963,7 @@
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Conceptual SLA framework for cloud computing",
-            "doi": "https://doi.org/10.1109/dest.2010.5610586",
-            "year": 2010,
-            "alex_id": "W2013542432"
-          },
-          {
-            "title": "KnotProt 2.0: a database of proteins with knots and other entangled structures",
-            "doi": "https://doi.org/10.1093/nar/gky1140",
-            "year": 2018,
-            "alex_id": "W2901992705"
-          },
-          {
-            "title": "SLA in Cloud Computing Architectures: A Comprehensive Study",
-            "doi": "https://doi.org/10.14257/ijgdc.2015.8.5.02",
-            "year": 2015,
-            "alex_id": "W2926896415"
-          },
-          {
-            "title": "A time-constrained SLA negotiation strategy in competitive computational grids",
-            "doi": "https://doi.org/10.1016/j.future.2011.11.002",
-            "year": 2011,
-            "alex_id": "W2047867552"
-          },
-          {
-            "title": "An SLA-driven framework for dynamic multimedia content delivery federations",
-            "doi": "https://doi.org/10.1109/noms.2012.6212058",
-            "year": 2012,
-            "alex_id": "W2113726832"
-          },
-          {
-            "title": "FedRR — A Federated Resource Reservation algorithm for multimedia services",
-            "doi": "https://doi.org/10.1109/noms.2012.6211891",
-            "year": 2012,
-            "alex_id": "W2151576954"
-          },
-          {
-            "title": "Cloud management and monitoring - a systematic mapping study",
-            "doi": "https://doi.org/10.11591/ijeecs.v21.i3.pp1648-1662",
-            "year": 2021,
-            "alex_id": "W3129699448"
-          },
-          {
-            "title": "End-to-End Resource Management for Federated Delivery of Multimedia Services",
-            "doi": "https://doi.org/10.1007/s10922-013-9288-y",
-            "year": 2013,
-            "alex_id": "W1999286951"
-          },
-          {
-            "title": "Customization of Service Level Agreement for Digital Forensics as a Service",
-            "doi": "https://doi.org/10.1145/3154979.3154993",
-            "year": 2017,
-            "alex_id": "W2777358752"
-          },
-          {
-            "title": "Maintaining and evolving Service Level Agreements: Motivation and case study",
-            "doi": "https://doi.org/10.1109/mesoca.2011.6049039",
-            "year": 2011,
-            "alex_id": "W2010423176"
-          },
-          {
-            "title": "An Intelligent Network for Federated Testing of NetCentric Systems",
-            "doi": "https://doi.org/10.1109/policy.2010.29",
-            "year": 2010,
-            "alex_id": "W2135654397"
-          },
-          {
-            "title": "Using ANSYS and SORCER Modeling Framework for the Optimization of the Design of a Flapping Wing Bionic Object",
-            "doi": null,
-            "year": 2015,
-            "alex_id": "W2993991134"
-          },
-          {
-            "title": "Applying Large-Scale Distributed Computing to Structural Bioinformatics – Bridging Legacy HPC Clusters with Big Data Technologies using kafka-slurm-agent",
-            "doi": "https://doi.org/10.1145/3708035.3736007",
-            "year": 2025,
-            "alex_id": "W4413059337"
-          },
-          {
-            "title": "SLA-based trust model for secure cloud computing",
-            "doi": null,
-            "year": 2011,
-            "alex_id": "W2423902945"
-          },
-          {
-            "title": "A new MDA-SOA based framework for intercloud interoperability",
-            "doi": null,
-            "year": 2014,
-            "alex_id": "W2261532636"
-          },
-          {
-            "title": "A report on the \"information systems in distributed environments\" (ISDE) workshop at the OTM 2009 conferences",
-            "doi": "https://doi.org/10.1145/1764810.1764833",
-            "year": 2010,
-            "alex_id": "W1972613693"
-          },
-          {
-            "title": "Qosidmc-based ON QoS inter domain minimum costalgorithm",
-            "doi": "https://doi.org/10.1109/icnidc.2014.7000292",
-            "year": 2014,
-            "alex_id": "W2031520227"
-          },
-          {
-            "title": "Service level agreement checking in cloud computing in terms of verification and validation concepts",
-            "doi": null,
-            "year": 2013,
-            "alex_id": "W2163792187"
-          },
-          {
-            "title": "SLA-based Asynchronous Coordination in Metacomputing Environments",
-            "doi": "https://doi.org/10.2316/p.2011.719-024",
-            "year": 2011,
-            "alex_id": "W2172017674"
-          },
-          {
-            "title": "Model-driven engineering for analysing, modelling and comparing cloud computing service level agreements",
-            "doi": null,
-            "year": 2014,
-            "alex_id": "W2269638680"
-          }
-        ],
+        "openalex": [],
         "crossref": [],
         "webofscience": []
       }
@@ -2958,38 +1014,13 @@
       "citation_counts": {
         "scopus": 0,
         "semanticscholar": 0,
-        "openalex": 4,
+        "openalex": 5,
         "crossref": 0
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Social Software and Semantics for Business Process Management - Alternative or Synergy?",
-            "doi": "https://doi.org/10.20470/jsi.v2i3.95",
-            "year": 2011,
-            "alex_id": "W2151367150"
-          },
-          {
-            "title": "The Role of Semantic Annotations in Business Process Modelling",
-            "doi": "https://doi.org/10.1109/edoc.2014.33",
-            "year": 2014,
-            "alex_id": "W1993516667"
-          },
-          {
-            "title": "An Approach for Managing Clinical Trial Applications Using Semantic Information Models",
-            "doi": "https://doi.org/10.1007/978-3-642-12186-9_56",
-            "year": 2010,
-            "alex_id": "W1553577600"
-          },
-          {
-            "title": "Modelling method extension for service-oriented business process management",
-            "doi": null,
-            "year": 2010,
-            "alex_id": "W2597089546"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
@@ -3010,44 +1041,13 @@
       "citation_counts": {
         "scopus": 0,
         "semanticscholar": 0,
-        "openalex": 5,
+        "openalex": 6,
         "crossref": 0
       },
       "citations": {
         "scopus": [],
         "semanticscholar": [],
-        "openalex": [
-          {
-            "title": "Semantically Annotated EPC within Semantic Business Process Management",
-            "doi": "https://doi.org/10.1007/978-3-642-00328-8_49",
-            "year": 2009,
-            "alex_id": "W1510755128"
-          },
-          {
-            "title": "ARIS for Semantic Business Process Management",
-            "doi": "https://doi.org/10.1007/978-3-642-00328-8_50",
-            "year": 2009,
-            "alex_id": "W1586149572"
-          },
-          {
-            "title": "Recuperación multinivel de procesos de negocio basado en semántica del comportamiento",
-            "doi": null,
-            "year": 2012,
-            "alex_id": "W20264848"
-          },
-          {
-            "title": "Semantic Business Process Management: An Empirical Case Study.",
-            "doi": null,
-            "year": 2008,
-            "alex_id": "W148043234"
-          },
-          {
-            "title": "Modelling method extension for service-oriented business process management",
-            "doi": null,
-            "year": 2010,
-            "alex_id": "W2597089546"
-          }
-        ],
+        "openalex": [],
         "crossref": []
       }
     },
